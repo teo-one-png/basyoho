@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="theme-color" content="#1a1a2e" />
+  <link rel="manifest" href="manifest.json" />
+  <link rel="apple-touch-icon" href="icons/icon-192.png" />
+  <link rel="stylesheet" href="style.css" />
+  <title>とり覚え</title>
+</head>
+<body>
+
+  <!-- ===== Screen: Home ===== -->
+  <section id="screen-home" class="screen active">
+    <div class="screen-inner">
+      <h1 class="app-title">とり覚え</h1>
+      <p class="app-subtitle">野鳥フラッシュカード</p>
+
+      <div class="stat-block">
+        <div class="stat-item">
+          <span class="stat-value" id="stat-total">0</span>
+          <span class="stat-label">種類</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-value" id="stat-mastered">0</span>
+          <span class="stat-label">習得済み</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-value" id="stat-attempts">0</span>
+          <span class="stat-label">挑戦回数</span>
+        </div>
+      </div>
+
+      <div class="home-buttons">
+        <button class="btn btn-primary" id="btn-memorize">暗記する</button>
+        <button class="btn btn-green" id="btn-test">テストする</button>
+      </div>
+
+      <button class="btn btn-link" id="btn-settings-home">設定</button>
+    </div>
+  </section>
+
+  <!-- ===== Screen: Memorize ===== -->
+  <section id="screen-memorize" class="screen">
+    <div class="screen-inner">
+      <div class="screen-header">
+        <button class="btn btn-back" id="btn-back-memorize">← 戻る</button>
+        <h2 class="screen-title">暗記</h2>
+        <div></div>
+      </div>
+
+      <div class="bird-grid" id="memorize-grid"></div>
+
+      <div class="bottom-actions">
+        <button class="btn btn-green" id="btn-start-test">想起テスト開始</button>
+      </div>
+    </div>
+
+    <!-- Overlay for enlarged bird view -->
+    <div class="overlay" id="memorize-overlay">
+      <div class="overlay-content">
+        <img class="overlay-img" id="overlay-img" src="" alt="" />
+        <p class="overlay-name" id="overlay-name"></p>
+        <button class="btn btn-link overlay-close" id="overlay-close">閉じる</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Screen: Test Grid ===== -->
+  <section id="screen-test-grid" class="screen">
+    <div class="screen-inner">
+      <div class="screen-header">
+        <button class="btn btn-back" id="btn-back-test-grid">← 戻る</button>
+        <h2 class="screen-title">テスト（一覧）</h2>
+        <div></div>
+      </div>
+
+      <div class="bird-grid" id="test-grid"></div>
+
+      <div class="bottom-actions">
+        <button class="btn btn-primary" id="btn-submit-grid">提出する</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Screen: Test Single ===== -->
+  <section id="screen-test-single" class="screen">
+    <div class="screen-inner">
+      <div class="screen-header">
+        <button class="btn btn-back" id="btn-back-test-single">← 戻る</button>
+        <h2 class="screen-title">テスト（1枚ずつ）</h2>
+        <span class="progress-counter" id="single-counter">1 / 10</span>
+      </div>
+
+      <div class="single-card">
+        <img class="single-img" id="single-img" src="" alt="" />
+        <div class="single-answer-area" id="single-answer-area">
+          <input type="text" class="answer-input" id="single-input" placeholder="カタカナで入力" />
+          <button class="btn btn-primary" id="btn-single-submit">答え合わせ</button>
+        </div>
+        <div class="single-feedback" id="single-feedback"></div>
+      </div>
+
+      <div class="single-nav">
+        <button class="btn btn-secondary" id="btn-single-prev">← 前へ</button>
+        <button class="btn btn-secondary" id="btn-single-next">次へ →</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Screen: Result ===== -->
+  <section id="screen-result" class="screen">
+    <div class="screen-inner">
+      <h2 class="screen-title">結果</h2>
+
+      <div class="result-score-block">
+        <div class="result-score" id="result-score">0 / 0</div>
+        <div class="result-rate" id="result-rate">0%</div>
+      </div>
+
+      <div class="result-wrong-block" id="result-wrong-block">
+        <h3 class="result-wrong-title">間違えた鳥</h3>
+        <ul class="result-wrong-list" id="result-wrong-list"></ul>
+      </div>
+
+      <div class="result-buttons">
+        <button class="btn btn-primary" id="btn-retry">もう一度</button>
+        <button class="btn btn-secondary" id="btn-home">ホームへ</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Screen: Settings ===== -->
+  <section id="screen-settings" class="screen">
+    <div class="screen-inner">
+      <div class="screen-header">
+        <button class="btn btn-back" id="btn-back-settings">← 戻る</button>
+        <h2 class="screen-title">設定</h2>
+        <div></div>
+      </div>
+
+      <div class="settings-list">
+
+        <div class="settings-row">
+          <label class="settings-label" for="setting-count">出題数</label>
+          <input type="number" class="settings-number" id="setting-count"
+                 min="1" max="20" value="10" />
+        </div>
+
+        <div class="settings-row">
+          <label class="settings-label">表示モード</label>
+          <div class="toggle-group" id="toggle-display-mode">
+            <button class="toggle-btn active" data-value="grid">一覧</button>
+            <button class="toggle-btn" data-value="single">1枚ずつ</button>
+          </div>
+        </div>
+
+        <div class="settings-row">
+          <label class="settings-label">習得判定（連続正解数）</label>
+          <div class="toggle-group" id="toggle-mastery">
+            <button class="toggle-btn" data-value="2">2回</button>
+            <button class="toggle-btn active" data-value="3">3回</button>
+            <button class="toggle-btn" data-value="5">5回</button>
+          </div>
+        </div>
+
+        <div class="settings-row">
+          <label class="settings-label">習得済みを含む</label>
+          <button class="toggle-btn" id="toggle-include-mastered" data-value="false">OFF</button>
+        </div>
+
+        <div class="settings-row">
+          <label class="settings-label">苦手を優先</label>
+          <button class="toggle-btn active" id="toggle-prioritize-wrong" data-value="true">ON</button>
+        </div>
+
+        <hr class="settings-divider" />
+
+        <div class="settings-row settings-row-col">
+          <label class="settings-label">データのエクスポート</label>
+          <button class="btn btn-secondary" id="btn-export">エクスポート</button>
+        </div>
+
+        <div class="settings-row settings-row-col">
+          <label class="settings-label">データのインポート</label>
+          <input type="file" id="input-import" accept=".json" style="display:none" />
+          <button class="btn btn-secondary" id="btn-import">インポート</button>
+        </div>
+
+        <hr class="settings-divider" />
+
+        <div class="settings-row settings-row-col">
+          <label class="settings-label">すべてのデータをリセット</label>
+          <button class="btn btn-danger" id="btn-reset">リセット</button>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <script src="data.js"></script>
+  <script src="settings.js"></script>
+  <script src="db.js"></script>
+  <script src="quiz.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

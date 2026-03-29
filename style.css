@@ -1,0 +1,583 @@
+/* ===========================
+   Base / Reset
+   =========================== */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg:        #1a1a2e;
+  --bg2:       #16213e;
+  --bg3:       #0f3460;
+  --purple:    #6c3eb6;
+  --purple-lt: #8b5cf6;
+  --green:     #22c55e;
+  --green-lt:  #4ade80;
+  --red:       #f87171;
+  --text:      #e2e8f0;
+  --text-muted:#94a3b8;
+  --border:    #334155;
+  --input-bg:  #0f172a;
+  --card-bg:   #1e293b;
+  --radius:    12px;
+  --radius-sm: 8px;
+}
+
+html, body {
+  height: 100%;
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic UI",
+               "Segoe UI", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
+  overscroll-behavior: none;
+}
+
+/* ===========================
+   Screen switching
+   =========================== */
+.screen {
+  display: none;
+  min-height: 100svh;
+  min-height: 100vh;
+}
+
+.screen.active {
+  display: block;
+}
+
+.screen-inner {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 16px
+           max(16px, env(safe-area-inset-right))
+           max(80px, calc(16px + env(safe-area-inset-bottom)))
+           max(16px, env(safe-area-inset-left));
+  padding-top: max(24px, env(safe-area-inset-top));
+}
+
+/* ===========================
+   Header / Title
+   =========================== */
+.screen-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  gap: 8px;
+}
+
+.screen-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--text);
+  flex: 1;
+  text-align: center;
+}
+
+.app-title {
+  font-size: 2.4rem;
+  font-weight: 800;
+  text-align: center;
+  color: var(--purple-lt);
+  margin-top: 32px;
+  margin-bottom: 4px;
+  letter-spacing: 0.05em;
+}
+
+.app-subtitle {
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin-bottom: 32px;
+}
+
+/* ===========================
+   Stat block (home)
+   =========================== */
+.stat-block {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  background: var(--card-bg);
+  border-radius: var(--radius);
+  padding: 20px 16px;
+  margin-bottom: 32px;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.stat-value {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--purple-lt);
+}
+
+.stat-label {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+/* ===========================
+   Buttons
+   =========================== */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: var(--radius-sm);
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 12px 20px;
+  transition: opacity 0.15s, transform 0.1s;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.btn:active {
+  opacity: 0.75;
+  transform: scale(0.97);
+}
+
+.btn-primary {
+  background: var(--purple);
+  color: #fff;
+  width: 100%;
+}
+
+.btn-primary:hover {
+  background: var(--purple-lt);
+}
+
+.btn-green {
+  background: var(--green);
+  color: #fff;
+  width: 100%;
+}
+
+.btn-green:hover {
+  background: var(--green-lt);
+}
+
+.btn-secondary {
+  background: var(--bg3);
+  color: var(--text);
+  border: 1px solid var(--border);
+}
+
+.btn-danger {
+  background: #7f1d1d;
+  color: #fca5a5;
+  border: 1px solid #ef4444;
+  width: 100%;
+}
+
+.btn-link {
+  background: transparent;
+  color: var(--purple-lt);
+  font-size: 0.95rem;
+  padding: 8px 12px;
+  width: auto;
+}
+
+.btn-back {
+  background: transparent;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  padding: 6px 0;
+  white-space: nowrap;
+}
+
+.home-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.home-buttons .btn-primary,
+.home-buttons .btn-green {
+  font-size: 1.1rem;
+  padding: 16px;
+}
+
+/* ===========================
+   Bird grid (memorize / test)
+   =========================== */
+.bird-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.bird-card {
+  background: var(--card-bg);
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: border-color 0.15s;
+}
+
+.bird-card:active {
+  opacity: 0.85;
+}
+
+.bird-card img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  display: block;
+}
+
+.bird-card-name {
+  font-size: 0.7rem;
+  text-align: center;
+  padding: 4px 2px;
+  color: var(--text);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Test grid: input fields */
+.bird-card-input {
+  width: 100%;
+  background: var(--input-bg);
+  border: 1px solid var(--border);
+  border-radius: 0 0 var(--radius-sm) var(--radius-sm);
+  color: var(--text);
+  font-size: 0.7rem;
+  padding: 4px 6px;
+  text-align: center;
+  outline: none;
+}
+
+.bird-card-input:focus {
+  border-color: var(--purple-lt);
+}
+
+/* Feedback states */
+.bird-card.correct {
+  border-color: var(--green-lt);
+}
+
+.bird-card.wrong {
+  border-color: var(--red);
+}
+
+.bird-card.correct .bird-card-name {
+  color: var(--green-lt);
+}
+
+.bird-card.wrong .bird-card-name {
+  color: var(--red);
+}
+
+/* ===========================
+   Bottom action area
+   =========================== */
+.bottom-actions {
+  position: sticky;
+  bottom: max(16px, env(safe-area-inset-bottom));
+  padding: 8px 0;
+}
+
+/* ===========================
+   Overlay (enlarged bird)
+   =========================== */
+.overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.85);
+  z-index: 100;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay.active {
+  display: flex;
+}
+
+.overlay-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  max-width: 90vw;
+}
+
+.overlay-img {
+  width: min(80vw, 80vh);
+  height: min(80vw, 80vh);
+  object-fit: cover;
+  border-radius: var(--radius);
+}
+
+.overlay-name {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--text);
+  text-align: center;
+}
+
+/* ===========================
+   Single card test
+   =========================== */
+.single-card {
+  background: var(--card-bg);
+  border-radius: var(--radius);
+  overflow: hidden;
+  margin-bottom: 16px;
+}
+
+.single-img {
+  width: 100%;
+  max-height: 55vw;
+  object-fit: cover;
+  display: block;
+}
+
+.single-answer-area {
+  display: flex;
+  gap: 8px;
+  padding: 12px;
+}
+
+.answer-input {
+  flex: 1;
+  background: var(--input-bg);
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius-sm);
+  color: var(--text);
+  font-size: 1rem;
+  padding: 10px 12px;
+  outline: none;
+}
+
+.answer-input:focus {
+  border-color: var(--purple-lt);
+}
+
+.single-feedback {
+  padding: 0 12px 12px;
+  font-size: 1rem;
+  font-weight: 600;
+  min-height: 28px;
+}
+
+.single-feedback.correct {
+  color: var(--green-lt);
+}
+
+.single-feedback.wrong {
+  color: var(--red);
+}
+
+.progress-counter {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+
+.single-nav {
+  display: flex;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.single-nav .btn-secondary {
+  flex: 1;
+}
+
+/* ===========================
+   Result screen
+   =========================== */
+.result-score-block {
+  text-align: center;
+  margin: 32px 0 24px;
+}
+
+.result-score {
+  font-size: 3rem;
+  font-weight: 800;
+  color: var(--purple-lt);
+  line-height: 1;
+}
+
+.result-rate {
+  font-size: 1.4rem;
+  color: var(--green-lt);
+  margin-top: 8px;
+}
+
+.result-wrong-block {
+  background: var(--card-bg);
+  border-radius: var(--radius);
+  padding: 16px;
+  margin-bottom: 24px;
+}
+
+.result-wrong-title {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  margin-bottom: 12px;
+}
+
+.result-wrong-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.result-wrong-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.result-wrong-item img {
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+  border-radius: var(--radius-sm);
+  flex-shrink: 0;
+}
+
+.result-wrong-item-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.result-wrong-item-name {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--red);
+}
+
+.result-wrong-item-answer {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.result-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* ===========================
+   Settings screen
+   =========================== */
+.settings-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.settings-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.settings-row-col {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.settings-label {
+  font-size: 0.95rem;
+  color: var(--text);
+  flex: 1;
+}
+
+.settings-number {
+  width: 72px;
+  background: var(--input-bg);
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius-sm);
+  color: var(--text);
+  font-size: 1rem;
+  padding: 8px 10px;
+  text-align: center;
+  outline: none;
+}
+
+.settings-number:focus {
+  border-color: var(--purple-lt);
+}
+
+.settings-divider {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 8px 0;
+}
+
+/* Toggle group */
+.toggle-group {
+  display: flex;
+  gap: 4px;
+}
+
+.toggle-btn {
+  background: var(--bg2);
+  color: var(--text-muted);
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius-sm);
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 7px 14px;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.toggle-btn.active {
+  background: var(--purple);
+  color: #fff;
+  border-color: var(--purple);
+}
+
+.toggle-btn:active {
+  opacity: 0.8;
+}
+
+/* ===========================
+   Utility
+   =========================== */
+.hidden {
+  display: none !important;
+}
+
+/* Scrollbar (desktop) */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 3px;
+}
