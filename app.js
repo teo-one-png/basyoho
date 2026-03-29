@@ -403,7 +403,7 @@ function setupSettingsEvents() {
       var s = loadSettings();
       var val = parseInt(this.value, 10);
       if (!isNaN(val) && val >= 1) {
-        s.questionCount = Math.min(val, BIRD_DATA.length);
+        s.questionCount = val;
         saveSettings(s);
         this.value = s.questionCount;
       }
