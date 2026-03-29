@@ -218,7 +218,7 @@ html, body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 8px;
-  margin-bottom: 20px;
+  margin-bottom: 8px;
 }
 
 .bird-card {
@@ -290,8 +290,11 @@ html, body {
    =========================== */
 .bottom-actions {
   position: sticky;
-  bottom: max(16px, env(safe-area-inset-bottom));
-  padding: 8px 0;
+  bottom: 0;
+  padding: 12px 0;
+  padding-bottom: max(12px, env(safe-area-inset-bottom));
+  background: var(--bg);
+  z-index: 10;
 }
 
 /* ===========================
