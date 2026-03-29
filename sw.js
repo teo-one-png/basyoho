@@ -1,4 +1,4 @@
-const CACHE_NAME = "torioboe-v1";
+const CACHE_NAME = "torioboe-v2";
 const ASSETS = [
   "./index.html",
   "./style.css",
@@ -33,6 +33,16 @@ const BIRD_IMAGES = [
   "./images/joubitaki.jpg",
   "./images/enaga.jpg",
   "./images/kawarahiwa.jpg",
+  "./images/ootaka.jpg",
+  "./images/haitaka.jpg",
+  "./images/tsumi.jpg",
+  "./images/nosuri.jpg",
+  "./images/kumataka.jpg",
+  "./images/sashiba.jpg",
+  "./images/hachikuma.jpg",
+  "./images/ohwashi.jpg",
+  "./images/ojirowanshi.jpg",
+  "./images/hayabusa.jpg",
 ];
 
 const ALL_ASSETS = [...ASSETS, ...BIRD_IMAGES];
