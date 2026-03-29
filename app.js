@@ -664,6 +664,9 @@ function setupEvents() {
 // --------------- Init ---------------
 
 document.addEventListener('DOMContentLoaded', function () {
+  if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.register("./sw.js");
+  }
   setupEvents();
   updateHomeStats();
 });
