@@ -661,6 +661,32 @@ function setupEvents() {
   setupSettingsEvents();
 }
 
+// --------------- Lock screen ---------------
+
+function setupLockScreen() {
+  var btnSubmit = document.getElementById('btn-lock-submit');
+  var idInput = document.getElementById('lock-id');
+  var passInput = document.getElementById('lock-pass');
+  var error = document.getElementById('lock-error');
+
+  function tryUnlock() {
+    if (idInput.value === '1' && passInput.value === '1') {
+      showScreen('screen-home');
+      updateHomeStats();
+    } else {
+      error.textContent = 'IDまたはパスワードが違います';
+    }
+  }
+
+  btnSubmit.addEventListener('click', tryUnlock);
+  passInput.addEventListener('keydown', function (e) {
+    if (e.key === 'Enter') tryUnlock();
+  });
+  idInput.addEventListener('keydown', function (e) {
+    if (e.key === 'Enter') passInput.focus();
+  });
+}
+
 // --------------- Init ---------------
 
 document.addEventListener('DOMContentLoaded', function () {
@@ -668,5 +694,5 @@ document.addEventListener('DOMContentLoaded', function () {
     navigator.serviceWorker.register("./sw.js");
   }
   setupEvents();
-  updateHomeStats();
+  setupLockScreen();
 });

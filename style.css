@@ -567,6 +567,24 @@ html, body {
 /* ===========================
    Utility
    =========================== */
+/* ===========================
+   Lock screen
+   =========================== */
+.lock-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 240px;
+  margin: 0 auto;
+}
+
+.lock-error {
+  color: var(--red);
+  font-size: 0.85rem;
+  text-align: center;
+  min-height: 1.2em;
+}
+
 .hidden {
   display: none !important;
 }
