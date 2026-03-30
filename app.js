@@ -7,6 +7,47 @@ var currentQuestions = [];   // Array of bird objects selected for this session
 var testAnswers = [];         // Array: { birdId, userInput, isCorrect }
 var currentIndex = 0;         // Single mode: current question index
 var singleAnswered = [];      // Single mode: answered flags per index
+var currentSettings = null;   // Settings captured when the current session starts
+var memorizePhase = 'idle';   // idle | memorize | grid-answer
+var currentMode = 'bird';     // 'bird' | 'tree'
+var lastSessionIdsByMode = { bird: [], tree: [] };
+var recentSessionHistoryByMode = { bird: [], tree: [] };
+
+// --------------- Active data source ---------------
+function getActiveData() {
+  return currentMode === 'tree' ? TREE_DATA : BIRD_DATA;
+}
+
+function getModeLabels(mode) {
+  if (mode === 'tree') {
+    return {
+      title: 'じゅもく覚え',
+      subtitle: '葉っぱフラッシュカード',
+      resultWrongTitle: '間違えた項目',
+      catalogTitle: '樹木一覧'
+    };
+  }
+
+  return {
+    title: 'とり覚え',
+    subtitle: '野鳥フラッシュカード',
+    resultWrongTitle: '間違えた項目',
+    catalogTitle: '鳥一覧'
+  };
+}
+
+function updateModeLabels() {
+  var labels = getModeLabels(currentMode);
+  var title = document.getElementById('home-title');
+  var subtitle = document.getElementById('home-subtitle');
+  var wrongTitle = document.getElementById('result-wrong-title');
+  var catalogTitle = document.getElementById('catalog-title');
+
+  if (title) title.textContent = labels.title;
+  if (subtitle) subtitle.textContent = labels.subtitle;
+  if (wrongTitle) wrongTitle.textContent = labels.resultWrongTitle;
+  if (catalogTitle) catalogTitle.textContent = labels.catalogTitle;
+}
 
 // --------------- Screen management ---------------
 
@@ -24,16 +65,20 @@ function showScreen(id) {
 
 async function updateHomeStats() {
   try {
+    var activeData = getActiveData();
+    var activeIds = new Set(activeData.map(function (d) { return d.id; }));
     var allProgress = await getAllProgress();
-    var mastered = allProgress.filter(function (p) { return p.mastered; }).length;
-    var attempts = allProgress.reduce(function (sum, p) { return sum + (p.totalAttempts || 0); }, 0);
+    // Filter progress to only current mode's items
+    var modeProgress = allProgress.filter(function (p) { return activeIds.has(p.id); });
+    var mastered = modeProgress.filter(function (p) { return p.mastered; }).length;
+    var attempts = modeProgress.reduce(function (sum, p) { return sum + (p.totalAttempts || 0); }, 0);
 
-    document.getElementById('stat-total').textContent = BIRD_DATA.length;
+    document.getElementById('stat-total').textContent = activeData.length;
     document.getElementById('stat-mastered').textContent = mastered;
     document.getElementById('stat-attempts').textContent = attempts;
   } catch (e) {
     console.error('updateHomeStats error:', e);
-    document.getElementById('stat-total').textContent = BIRD_DATA.length;
+    document.getElementById('stat-total').textContent = getActiveData().length;
     document.getElementById('stat-mastered').textContent = '—';
     document.getElementById('stat-attempts').textContent = '—';
   }
@@ -43,27 +88,53 @@ async function updateHomeStats() {
 
 function renderMemorizeGrid() {
   var grid = document.getElementById('memorize-grid');
+  var birds = currentQuestions.length ? currentQuestions : [];
+  var isAnswerPhase = memorizePhase === 'grid-answer';
+
   grid.innerHTML = '';
 
-  BIRD_DATA.forEach(function (bird) {
+  birds.forEach(function (bird, idx) {
     var card = document.createElement('div');
     card.className = 'bird-card';
+    card.dataset.idx = idx;
 
     var img = document.createElement('img');
     img.src = bird.image;
-    img.alt = bird.name;
+    img.alt = isAnswerPhase ? '?' : bird.name;
     img.loading = 'lazy';
 
-    var nameEl = document.createElement('p');
-    nameEl.className = 'bird-card-name';
-    nameEl.textContent = bird.name;
-
     card.appendChild(img);
-    card.appendChild(nameEl);
 
-    card.addEventListener('click', function () {
-      openOverlay(bird);
-    });
+    if (isAnswerPhase) {
+      var input = document.createElement('input');
+      input.type = 'text';
+      input.className = 'bird-card-input';
+      input.placeholder = 'カタカナ';
+      input.dataset.idx = idx;
+
+      input.addEventListener('keydown', function (e) {
+        if (e.key === 'Enter') {
+          var inputs = grid.querySelectorAll('.bird-card-input');
+          var next = inputs[idx + 1];
+          if (next) {
+            next.focus();
+          } else {
+            input.blur();
+          }
+        }
+      });
+
+      card.appendChild(input);
+    } else {
+      var nameEl = document.createElement('p');
+      nameEl.className = 'bird-card-name';
+      nameEl.textContent = bird.name;
+      card.appendChild(nameEl);
+
+      card.addEventListener('click', function () {
+        openOverlay(bird);
+      });
+    }
 
     grid.appendChild(card);
   });
@@ -84,29 +155,182 @@ function closeOverlay() {
 
 // --------------- Start test ---------------
 
-async function startTest() {
-  var settings = loadSettings();
+function getRandomFallbackQuestions(data, questionCount) {
+  var shuffled = data.slice();
+  shuffleArray(shuffled);
+  return shuffled.slice(0, Math.min(questionCount, shuffled.length));
+}
 
-  try {
-    currentQuestions = await selectQuestions(BIRD_DATA, settings);
-  } catch (e) {
-    console.error('selectQuestions error:', e);
-    currentQuestions = BIRD_DATA.slice(0, Math.min(settings.questionCount, BIRD_DATA.length));
+function getQuestionIds(items) {
+  return items.map(function (item) { return item.id; });
+}
+
+function isSameQuestionOrder(items, previousIds) {
+  var ids = getQuestionIds(items);
+  if (!previousIds || ids.length !== previousIds.length) return false;
+
+  for (var i = 0; i < ids.length; i++) {
+    if (ids[i] !== previousIds[i]) return false;
+  }
+  return true;
+}
+
+function getRecentHistory(mode) {
+  return recentSessionHistoryByMode[mode] || [];
+}
+
+function haveSameQuestionSet(items, previousIds) {
+  var ids = getQuestionIds(items);
+  if (!previousIds || ids.length !== previousIds.length) return false;
+
+  var previousSet = new Set(previousIds);
+  for (var i = 0; i < ids.length; i++) {
+    if (!previousSet.has(ids[i])) return false;
+  }
+  return true;
+}
+
+function calculateOverlapRatio(items, previousIds) {
+  var ids = getQuestionIds(items);
+  if (!ids.length || !previousIds || !previousIds.length) return 0;
+
+  var previousSet = new Set(previousIds);
+  var overlap = 0;
+
+  for (var i = 0; i < ids.length; i++) {
+    if (previousSet.has(ids[i])) overlap++;
   }
 
-  // Reset answers array
+  return overlap / Math.min(ids.length, previousIds.length);
+}
+
+function isTooSimilarToRecentHistory(items, history) {
+  if (!history || history.length === 0) return false;
+
+  for (var i = 0; i < history.length; i++) {
+    var previousIds = history[i];
+
+    if (haveSameQuestionSet(items, previousIds)) {
+      return true;
+    }
+
+    if (items.length >= 8 && calculateOverlapRatio(items, previousIds) >= 0.8) {
+      return true;
+    }
+  }
+
+  return false;
+}
+
+function rememberSessionQuestions(mode, items) {
+  var ids = getQuestionIds(items);
+  lastSessionIdsByMode[mode] = ids;
+
+  var history = getRecentHistory(mode).slice();
+  history.unshift(ids);
+  recentSessionHistoryByMode[mode] = history.slice(0, 5);
+}
+
+async function pickSessionQuestions(data, settings) {
+  var previousIds = lastSessionIdsByMode[currentMode] || [];
+  var recentHistory = getRecentHistory(currentMode);
+  var selected = [];
+  var bestCandidate = [];
+  var bestCandidateOverlap = Infinity;
+
+  for (var attempt = 0; attempt < 20; attempt++) {
+    selected = await selectQuestions(data, settings);
+
+    if (selected.length === 0) {
+      continue;
+    }
+
+    var overlap = recentHistory.length
+      ? calculateOverlapRatio(selected, recentHistory[0])
+      : 0;
+
+    if (overlap < bestCandidateOverlap) {
+      bestCandidate = selected.slice();
+      bestCandidateOverlap = overlap;
+    }
+
+    if (
+      !isSameQuestionOrder(selected, previousIds) &&
+      !isTooSimilarToRecentHistory(selected, recentHistory)
+    ) {
+      break;
+    }
+  }
+
+  if (
+    selected.length === 0 ||
+    isSameQuestionOrder(selected, previousIds) ||
+    isTooSimilarToRecentHistory(selected, recentHistory)
+  ) {
+    selected = bestCandidate.length ? bestCandidate.slice() : selected;
+  }
+
+  if (isSameQuestionOrder(selected, previousIds) && selected.length > 1) {
+    selected = shuffleArray(selected.slice());
+  }
+
+  rememberSessionQuestions(currentMode, selected);
+  return selected;
+}
+
+async function initializeSession() {
+  currentSettings = loadSettings();
+  var data = getActiveData();
+
+  try {
+    currentQuestions = await pickSessionQuestions(data, currentSettings);
+  } catch (e) {
+    console.error('selectQuestions error:', e);
+    currentQuestions = getRandomFallbackQuestions(data, currentSettings.questionCount);
+    rememberSessionQuestions(currentMode, currentQuestions);
+  }
+
   testAnswers = currentQuestions.map(function (bird) {
     return { birdId: bird.id, userInput: '', isCorrect: null };
   });
+  currentIndex = 0;
+  singleAnswered = currentQuestions.map(function () { return false; });
+}
 
-  if (settings.displayMode === 'single') {
-    currentIndex = 0;
-    singleAnswered = currentQuestions.map(function () { return false; });
+function updateMemorizeActions() {
+  var btnStartTest = document.getElementById('btn-start-test');
+  var btnSubmitMemorize = document.getElementById('btn-submit-memorize-grid');
+
+  if (btnStartTest) {
+    btnStartTest.style.display = memorizePhase === 'memorize' ? '' : 'none';
+  }
+
+  if (btnSubmitMemorize) {
+    btnSubmitMemorize.style.display = memorizePhase === 'grid-answer' ? '' : 'none';
+  }
+}
+
+async function startSession() {
+  closeOverlay();
+  await initializeSession();
+  memorizePhase = 'memorize';
+  renderMemorizeGrid();
+  updateMemorizeActions();
+  showScreen('screen-memorize');
+}
+
+function beginAnswerPhase() {
+  if (currentQuestions.length === 0) return;
+
+  closeOverlay();
+
+  if (currentSettings && currentSettings.displayMode === 'single') {
     renderTestSingle();
     showScreen('screen-test-single');
   } else {
-    renderTestGrid();
-    showScreen('screen-test-grid');
+    memorizePhase = 'grid-answer';
+    renderMemorizeGrid();
+    updateMemorizeActions();
   }
 }
 
@@ -151,9 +375,9 @@ function renderTestGrid() {
   });
 }
 
-async function submitGridTest() {
-  var settings = loadSettings();
-  var grid = document.getElementById('test-grid');
+async function submitGridTest(gridId, submitButtonId) {
+  var settings = currentSettings || loadSettings();
+  var grid = document.getElementById(gridId || 'test-grid');
   var inputs = grid.querySelectorAll('.bird-card-input');
   var cards = grid.querySelectorAll('.bird-card');
 
@@ -199,7 +423,7 @@ async function submitGridTest() {
   }
 
   // Hide submit button
-  var btnSubmit = document.getElementById('btn-submit-grid');
+  var btnSubmit = document.getElementById(submitButtonId || 'btn-submit-grid');
   if (btnSubmit) btnSubmit.style.display = 'none';
 
   // Navigate to result after delay
@@ -261,7 +485,7 @@ function updateSingleDisplay() {
 async function submitSingleAnswer() {
   if (singleAnswered[currentIndex]) return;
 
-  var settings = loadSettings();
+  var settings = currentSettings || loadSettings();
   var bird = currentQuestions[currentIndex];
   var input = document.getElementById('single-input');
   var userInput = input ? input.value : '';
@@ -305,6 +529,7 @@ async function submitSingleAnswer() {
 // --------------- Result screen ---------------
 
 function showResult(correct, total) {
+  memorizePhase = 'idle';
   var rate = total > 0 ? Math.round((correct / total) * 100) : 0;
 
   document.getElementById('result-score').textContent = correct + ' / ' + total;
@@ -323,7 +548,7 @@ function showResult(correct, total) {
     if (wrongBlock) wrongBlock.style.display = '';
 
     wrongItems.forEach(function (answer) {
-      var bird = BIRD_DATA.find(function (b) { return b.id === answer.birdId; });
+      var bird = getActiveData().find(function (b) { return b.id === answer.birdId; });
       if (!bird) return;
 
       var li = document.createElement('li');
@@ -355,6 +580,108 @@ function showResult(correct, total) {
   }
 
   showScreen('screen-result');
+}
+
+// --------------- Catalog screen ---------------
+
+async function setItemMastered(itemId, mastered) {
+  var settings = loadSettings();
+  var record = await getProgress(itemId);
+
+  if (!record) {
+    record = {
+      id: itemId,
+      correctStreak: 0,
+      totalAttempts: 0,
+      correctTotal: 0,
+      mastered: false,
+      lastSeen: null
+    };
+  }
+
+  record.mastered = mastered;
+  if (mastered) {
+    record.correctStreak = Math.max(record.correctStreak || 0, settings.masteryThreshold);
+  } else if ((record.correctStreak || 0) >= settings.masteryThreshold) {
+    record.correctStreak = 0;
+  }
+
+  await saveProgress(record);
+  return record;
+}
+
+async function renderCatalog() {
+  var list = document.getElementById('catalog-list');
+  if (!list) return;
+
+  updateModeLabels();
+  list.innerHTML = '';
+
+  var data = getActiveData();
+  var allProgress = await getAllProgress();
+  var progressMap = {};
+
+  allProgress.forEach(function (record) {
+    progressMap[record.id] = record;
+  });
+
+  data.forEach(function (item) {
+    var progress = progressMap[item.id];
+    var isMastered = Boolean(progress && progress.mastered);
+
+    var row = document.createElement('div');
+    row.className = 'catalog-item' + (isMastered ? ' mastered' : '');
+
+    var img = document.createElement('img');
+    img.src = item.image;
+    img.alt = item.name;
+    img.loading = 'lazy';
+
+    var main = document.createElement('div');
+    main.className = 'catalog-item-main';
+
+    var nameEl = document.createElement('span');
+    nameEl.className = 'catalog-item-name';
+    nameEl.textContent = item.name;
+
+    var metaEl = document.createElement('span');
+    metaEl.className = 'catalog-item-meta';
+    metaEl.textContent = item.tags && item.tags.length ? item.tags.join(' / ') : item.category;
+
+    var toggle = document.createElement('label');
+    toggle.className = 'catalog-toggle';
+
+    var checkbox = document.createElement('input');
+    checkbox.type = 'checkbox';
+    checkbox.checked = isMastered;
+
+    var toggleText = document.createElement('span');
+    toggleText.textContent = '覚えた';
+
+    checkbox.addEventListener('change', function () {
+      var nextChecked = checkbox.checked;
+      checkbox.disabled = true;
+
+      setItemMastered(item.id, nextChecked).then(function () {
+        row.classList.toggle('mastered', nextChecked);
+        updateHomeStats();
+      }).catch(function (e) {
+        checkbox.checked = !nextChecked;
+        alert('チェックの更新に失敗しました: ' + e.message);
+      }).finally(function () {
+        checkbox.disabled = false;
+      });
+    });
+
+    main.appendChild(nameEl);
+    main.appendChild(metaEl);
+    toggle.appendChild(checkbox);
+    toggle.appendChild(toggleText);
+    row.appendChild(img);
+    row.appendChild(main);
+    row.appendChild(toggle);
+    list.appendChild(row);
+  });
 }
 
 // --------------- Settings ---------------
@@ -524,20 +851,32 @@ function setupSettingsEvents() {
 
 function setupEvents() {
   // ----- Home -----
-  var btnMemorize = document.getElementById('btn-memorize');
-  if (btnMemorize) {
-    btnMemorize.addEventListener('click', function () {
-      renderMemorizeGrid();
-      showScreen('screen-memorize');
+  var btnStartSession = document.getElementById('btn-start-session');
+  if (btnStartSession) {
+    btnStartSession.addEventListener('click', function () {
+      startSession();
     });
   }
 
-  var btnTest = document.getElementById('btn-test');
-  if (btnTest) {
-    btnTest.addEventListener('click', function () {
-      startTest();
+  var btnCatalogHome = document.getElementById('btn-catalog-home');
+  if (btnCatalogHome) {
+    btnCatalogHome.addEventListener('click', function () {
+      renderCatalog();
+      showScreen('screen-catalog');
     });
   }
+
+  // ----- Mode switcher -----
+  var modeBtns = document.querySelectorAll('.mode-btn');
+  modeBtns.forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      modeBtns.forEach(function (b) { b.classList.remove('active'); });
+      btn.classList.add('active');
+      currentMode = btn.getAttribute('data-mode');
+      updateModeLabels();
+      updateHomeStats();
+    });
+  });
 
   var btnSettingsHome = document.getElementById('btn-settings-home');
   if (btnSettingsHome) {
@@ -551,6 +890,8 @@ function setupEvents() {
   var btnBackMemorize = document.getElementById('btn-back-memorize');
   if (btnBackMemorize) {
     btnBackMemorize.addEventListener('click', function () {
+      memorizePhase = 'idle';
+      closeOverlay();
       showScreen('screen-home');
     });
   }
@@ -558,7 +899,14 @@ function setupEvents() {
   var btnStartTest = document.getElementById('btn-start-test');
   if (btnStartTest) {
     btnStartTest.addEventListener('click', function () {
-      startTest();
+      beginAnswerPhase();
+    });
+  }
+
+  var btnSubmitMemorize = document.getElementById('btn-submit-memorize-grid');
+  if (btnSubmitMemorize) {
+    btnSubmitMemorize.addEventListener('click', function () {
+      submitGridTest('memorize-grid', 'btn-submit-memorize-grid');
     });
   }
 
@@ -588,7 +936,7 @@ function setupEvents() {
   var btnSubmitGrid = document.getElementById('btn-submit-grid');
   if (btnSubmitGrid) {
     btnSubmitGrid.addEventListener('click', function () {
-      submitGridTest();
+      submitGridTest('test-grid', 'btn-submit-grid');
     });
   }
 
@@ -596,6 +944,7 @@ function setupEvents() {
   var btnBackTestSingle = document.getElementById('btn-back-test-single');
   if (btnBackTestSingle) {
     btnBackTestSingle.addEventListener('click', function () {
+      memorizePhase = 'idle';
       showScreen('screen-home');
     });
   }
@@ -638,13 +987,24 @@ function setupEvents() {
   var btnRetry = document.getElementById('btn-retry');
   if (btnRetry) {
     btnRetry.addEventListener('click', function () {
-      startTest();
+      startSession();
     });
   }
 
   var btnHome = document.getElementById('btn-home');
   if (btnHome) {
     btnHome.addEventListener('click', function () {
+      memorizePhase = 'idle';
+      updateModeLabels();
+      updateHomeStats();
+      showScreen('screen-home');
+    });
+  }
+
+  var btnBackCatalog = document.getElementById('btn-back-catalog');
+  if (btnBackCatalog) {
+    btnBackCatalog.addEventListener('click', function () {
+      updateModeLabels();
       updateHomeStats();
       showScreen('screen-home');
     });
@@ -658,7 +1018,57 @@ function setupEvents() {
     });
   }
 
+  // ----- Credits -----
+  var btnCredits = document.getElementById('btn-credits');
+  if (btnCredits) {
+    btnCredits.addEventListener('click', function () {
+      renderCredits();
+      showScreen('screen-credits');
+    });
+  }
+
+  var btnBackCredits = document.getElementById('btn-back-credits');
+  if (btnBackCredits) {
+    btnBackCredits.addEventListener('click', function () {
+      showScreen('screen-settings');
+    });
+  }
+
   setupSettingsEvents();
+}
+
+// --------------- Credits screen ---------------
+
+function renderCredits() {
+  var list = document.getElementById('credits-list');
+  if (!list) return;
+  list.innerHTML = '';
+
+  var allData = [].concat(BIRD_DATA, typeof TREE_DATA !== 'undefined' ? TREE_DATA : []);
+  allData.forEach(function (bird) {
+    var credit = null;
+    if (typeof BIRD_CREDITS !== 'undefined') {
+      credit = BIRD_CREDITS[bird.id] || BIRD_CREDITS['tree_' + bird.id] || null;
+    }
+    var div = document.createElement('div');
+    div.className = 'credit-item';
+
+    var nameEl = document.createElement('span');
+    nameEl.className = 'credit-name';
+    nameEl.textContent = bird.name;
+
+    var infoEl = document.createElement('span');
+    infoEl.className = 'credit-info';
+    if (credit) {
+      infoEl.textContent = credit.artist + ' / ' + credit.license;
+    } else {
+      infoEl.textContent = 'Wikimedia Commons';
+    }
+
+    div.appendChild(nameEl);
+    div.appendChild(infoEl);
+    list.appendChild(div);
+  });
 }
 
 // --------------- Lock screen ---------------
@@ -695,4 +1105,5 @@ document.addEventListener('DOMContentLoaded', function () {
   }
   setupEvents();
   setupLockScreen();
+  updateModeLabels();
 });

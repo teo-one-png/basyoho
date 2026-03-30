@@ -30,8 +30,13 @@
   <!-- ===== Screen: Home ===== -->
   <section id="screen-home" class="screen">
     <div class="screen-inner">
-      <h1 class="app-title">とり覚え</h1>
-      <p class="app-subtitle">野鳥フラッシュカード</p>
+      <h1 class="app-title" id="home-title">とり覚え</h1>
+      <p class="app-subtitle" id="home-subtitle">野鳥フラッシュカード</p>
+
+      <div class="mode-switcher">
+        <button class="mode-btn active" id="mode-bird" data-mode="bird">とり覚え</button>
+        <button class="mode-btn" id="mode-tree" data-mode="tree">じゅもく覚え</button>
+      </div>
 
       <div class="stat-block">
         <div class="stat-item">
@@ -49,10 +54,10 @@
       </div>
 
       <div class="home-buttons">
-        <button class="btn btn-primary" id="btn-memorize">暗記する</button>
-        <button class="btn btn-green" id="btn-test">テストする</button>
+        <button class="btn btn-primary" id="btn-start-session">開始</button>
       </div>
 
+      <button class="btn btn-link" id="btn-catalog-home">種類一覧</button>
       <button class="btn btn-link" id="btn-settings-home">設定</button>
     </div>
   </section>
@@ -69,7 +74,8 @@
       <div class="bird-grid" id="memorize-grid"></div>
 
       <div class="bottom-actions">
-        <button class="btn btn-green" id="btn-start-test">想起テスト開始</button>
+        <button class="btn btn-green" id="btn-start-test">回答開始</button>
+        <button class="btn btn-primary" id="btn-submit-memorize-grid" style="display:none">提出する</button>
       </div>
     </div>
 
@@ -136,7 +142,7 @@
       </div>
 
       <div class="result-wrong-block" id="result-wrong-block">
-        <h3 class="result-wrong-title">間違えた鳥</h3>
+        <h3 class="result-wrong-title" id="result-wrong-title">間違えた項目</h3>
         <ul class="result-wrong-list" id="result-wrong-list"></ul>
       </div>
 
@@ -144,6 +150,20 @@
         <button class="btn btn-primary" id="btn-retry">もう一度</button>
         <button class="btn btn-secondary" id="btn-home">ホームへ</button>
       </div>
+    </div>
+  </section>
+
+  <!-- ===== Screen: Catalog ===== -->
+  <section id="screen-catalog" class="screen">
+    <div class="screen-inner">
+      <div class="screen-header">
+        <button class="btn btn-back" id="btn-back-catalog">← 戻る</button>
+        <h2 class="screen-title" id="catalog-title">種類一覧</h2>
+        <div></div>
+      </div>
+
+      <p class="catalog-intro">チェックを入れた項目は、設定で「習得済みを含む」がOFFの間は通常出題から外れます。</p>
+      <div class="catalog-list" id="catalog-list"></div>
     </div>
   </section>
 
@@ -211,11 +231,32 @@
           <button class="btn btn-danger" id="btn-reset">リセット</button>
         </div>
 
+        <hr class="settings-divider" />
+
+        <div class="settings-row settings-row-col">
+          <button class="btn btn-link" id="btn-credits">写真クレジット</button>
+        </div>
+
       </div>
     </div>
   </section>
 
+  <!-- ===== Screen: Credits ===== -->
+  <section id="screen-credits" class="screen">
+    <div class="screen-inner">
+      <div class="screen-header">
+        <button class="btn btn-back" id="btn-back-credits">← 戻る</button>
+        <h2 class="screen-title">写真クレジット</h2>
+        <div></div>
+      </div>
+      <p class="credits-intro">鳥の写真はすべてWikimedia Commonsのフリーライセンス画像を使用しています。</p>
+      <div class="credits-list" id="credits-list"></div>
+    </div>
+  </section>
+
   <script src="data.js"></script>
+  <script src="tree_data.js"></script>
+  <script src="credits.js"></script>
   <script src="settings.js"></script>
   <script src="db.js"></script>
   <script src="quiz.js"></script>
