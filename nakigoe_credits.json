@@ -1,0 +1,4266 @@
+{
+  "uguisu_saezuri": {
+    "xc_id": "",
+    "recorder": "Xavier Riera",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/WNLIDKJKXT/XC993079-Horornis-diphone_SONG_Karuizawa_250420_0710_XC.wav",
+    "bird_name": "ウグイス",
+    "call_type": "さえずり"
+  },
+  "uguisu_jinaki": {
+    "xc_id": "",
+    "recorder": "Xavier Riera",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/WNLIDKJKXT/XC992374-Horornis-diphone_CALL_Karuizawa_250420_0834_XC.wav",
+    "bird_name": "ウグイス",
+    "call_type": "地鳴き"
+  },
+  "shijuukara_saezuri": {
+    "xc_id": "",
+    "recorder": "Xavier Riera",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/WNLIDKJKXT/XC992370-Parus-cinereus_SONG_Kyoto_250414_1450_XC.wav",
+    "bird_name": "シジュウカラ",
+    "call_type": "さえずり"
+  },
+  "shijuukara_jinaki": {
+    "xc_id": "1015717",
+    "recorder": "Dave Guo",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/KQMHASAYBL/XC1015717-%E8%BF%9C%E4%B8%9C%E5%B1%B1%E9%9B%80juvenile-call-%E5%8F%8C%E8%BE%BD%E8%BE%BD%E6%B2%B3%E5%85%AC%E5%9B%AD.mp3",
+    "bird_name": "シジュウカラ",
+    "call_type": "地鳴き"
+  },
+  "yamagara_saezuri": {
+    "xc_id": "",
+    "recorder": "Xavier Riera",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/WNLIDKJKXT/XC992372-Sittiparus-varius_SONG_Kyoto_250414_1505_XC.wav",
+    "bird_name": "ヤマガラ",
+    "call_type": "さえずり"
+  },
+  "yamagara_jinaki": {
+    "xc_id": "890243",
+    "recorder": "Bo Shunqi薄顺奇",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/YNOAMCSSHX/XC890243-Varied-Tit%E6%9D%82%E8%89%B2%E5%B1%B1%E9%9B%80-call-%E5%92%8C%E5%A4%A7%E5%B1%B1%E9%9B%80%E5%90%B5%E6%9E%B6%E6%B8%85%E6%B6%A7%E5%85%AC%E5%9B%AD2312201231_0193---A.mp3",
+    "bird_name": "ヤマガラ",
+    "call_type": "地鳴き"
+  },
+  "mejiro_saezuri": {
+    "xc_id": "995188",
+    "recorder": "Bo Shunqi 薄顺奇",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/YNOAMCSSHX/XC995188-Warbling-White-eye-%E6%9A%97%E7%BB%BF%E7%BB%A3%E7%9C%BC%E9%B8%9F-song-%E5%B2%B1%E5%B1%B1%E5%B2%9B-%E8%80%81%E9%B9%B0%E5%B1%B1-X8-CICADA-2505020514_1289.mp3",
+    "bird_name": "メジロ",
+    "call_type": "さえずり"
+  },
+  "mejiro_jinaki": {
+    "xc_id": "999977",
+    "recorder": "Bo Shunqi 薄顺奇",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/YNOAMCSSHX/XC999977-Warbling-White-eye-%E6%9A%97%E7%BB%BF%E7%BB%A3%E7%9C%BC%E9%B8%9F-call-%E8%AD%A6%E6%8A%A5-%E5%87%A4%E5%A4%B4%E9%B9%B0%E5%9C%A8%E8%BE%B9%E4%B8%8A-%E6%A4%8D%E7%89%A9%E5%9B%AD-X8-CICADA-2503290655_1153----B.mp3",
+    "bird_name": "メジロ",
+    "call_type": "地鳴き"
+  },
+  "hoojiro_saezuri": {
+    "xc_id": "971920",
+    "recorder": "王自堃",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/UKETHWCXNC/XC971920-250131_1102_%E4%B8%89%E9%81%93%E7%9C%89%E8%8D%89%E9%B9%80call%2Bsong%2B%E7%82%AE%E4%BB%97%E5%A3%B0.mp3",
+    "bird_name": "ホオジロ",
+    "call_type": "さえずり"
+  },
+  "hoojiro_jinaki": {
+    "xc_id": "",
+    "recorder": "Xavier Riera",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/WNLIDKJKXT/XC992395-Emberiza-cioides_CALL_Kanazawa_250319_1648_XC.wav",
+    "bird_name": "ホオジロ",
+    "call_type": "地鳴き"
+  },
+  "mozu_jinaki": {
+    "xc_id": "260142",
+    "recorder": "Peter Boesman",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/OOECIWCSWV/XC260142-LS_58073%20QQQ%20rattle%20call%20A.mp3",
+    "bird_name": "モズ",
+    "call_type": "地鳴き"
+  },
+  "hiyodori_saezuri": {
+    "xc_id": "797715",
+    "recorder": "Dave GUO",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/KQMHASAYBL/XC797715-%E6%A0%97%E8%80%B3%E7%9F%AD%E8%84%9A%E9%B9%8Ecall%2C-song-%E5%9B%9B%E5%B9%B3%E6%A4%8D%E7%89%A9%E5%9B%AD.mp3",
+    "bird_name": "ヒヨドリ",
+    "call_type": "さえずり"
+  },
+  "hiyodori_jinaki": {
+    "xc_id": "993641",
+    "recorder": "Xavier Riera",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/WNLIDKJKXT/XC993641-Hypsipetes-amaurotis_CALL_Kyoto_250315_1624.wav",
+    "bird_name": "ヒヨドリ",
+    "call_type": "地鳴き"
+  },
+  "isohiyodori_saezuri": {
+    "xc_id": "989535",
+    "recorder": "Francesco Sottile",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/ITHRUQEQCF/XC989535-Monticola-solitarius_song_0417_1132.mp3",
+    "bird_name": "イソヒヨドリ",
+    "call_type": "さえずり"
+  },
+  "isohiyodori_jinaki": {
+    "xc_id": "999982",
+    "recorder": "Dave Guo",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/KQMHASAYBL/XC999982-%E8%93%9D%E7%9F%B6%E9%B8%ABalarm-call-%E6%98%8C%E6%B1%9F%E9%9C%B8%E7%8E%8B%E5%B2%AD2.mp3",
+    "bird_name": "イソヒヨドリ",
+    "call_type": "地鳴き"
+  },
+  "suzume_saezuri": {
+    "xc_id": "997051",
+    "recorder": "João Tomás",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/POVKNQVSGU/XC997051-Passer-montanus_song_080525_Cea-Valderas_1020.wav",
+    "bird_name": "スズメ",
+    "call_type": "さえずり"
+  },
+  "suzume_jinaki": {
+    "xc_id": "973828",
+    "recorder": "Greg Irving",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/YWRKFXUDUR/XC973828-225-Sparrow---Eurasian-Tree-%28Passer-montanus-malaccensis%29-Call-FEB-1610h-110m-BanTaMuiMekongTH_gi_8491.mp3",
+    "bird_name": "スズメ",
+    "call_type": "地鳴き"
+  },
+  "tsubame_saezuri": {
+    "xc_id": "989010",
+    "recorder": "Francesco Sottile",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/ITHRUQEQCF/XC989010-Hirundo-rustica_song_0416_1713.mp3",
+    "bird_name": "ツバメ",
+    "call_type": "さえずり"
+  },
+  "tsubame_jinaki": {
+    "xc_id": "994579",
+    "recorder": "João Tomás",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/POVKNQVSGU/XC994579-Hirundo-rustica_allarm-call-near-the-nest_040525_Casa-ru%C3%ADna-Arroyo-de-la-Encina_1230.wav",
+    "bird_name": "ツバメ",
+    "call_type": "地鳴き"
+  },
+  "segurosekirei_saezuri": {
+    "xc_id": "454869",
+    "recorder": "Phil Gregory",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/GNEWSLMDAM/XC454869-JAPANESE%20WAGTAIL%20song%20Narita%20Creek%20Jan%2026%202019%20PG1133.mp3",
+    "bird_name": "セグロセキレイ",
+    "call_type": "さえずり"
+  },
+  "segurosekirei_jinaki": {
+    "xc_id": "294783",
+    "recorder": "Ross Gallardy",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/FNIOJOZADD/XC294783-JapaneseWagtail_Japan_01182015_call.mp3",
+    "bird_name": "セグロセキレイ",
+    "call_type": "地鳴き"
+  },
+  "hakusekirei_saezuri": {
+    "xc_id": "506182",
+    "recorder": "Amar-Singh HSS",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/QBVYYBZQKH/XC506182-White%20Wagtail-song-1-2-Xeno-East%20Hokkaido%2C%20Japan-7th%20June%202019.mp3",
+    "bird_name": "ハクセキレイ",
+    "call_type": "さえずり"
+  },
+  "hakusekirei_jinaki": {
+    "xc_id": "506183",
+    "recorder": "Amar-Singh HSS",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/QBVYYBZQKH/XC506183-White%20Wagtail-calls-2-2-Xeno-East%20Hokkaido%2C%20Japan-7th%20June%202019.mp3",
+    "bird_name": "ハクセキレイ",
+    "call_type": "地鳴き"
+  },
+  "kibitaki_saezuri": {
+    "xc_id": "720169",
+    "recorder": "Bo Shunqi",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/YNOAMCSSHX/XC720169-%20song%20202006270707%E6%A4%8D%E7%89%A9%E5%9B%ADSHADOW_1684S12.mp3",
+    "bird_name": "キビタキ",
+    "call_type": "さえずり"
+  },
+  "kibitaki_jinaki": {
+    "xc_id": "485571",
+    "recorder": "Amar-Singh HSS",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/QBVYYBZQKH/XC485571-Narcissus%20Flycatcher-calls-3-4-Combined-Xeno-East%20Hokkaid%C5%8D%2C%20Japan-5th%20June%202019.mp3",
+    "bird_name": "キビタキ",
+    "call_type": "地鳴き"
+  },
+  "ooruri_saezuri": {
+    "xc_id": "1016245",
+    "recorder": "Dave Guo",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/KQMHASAYBL/XC1016245-%E7%99%BD%E8%85%B9%E8%93%9D%E9%B9%9Fsong-%E9%95%BF%E7%99%BD%E5%B1%B1%E5%A4%A9%E6%B1%A0%E8%A5%BF%E5%9D%A1%E9%94%A6%E6%B1%9F%E5%A4%A7%E5%B3%A1%E8%B0%B72.mp3",
+    "bird_name": "オオルリ",
+    "call_type": "さえずり"
+  },
+  "ooruri_jinaki": {
+    "xc_id": "285667",
+    "recorder": "Peter Boesman",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/OOECIWCSWV/XC285667-LS_58035%20Long-tailed%20Tit%20call%20C%20Blue.mp3",
+    "bird_name": "オオルリ",
+    "call_type": "地鳴き"
+  },
+  "sankouchou_saezuri": {
+    "xc_id": "155994",
+    "recorder": "Frank Lambert",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/YTUXOCTUEM/XC155994-Terpsiphone_atrocaudata_illex-FL%20male%20nat%20song%20Amami%2016June13%2010.04am%20LS115431.mp3",
+    "bird_name": "サンコウチョウ",
+    "call_type": "さえずり"
+  },
+  "sankouchou_jinaki": {
+    "xc_id": "191042",
+    "recorder": "Ross Gallardy",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/FNIOJOZADD/XC191042-JapaneseParadiseFlycatcher_Okinawa_081014_female_call.mp3",
+    "bird_name": "サンコウチョウ",
+    "call_type": "地鳴き"
+  },
+  "ooyoshikiri_saezuri": {
+    "xc_id": "995413",
+    "recorder": "Bo Shunqi 薄顺奇",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/YNOAMCSSHX/XC995413-Oriental-Reed-Warbler-%E4%B8%9C%E6%96%B9%E5%A4%A7%E8%8B%87%E8%8E%BA-song-%E5%A5%89%E8%B4%A4%E6%B5%B7%E6%B9%BE%E7%A2%A7%E6%B5%B7%E9%87%91%E6%B2%99-X8-CICADA-2504200840_1246---A.mp3",
+    "bird_name": "オオヨシキリ",
+    "call_type": "さえずり"
+  },
+  "ooyoshikiri_jinaki": {
+    "xc_id": "1015919",
+    "recorder": "Dave Guo",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/KQMHASAYBL/XC1015919-%E4%B8%9C%E6%96%B9%E5%A4%A7%E8%8B%87%E8%8E%BAbegging-call-%E5%8F%8C%E8%BE%BD%E4%B8%83%E6%98%9F%E6%B9%96%E5%85%AC%E5%9B%AD2.mp3",
+    "bird_name": "オオヨシキリ",
+    "call_type": "地鳴き"
+  },
+  "joubitaki_saezuri": {
+    "xc_id": "999956",
+    "recorder": "Bo Shunqi 薄顺奇",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/YNOAMCSSHX/XC999956-Daurian-Redstart-%E5%8C%97%E7%BA%A2%E5%B0%BE%E9%B8%B2-song-%E5%B0%8F%E5%94%B1-%E6%A4%8D%E7%89%A9%E5%9B%AD-X8-CICADA-2503010715_1062----B.mp3",
+    "bird_name": "ジョウビタキ",
+    "call_type": "さえずり"
+  },
+  "joubitaki_jinaki": {
+    "xc_id": "1048567",
+    "recorder": "Bo Shunqi 薄顺奇",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/YNOAMCSSHX/XC1048567-%E5%8C%97%E7%BA%A2%E5%B0%BE%E9%B8%B2-call-%E5%9B%9B%E5%B7%9D%E9%9D%92%E5%B7%9D%E6%B8%85%E6%BA%AA%E9%95%87-%E9%94%A6%E6%B1%9F%E5%AE%BE%E9%A6%86--A10-primo-164--250925_0646--B.mp3",
+    "bird_name": "ジョウビタキ",
+    "call_type": "地鳴き"
+  },
+  "enaga_saezuri": {
+    "xc_id": "977037",
+    "recorder": "David Darrell-Lambert",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/AYKHDFBYIH/XC977037-Long-tailed-Tit-song-very-good-2025-03-01-Staines-Moor%2C-London%2C-England_36_edited.wav",
+    "bird_name": "エナガ",
+    "call_type": "さえずり"
+  },
+  "enaga_jinaki": {
+    "xc_id": "975289",
+    "recorder": "Francesco Sottile",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/ITHRUQEQCF/XC975289-Long-tailed-Tit_calls_0223_1222.mp3",
+    "bird_name": "エナガ",
+    "call_type": "地鳴き"
+  },
+  "mukudori_saezuri": {
+    "xc_id": "884936",
+    "recorder": "Bo Shunqi薄顺奇",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/YNOAMCSSHX/XC884936-White-cheeked-Starling%E7%81%B0%E6%A4%8B%E9%B8%9F-song-%E8%87%AA%E5%8A%A8-%E5%B4%87%E6%98%8E%E4%B8%9C%E6%BB%A91%E5%8F%B7%E6%A1%A5%E6%B0%B4%E9%97%B8-%E7%81%8C%E8%8D%89%E4%B8%9B-%E9%9A%8B%E5%94%90%E6%B2%B3%E6%97%81231127_0802--B.mp3",
+    "bird_name": "ムクドリ",
+    "call_type": "さえずり"
+  },
+  "mukudori_jinaki": {
+    "xc_id": "294832",
+    "recorder": "Ross Gallardy",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/FNIOJOZADD/XC294832-WhitecheekedStarling_Japan_01252015_calls.mp3",
+    "bird_name": "ムクドリ",
+    "call_type": "地鳴き"
+  },
+  "hototogisu_saezuri": {
+    "xc_id": "916166",
+    "recorder": "Peter Boesman",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/OOECIWCSWV/XC916166-LS_58190-Lesser-Cuckoo-song-A.mp3",
+    "bird_name": "ホトトギス",
+    "call_type": "さえずり"
+  },
+  "hototogisu_jinaki": {
+    "xc_id": "720558",
+    "recorder": "Bo Shunqi",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/YNOAMCSSHX/XC720558-%20call%20%E6%B5%B7%E6%B9%BE%E6%A3%AE%E6%9E%97%E5%85%AC%E5%9B%AD200613_1046.mp3",
+    "bird_name": "ホトトギス",
+    "call_type": "地鳴き"
+  },
+  "kakkou_saezuri": {
+    "xc_id": "990258",
+    "recorder": "Francesco Sottile",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/ITHRUQEQCF/XC990258-Cuculus-canorus_song_0419_1617.mp3",
+    "bird_name": "カッコウ",
+    "call_type": "さえずり"
+  },
+  "kijibato_saezuri": {
+    "xc_id": "988363",
+    "recorder": "Peter Boesman",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/OOECIWCSWV/XC988363-LS_59944-Oriental-Turtle-Dove-song-B.mp3",
+    "bird_name": "キジバト",
+    "call_type": "さえずり"
+  },
+  "kijibato_jinaki": {
+    "xc_id": "1015970",
+    "recorder": "Dave Guo",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/KQMHASAYBL/XC1015970-%E5%B1%B1%E6%96%91%E9%B8%A0call-2-%E9%80%9A%E8%BE%BD%E4%B9%8C%E6%96%AF%E5%90%90.mp3",
+    "bird_name": "キジバト",
+    "call_type": "地鳴き"
+  },
+  "kojukei_saezuri": {
+    "xc_id": "988381",
+    "recorder": "Peter Boesman",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/OOECIWCSWV/XC988381-LS_59968-Chinese-Bamboo-Partridge-duet-song-B.mp3",
+    "bird_name": "コジュケイ",
+    "call_type": "さえずり"
+  },
+  "kojukei_jinaki": {
+    "xc_id": "285891",
+    "recorder": "Peter Boesman",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/OOECIWCSWV/XC285891-LS_58415%20Chinese%20Woodpartridge%20call.mp3",
+    "bird_name": "コジュケイ",
+    "call_type": "地鳴き"
+  },
+  "kogera_saezuri": {
+    "xc_id": "155674",
+    "recorder": "Frank Lambert",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/YTUXOCTUEM/XC155674-Dendrocopus_kizuki_seebohmi-FL%20nat%20song%20Asahidake%20ski%20lift%20bottom%20Hokkaido%2021Jum13%2016.27pm%201110m%20LS115587.mp3",
+    "bird_name": "コゲラ",
+    "call_type": "さえずり"
+  },
+  "kogera_jinaki": {
+    "xc_id": "191044",
+    "recorder": "Ross Gallardy",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/FNIOJOZADD/XC191044-JapanesePygmyWoodpecker_Okinawa_081014_adult_flightcall.mp3",
+    "bird_name": "コゲラ",
+    "call_type": "地鳴き"
+  },
+  "tobi_saezuri": {
+    "xc_id": "986303",
+    "recorder": "Ray Tsu 诸仁",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/FROVFAFTMA/XC986303-20250323-0623-%E7%BE%A1%E5%B1%B1%E9%9A%8F%E5%9B%AD-%E9%BB%91%E9%B8%A2song-0617-m10j.wav",
+    "bird_name": "トビ",
+    "call_type": "さえずり"
+  },
+  "tobi_jinaki": {
+    "xc_id": "1030648",
+    "recorder": "Peter Boesman",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/OOECIWCSWV/XC1030648-LS_50723-Black-KIte-call-B.mp3",
+    "bird_name": "トビ",
+    "call_type": "地鳴き"
+  },
+  "keri_jinaki": {
+    "xc_id": "988324",
+    "recorder": "Peter Boesman",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/OOECIWCSWV/XC988324-LS_59878-Grey-headed-Lapwing-calls-A.mp3",
+    "bird_name": "ケリ",
+    "call_type": "地鳴き"
+  },
+  "kaitsuburi_jinaki": {
+    "xc_id": "984168",
+    "recorder": "Hans Norelius",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/MNQLBOLQFS/XC984168-Sm%C3%A5doppingNFC_Lone_Call_N%C3%A4vekvarn_nocmig_Mars2025_250329-2300.mp3",
+    "bird_name": "カイツブリ",
+    "call_type": "地鳴き"
+  },
+  "kiji_jinaki": {
+    "xc_id": "285719",
+    "recorder": "Peter Boesman",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/OOECIWCSWV/XC285719-LS_58109%20Green%20Pheasant%20call%20C.mp3",
+    "bird_name": "キジ",
+    "call_type": "地鳴き"
+  },
+  "akagera_saezuri": {
+    "xc_id": "964087",
+    "recorder": "Shaun Micklewright",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/OBYJMMWCHG/XC964087-250126_0538grespo.mp3",
+    "bird_name": "アカゲラ",
+    "call_type": "さえずり"
+  },
+  "akagera_jinaki": {
+    "xc_id": "984959",
+    "recorder": "Uku Paal",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/XIBLXHRPJO/XC984959-DENMAJ-ALARM-PAHUVERE-E-250331_1012.mp3",
+    "bird_name": "アカゲラ",
+    "call_type": "地鳴き"
+  },
+  "ikaru_saezuri": {
+    "xc_id": "",
+    "recorder": "mami_t_t",
+    "license": "http://creativecommons.org/licenses/by/4.0/legalcode",
+    "url": "https://static.inaturalist.org/sounds/1775763.m4a?1771832466",
+    "bird_name": "イカル",
+    "call_type": "さえずり"
+  },
+  "ikaru_jinaki": {
+    "xc_id": "",
+    "recorder": "mami_t_t",
+    "license": "http://creativecommons.org/licenses/by/4.0/legalcode",
+    "url": "https://static.inaturalist.org/sounds/1775763.m4a?1771832466",
+    "bird_name": "イカル",
+    "call_type": "地鳴き"
+  },
+  "ruribitaki_jinaki": {
+    "xc_id": "897058",
+    "recorder": "Goro",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/DULJLRPGXQ/XC897058-LS_70602cZZ%E3%83%AB%E3%83%AA%E3%83%93%E3%82%BF%E3%82%ADcall2404141810.wav",
+    "bird_name": "ルリビタキ",
+    "call_type": "地鳴き"
+  },
+  "uso_saezuri": {
+    "xc_id": "1016655",
+    "recorder": "Uku Paal",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/XIBLXHRPJO/XC1016655-pyrula-mt-mokoto-250701_1387.mp3",
+    "bird_name": "ウソ",
+    "call_type": "さえずり"
+  },
+  "benimasiko_saezuri": {
+    "xc_id": "911392",
+    "recorder": "Goro",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/DULJLRPGXQ/XC911392-240608_0425_2sscc4.8k%E3%83%99%E3%83%8B%E3%83%9E%E3%82%B7%E3%82%B3song2406080526.wav",
+    "bird_name": "ベニマシコ",
+    "call_type": "さえずり"
+  },
+  "miyamahoojiro_saezuri": {
+    "xc_id": "985900",
+    "recorder": "Bo Shunqi 薄顺奇",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/YNOAMCSSHX/XC985900-Yellow-throated-Bunting-%E9%BB%84%E5%96%89%E9%B9%80-song--%EF%BC%88ch%EF%BC%89-%E7%81%B0%E5%A4%B4%E9%B9%80-call--%E6%A8%AA%E6%B2%99%E5%A3%B0%E7%BA%B9%E7%9B%91%E6%8E%A7-03A8_20250219_073003---A.mp3",
+    "bird_name": "ミヤマホオジロ",
+    "call_type": "さえずり"
+  },
+  "hashibosogarasu_saezuri": {
+    "xc_id": "988626",
+    "recorder": "Andy Birch",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/VGPZBRESLG/XC988626-carrion1.wav",
+    "bird_name": "ハシボソガラス",
+    "call_type": "さえずり"
+  },
+  "kawasemi_saezuri": {
+    "xc_id": "988630",
+    "recorder": "Andy Birch",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/VGPZBRESLG/XC988630-kingfisher.wav",
+    "bird_name": "カワセミ",
+    "call_type": "さえずり"
+  },
+  "misosazai_saezuri": {
+    "xc_id": "976526",
+    "recorder": "David Darrell-Lambert",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/AYKHDFBYIH/XC976526-Wren-singing-very-good-2025-02-27-West-Thurrock-Marshes%2C-Essex%2C-England_0036_001.wav",
+    "bird_name": "ミソサザイ",
+    "call_type": "さえずり"
+  },
+  "aogera_jinaki": {
+    "xc_id": "475234",
+    "recorder": "Markus Jacobs",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/XHQPIINHIC/XC475234-190516_0641.mp3",
+    "bird_name": "アオゲラ",
+    "call_type": "地鳴き"
+  },
+  "kakesu_saezuri": {
+    "xc_id": "994551",
+    "recorder": "João Tomás",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/POVKNQVSGU/XC994551-Garrulus-glandarius_song_020425_Alag%C3%B3n-Ollas-de-la-Sapa_0913.wav",
+    "bird_name": "カケス",
+    "call_type": "さえずり"
+  },
+  "karugamo_saezuri": {
+    "xc_id": "286056",
+    "recorder": "Peter Boesman",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/OOECIWCSWV/XC286056-LS_58719%20Eastern%20Spot-billed%20Duck%20ca.mp3",
+    "bird_name": "カルガモ",
+    "call_type": "さえずり"
+  },
+  "ooban_saezuri": {
+    "xc_id": "959231",
+    "recorder": "Filippo Ceccolini",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/VWVVYWSUYS/XC959231-folaga-Avanos-tappezzeria.mp3",
+    "bird_name": "オオバン",
+    "call_type": "さえずり"
+  },
+  "ban_saezuri": {
+    "xc_id": "973510",
+    "recorder": "Astrid Cervantes",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/GHZBANAZPO/XC973510-Waterhoen-----15.02.2025-----04.50u.mp3",
+    "bird_name": "バン",
+    "call_type": "さえずり"
+  },
+  "aosagi_saezuri": {
+    "xc_id": "961372",
+    "recorder": "Marcos Prada Arias",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/RJFVTGKCBN/XC961372-Cinerea-160125-0030.mp3",
+    "bird_name": "アオサギ",
+    "call_type": "さえずり"
+  },
+  "chougenbou_saezuri": {
+    "xc_id": "971960",
+    "recorder": "Esperanza Poveda",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/PRVFBYIQYZ/XC971960-FALCO-TINNUNCULUS-TRABAJO-24-01-2025.mp3",
+    "bird_name": "チョウゲンボウ",
+    "call_type": "さえずり"
+  },
+  "tsugumi_saezuri": {
+    "xc_id": "863199",
+    "recorder": "Bo Shunqi薄顺奇",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/YNOAMCSSHX/XC863199-%E7%BA%A2%E5%B0%BE%E9%B8%AB-call-%E5%A5%A5%E6%A3%AE%E5%8C%97%E5%9B%AD2401091014_0249.mp3",
+    "bird_name": "ツグミ",
+    "call_type": "さえずり"
+  },
+  "hakugan_saezuri": {
+    "xc_id": "1051614",
+    "recorder": "Denis Provencher",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/QQHLLSOTCS/XC1051614-2025-10-30-07_13-Oie-des-neiges.mp3",
+    "bird_name": "ハクガン",
+    "call_type": "さえずり"
+  },
+  "hakugan_jinaki": {
+    "xc_id": "SnowGeese3",
+    "recorder": "Valerie Heemstra",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/ZEFHZHEMLK/XC711086-MIXPRE-6784app85XCSnowGeese3-15-22flightcallsasthey%20took%20off.mp3",
+    "bird_name": "ハクガン",
+    "call_type": "地鳴き"
+  },
+  "haiirogan_saezuri": {
+    "xc_id": "983210",
+    "recorder": "Aku Kalliomäki",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/EUNWJADFAF/XC983210-ansans_260325_siipyy2call_hissing.wav",
+    "bird_name": "ハイイロガン",
+    "call_type": "さえずり"
+  },
+  "haiirogan_jinaki": {
+    "xc_id": "972497",
+    "recorder": "David Darrell-Lambert",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/AYKHDFBYIH/XC972497-Greylag-call-very-good-2025-02-09-Walthamstow-Reservoirs%2C-London_005A_edited.wav",
+    "bird_name": "ハイイロガン",
+    "call_type": "地鳴き"
+  },
+  "sakatsuragen_saezuri": {
+    "xc_id": "988395",
+    "recorder": "Peter Boesman",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/OOECIWCSWV/XC988395-LS_59990-Swan-Geese-call-B.mp3",
+    "bird_name": "サカツラガン",
+    "call_type": "さえずり"
+  },
+  "sakatsuragen_jinaki": {
+    "xc_id": "988395",
+    "recorder": "Peter Boesman",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/OOECIWCSWV/XC988395-LS_59990-Swan-Geese-call-B.mp3",
+    "bird_name": "サカツラガン",
+    "call_type": "地鳴き"
+  },
+  "magan_saezuri": {
+    "xc_id": "963080",
+    "recorder": "Susanne Kuijpers",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/IZVNKUBNLN/XC963080-250121_6398-6399-Kolganzen.mp3",
+    "bird_name": "マガン",
+    "call_type": "さえずり"
+  },
+  "magan_jinaki": {
+    "xc_id": "963080",
+    "recorder": "Susanne Kuijpers",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/IZVNKUBNLN/XC963080-250121_6398-6399-Kolganzen.mp3",
+    "bird_name": "マガン",
+    "call_type": "地鳴き"
+  },
+  "karigane_saezuri": {
+    "xc_id": "981361",
+    "recorder": "Mats Olsson",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/JLAUXQLBHR/XC981361-Fja%CC%88llga%CC%8As-%28Anser-erythropus%29-flyktla%CC%88te_Ho%CC%88rvik_2025-02-23_1500.mp3",
+    "bird_name": "カリガネ",
+    "call_type": "さえずり"
+  },
+  "karigane_jinaki": {
+    "xc_id": "",
+    "recorder": "Matthias Feuersenger",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/HBPYQXTJEV/lesser_white-fronted_bosse_14-02.2010call.mp3",
+    "bird_name": "カリガネ",
+    "call_type": "地鳴き"
+  },
+  "oohishikui_saezuri": {
+    "xc_id": "",
+    "recorder": "campbellfmh",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://static.inaturalist.org/sounds/1329825.wav?1741697444",
+    "bird_name": "オオヒシクイ",
+    "call_type": "さえずり"
+  },
+  "oohishikui_jinaki": {
+    "xc_id": "",
+    "recorder": "campbellfmh",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://static.inaturalist.org/sounds/1329825.wav?1741697444",
+    "bird_name": "オオヒシクイ",
+    "call_type": "地鳴き"
+  },
+  "hishikui_saezuri": {
+    "xc_id": "985909",
+    "recorder": "Bo Shunqi 薄顺奇",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/YNOAMCSSHX/XC985909-Taiga-Bean-Goose-%E8%B1%86%E9%9B%81-call-%E7%BE%A4-%E6%A8%AA%E6%B2%99%E5%A3%B0%E7%BA%B9%E7%9B%91%E6%B5%8B-03A8_20250302_060007----C.mp3",
+    "bird_name": "ヒシクイ",
+    "call_type": "さえずり"
+  },
+  "hishikui_jinaki": {
+    "xc_id": "985909",
+    "recorder": "Bo Shunqi 薄顺奇",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/YNOAMCSSHX/XC985909-Taiga-Bean-Goose-%E8%B1%86%E9%9B%81-call-%E7%BE%A4-%E6%A8%AA%E6%B2%99%E5%A3%B0%E7%BA%B9%E7%9B%91%E6%B5%8B-03A8_20250302_060007----C.mp3",
+    "bird_name": "ヒシクイ",
+    "call_type": "地鳴き"
+  },
+  "kokugan_saezuri": {
+    "xc_id": "961881",
+    "recorder": "Bram Piot",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/RGSEIIJGHA/XC961881-BrantGoose_Textel-Oost_250118_4083_edited.mp3",
+    "bird_name": "コクガン",
+    "call_type": "さえずり"
+  },
+  "kokugan_jinaki": {
+    "xc_id": "1048296",
+    "recorder": "Manuel Tacke",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/KCXYVLQJCE/XC1048296-20251013_1300_Brant_call_Wangerooge-Ostau%C3%9Fengroden.mp3",
+    "bird_name": "コクガン",
+    "call_type": "地鳴き"
+  },
+  "shijuukaraganmo_saezuri": {
+    "xc_id": "1046932",
+    "recorder": "Greg Irving",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/YWRKFXUDUR/XC1046932-013-Goose---Cackling-%28Branta-hutchinsii%29-Call-OCT-1704h-0m-GraysMarshWA_gi_251008_008.mp3",
+    "bird_name": "シジュウカラガン",
+    "call_type": "さえずり"
+  },
+  "shijuukaraganmo_jinaki": {
+    "xc_id": "1046932",
+    "recorder": "Greg Irving",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/YWRKFXUDUR/XC1046932-013-Goose---Cackling-%28Branta-hutchinsii%29-Call-OCT-1704h-0m-GraysMarshWA_gi_251008_008.mp3",
+    "bird_name": "シジュウカラガン",
+    "call_type": "地鳴き"
+  },
+  "kobuhakuchou_saezuri": {
+    "xc_id": "960709",
+    "recorder": "Mats Olsson",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/JLAUXQLBHR/XC960709-Kno%CC%88lsvan-%28Cygnus-olor%29-lockla%CC%88te_Elleholm_2025-01-12_1610.mp3",
+    "bird_name": "コブハクチョウ",
+    "call_type": "さえずり"
+  },
+  "kobuhakuchou_jinaki": {
+    "xc_id": "960709",
+    "recorder": "Mats Olsson",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/JLAUXQLBHR/XC960709-Kno%CC%88lsvan-%28Cygnus-olor%29-lockla%CC%88te_Elleholm_2025-01-12_1610.mp3",
+    "bird_name": "コブハクチョウ",
+    "call_type": "地鳴き"
+  },
+  "kohakuchou_saezuri": {
+    "xc_id": "884115",
+    "recorder": "Barry Edmonston",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/FHQVLXJQKW/XC884115-Bewick-s-Swan-1.mp3",
+    "bird_name": "コハクチョウ",
+    "call_type": "さえずり"
+  },
+  "kohakuchou_jinaki": {
+    "xc_id": "988409",
+    "recorder": "Peter Boesman",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/OOECIWCSWV/XC988409-LS_50008-Bewick-Swan-call-B.mp3",
+    "bird_name": "コハクチョウ",
+    "call_type": "地鳴き"
+  },
+  "oohakuchou_saezuri": {
+    "xc_id": "959587",
+    "recorder": "Sonothèque ADVL",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/BJAXFFKOML/XC959587-Cygnechanteur_saintavithuisnessurmer_030125_11h.mp3",
+    "bird_name": "オオハクチョウ",
+    "call_type": "さえずり"
+  },
+  "oohakuchou_jinaki": {
+    "xc_id": "959587",
+    "recorder": "Sonothèque ADVL",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/BJAXFFKOML/XC959587-Cygnechanteur_saintavithuisnessurmer_030125_11h.mp3",
+    "bird_name": "オオハクチョウ",
+    "call_type": "地鳴き"
+  },
+  "akatsukushigamo_saezuri": {
+    "xc_id": "981500",
+    "recorder": "Raphaël Bussière",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/AMOYTKAQEN/XC981500-250225_1127_Tadorne-casarca_3h12-C.mp3",
+    "bird_name": "アカツクシガモ",
+    "call_type": "さえずり"
+  },
+  "akatsukushigamo_jinaki": {
+    "xc_id": "916630",
+    "recorder": "Peter Boesman",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/OOECIWCSWV/XC916630-LS_58293-Ruddy-Shelduck-call-D.mp3",
+    "bird_name": "アカツクシガモ",
+    "call_type": "地鳴き"
+  },
+  "tsukushigamo_saezuri": {
+    "xc_id": "985987",
+    "recorder": "Will Scott",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/QGXKACSKJD/XC985987-Shelduck-5-4-25.mp3",
+    "bird_name": "ツクシガモ",
+    "call_type": "さえずり"
+  },
+  "tsukushigamo_jinaki": {
+    "xc_id": "860513",
+    "recorder": "Manuel Grosselet",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/ILUHRFXDNU/XC860513-Tadorne-de-belon-calls-briere-44-ene-7-1007-DR0000_1639.mp3",
+    "bird_name": "ツクシガモ",
+    "call_type": "地鳴き"
+  },
+  "oshidori_saezuri": {
+    "xc_id": "900405",
+    "recorder": "Goro",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/DULJLRPGXQ/XC900405-LS_70696_1-c48%E3%82%AA%E3%82%B7%E3%83%89%E3%83%AA2405041910.wav",
+    "bird_name": "オシドリ",
+    "call_type": "さえずり"
+  },
+  "oshidori_jinaki": {
+    "xc_id": "776511",
+    "recorder": "Phil Gregory",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/GNEWSLMDAM/XC776511-MANDARIN-DUcks-Kogawa-Dam-Jan-21-flight-call-PG1088.wav",
+    "bird_name": "オシドリ",
+    "call_type": "地鳴き"
+  },
+  "tomoegamo_saezuri": {
+    "xc_id": "380274",
+    "recorder": "Andrew Spencer",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/CDTGHVBGZP/XC380274-Baikal%20Teal2017-6-30-1.mp3",
+    "bird_name": "トモエガモ",
+    "call_type": "さえずり"
+  },
+  "tomoegamo_jinaki": {
+    "xc_id": "380274",
+    "recorder": "Andrew Spencer",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/CDTGHVBGZP/XC380274-Baikal%20Teal2017-6-30-1.mp3",
+    "bird_name": "トモエガモ",
+    "call_type": "地鳴き"
+  },
+  "shimaji_saezuri": {
+    "xc_id": "791924",
+    "recorder": "Andrew Edwards",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/NXQCDKCFEX/XC791924-Garganey_Song.mp3",
+    "bird_name": "シマアジ",
+    "call_type": "さえずり"
+  },
+  "shimaji_jinaki": {
+    "xc_id": "1031146",
+    "recorder": "Frank Lambert",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/YTUXOCTUEM/XC1031146-Spatula_querquedula-FL-m-calls-Lake-N-o-fTerektisor-Lake-23May25-12.22pm-LS110403b.mp3",
+    "bird_name": "シマアジ",
+    "call_type": "地鳴き"
+  },
+  "hashibirogamo_saezuri": {
+    "xc_id": "978597",
+    "recorder": "Julien Bottinelli",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/ERIILIJGLF/XC978597-Canard-souchet-nuit-6-7-mars-205-Mouroux-77.mp3",
+    "bird_name": "ハシビロガモ",
+    "call_type": "さえずり"
+  },
+  "okayoshigamo_saezuri": {
+    "xc_id": "960928",
+    "recorder": "FRIEDRICH Richard",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/IUFRBODZJL/XC960928-20250113_-144001_canard-Chipeau_Etang-de-Petra.mp3",
+    "bird_name": "オカヨシガモ",
+    "call_type": "さえずり"
+  },
+  "okayoshigamo_jinaki": {
+    "xc_id": "992585",
+    "recorder": "Bo Shunqi 薄顺奇",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/YNOAMCSSHX/XC992585-Gadwall-%E8%B5%A4%E8%86%80%E9%B8%AD-call-%E6%96%91%E5%98%B4%E9%B8%AD-call-%E5%A5%89%E8%B4%A4%E6%B5%B7%E6%B9%BE%E6%A3%AE%E6%9E%97%E5%85%AC%E5%9B%AD-%E5%B0%8F%E9%94%85primo164-A10-250118_1351---A.mp3",
+    "bird_name": "オカヨシガモ",
+    "call_type": "地鳴き"
+  },
+  "yoshigamo_saezuri": {
+    "xc_id": "992584",
+    "recorder": "Bo Shunqi 薄顺奇",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/YNOAMCSSHX/XC992584-Falcated-Duck-%E7%BD%97%E7%BA%B9%E9%B8%AD-call-%E6%B1%82%E5%81%B6%E9%85%8D%E5%AF%B9-%E5%A5%89%E8%B4%A4%E6%B5%B7%E6%B9%BE%E6%A3%AE%E6%9E%97%E5%85%AC%E5%9B%AD-%E5%B0%8F%E9%94%85primo164-A10-250118_1401---A.mp3",
+    "bird_name": "ヨシガモ",
+    "call_type": "さえずり"
+  },
+  "yoshigamo_jinaki": {
+    "xc_id": "992584",
+    "recorder": "Bo Shunqi 薄顺奇",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/YNOAMCSSHX/XC992584-Falcated-Duck-%E7%BD%97%E7%BA%B9%E9%B8%AD-call-%E6%B1%82%E5%81%B6%E9%85%8D%E5%AF%B9-%E5%A5%89%E8%B4%A4%E6%B5%B7%E6%B9%BE%E6%A3%AE%E6%9E%97%E5%85%AC%E5%9B%AD-%E5%B0%8F%E9%94%85primo164-A10-250118_1401---A.mp3",
+    "bird_name": "ヨシガモ",
+    "call_type": "地鳴き"
+  },
+  "hidorigamo_saezuri": {
+    "xc_id": "959924",
+    "recorder": "Andy Birch",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/VGPZBRESLG/XC959924-EUWI.wav",
+    "bird_name": "ヒドリガモ",
+    "call_type": "さえずり"
+  },
+  "hidorigamo_jinaki": {
+    "xc_id": "973945",
+    "recorder": "David Darrell-Lambert",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/AYKHDFBYIH/XC973945-Eurasian-Wigeon-call-very-good-205-02-17-Frampton-RSPB%2C-Lincolnshire%2C-England_005_edited.wav",
+    "bird_name": "ヒドリガモ",
+    "call_type": "地鳴き"
+  },
+  "amerikahidori_saezuri": {
+    "xc_id": "808391",
+    "recorder": "Denis Provencher",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/QQHLLSOTCS/XC808391-Canard-d-Am%C3%A9rique-2023-06-06-Rapide-Danseur.mp4.mp3",
+    "bird_name": "アメリカヒドリ",
+    "call_type": "さえずり"
+  },
+  "amerikahidori_jinaki": {
+    "xc_id": "863829",
+    "recorder": "Dany Sloan",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/XNSUQRGJPZ/XC863829-2024-01-24-AMWI-male-call-1623.wav",
+    "bird_name": "アメリカヒドリ",
+    "call_type": "地鳴き"
+  },
+  "magamo_saezuri": {
+    "xc_id": "960550",
+    "recorder": "João Tomás",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/POVKNQVSGU/XC960550-Anas-platyrhynchos_song-male-in-respond-to-another_110125_Cantalapiedra-La-Carolina.wav",
+    "bird_name": "マガモ",
+    "call_type": "さえずり"
+  },
+  "magamo_jinaki": {
+    "xc_id": "960556",
+    "recorder": "João Tomás",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/POVKNQVSGU/XC960556-Anas-platyrhynchos_male-and-female-dancing-calls_110125_Cantalapiedra-La-Carolina.wav",
+    "bird_name": "マガモ",
+    "call_type": "地鳴き"
+  },
+  "onagagamo_saezuri": {
+    "xc_id": "974675",
+    "recorder": "Paul Coiffard",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/TLORJJUZZT/XC974675-Canard-pilet-C-NFC-male-and-female%2C-calls-mixed-in-Rana-meridionalis-song-20250220_0006-Rochefort.wav",
+    "bird_name": "オナガガモ",
+    "call_type": "さえずり"
+  },
+  "onagagamo_jinaki": {
+    "xc_id": "974675",
+    "recorder": "Paul Coiffard",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/TLORJJUZZT/XC974675-Canard-pilet-C-NFC-male-and-female%2C-calls-mixed-in-Rana-meridionalis-song-20250220_0006-Rochefort.wav",
+    "bird_name": "オナガガモ",
+    "call_type": "地鳴き"
+  },
+  "kogamo_saezuri": {
+    "xc_id": "959026",
+    "recorder": "Shaun Micklewright",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/OBYJMMWCHG/XC959026-TealF.mp3",
+    "bird_name": "コガモ",
+    "call_type": "さえずり"
+  },
+  "kogamo_jinaki": {
+    "xc_id": "972489",
+    "recorder": "David Darrell-Lambert",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/AYKHDFBYIH/XC972489-Eurasian-Teal-flight-call-very-good-2025-02-09-Rainham-Marshes%2C-London_002_edited.wav",
+    "bird_name": "コガモ",
+    "call_type": "地鳴き"
+  },
+  "akahashihajiro_saezuri": {
+    "xc_id": "303311",
+    "recorder": "Carlos W.",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/MTKJRYGCTW/XC303311-160211_0344%20songscape%20a%20few%20aquatic%20birds.mp3",
+    "bird_name": "アカハシハジロ",
+    "call_type": "さえずり"
+  },
+  "akahashihajiro_jinaki": {
+    "xc_id": "813519",
+    "recorder": "Peter Boesman",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/OOECIWCSWV/XC813519-LS_54283-Red-crested-Pochard-call-flight-female-B.mp3",
+    "bird_name": "アカハシハジロ",
+    "call_type": "地鳴き"
+  },
+  "oohoshihajiro_saezuri": {
+    "xc_id": "1011434",
+    "recorder": "Olivier SWIFT, Hélène CARTAUD",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/JCPKCBKKAQ/XC1011434-AYTFER_250413_4913_Lussat23_EtgLandes.mp3",
+    "bird_name": "オオホシハジロ",
+    "call_type": "さえずり"
+  },
+  "oohoshihajiro_jinaki": {
+    "xc_id": "986009",
+    "recorder": "David Darrell-Lambert",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/AYKHDFBYIH/XC986009-Common-Pochard-flight-call-very-good-2025-04-06-Walthamstow-Reservoirs%2C-London%2C-England_154_Edited.wav",
+    "bird_name": "オオホシハジロ",
+    "call_type": "地鳴き"
+  },
+  "hoshihajiro_saezuri": {
+    "xc_id": "1011434",
+    "recorder": "Olivier SWIFT, Hélène CARTAUD",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/JCPKCBKKAQ/XC1011434-AYTFER_250413_4913_Lussat23_EtgLandes.mp3",
+    "bird_name": "ホシハジロ",
+    "call_type": "さえずり"
+  },
+  "hoshihajiro_jinaki": {
+    "xc_id": "986009",
+    "recorder": "David Darrell-Lambert",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/AYKHDFBYIH/XC986009-Common-Pochard-flight-call-very-good-2025-04-06-Walthamstow-Reservoirs%2C-London%2C-England_154_Edited.wav",
+    "bird_name": "ホシハジロ",
+    "call_type": "地鳴き"
+  },
+  "kubiwakinkuro_saezuri": {
+    "xc_id": "941129",
+    "recorder": "Richard E. Webster",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/KZYUWIRZVH/XC941129-DUCK_Rin-nec_c-SBNWR-1100m-022723-0832.mp3",
+    "bird_name": "クビワキンクロ",
+    "call_type": "さえずり"
+  },
+  "kubiwakinkuro_jinaki": {
+    "xc_id": "403007",
+    "recorder": "Nick Komar",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/ODAYZINCOA/XC403007-COLO%20MYSTERY%20DUCK%20call%201730%2002172018%20Larimer%20CO%20NK%20for%20xc.mp3",
+    "bird_name": "クビワキンクロ",
+    "call_type": "地鳴き"
+  },
+  "mejirogamo_saezuri": {
+    "xc_id": "893935",
+    "recorder": "Dimitri",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/HVBWFBBDKO/XC893935-tabaccata_ZOOM0053.mp3",
+    "bird_name": "メジロガモ",
+    "call_type": "さえずり"
+  },
+  "mejirogamo_jinaki": {
+    "xc_id": "649345",
+    "recorder": "Francesco Sottile",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/ITHRUQEQCF/XC649345-Morette%20tabaccate%20calls%20in%20volo_0516_1136.mp3",
+    "bird_name": "メジロガモ",
+    "call_type": "地鳴き"
+  },
+  "kinkurohajiro_saezuri": {
+    "xc_id": "1009929",
+    "recorder": "Esperanza Poveda",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/PRVFBYIQYZ/XC1009929-aythya-fuligula-1-lagerlundssjon-30-03-2025.mp3",
+    "bird_name": "キンクロハジロ",
+    "call_type": "さえずり"
+  },
+  "kinkurohajiro_jinaki": {
+    "xc_id": "985127",
+    "recorder": "David Darrell-Lambert",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/AYKHDFBYIH/XC985127-Tufted-Duck-call-very-good-2024-03-16-Walthamstow-Wetlands%2C-London_002_edited.wav",
+    "bird_name": "キンクロハジロ",
+    "call_type": "地鳴き"
+  },
+  "suzugamo_saezuri": {
+    "xc_id": "562290",
+    "recorder": "Lars Edenius",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/MMEJYLOPDO/XC562290-Bergand_01.mp3",
+    "bird_name": "スズガモ",
+    "call_type": "さえずり"
+  },
+  "suzugamo_jinaki": {
+    "xc_id": "322881",
+    "recorder": "Peter Boesman",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/OOECIWCSWV/XC322881-LS_52138%20Greater%20Scaup%20call%20B.mp3",
+    "bird_name": "スズガモ",
+    "call_type": "地鳴き"
+  },
+  "kosuzugamo_saezuri": {
+    "xc_id": "940392",
+    "recorder": "Seth Beaudreault (Toolik Field Station)",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/TZWMNBTMOK/XC940392-2024-06-05-07_33-LESC-01.mp3",
+    "bird_name": "コスズガモ",
+    "call_type": "さえずり"
+  },
+  "kosuzugamo_jinaki": {
+    "xc_id": "940392",
+    "recorder": "Seth Beaudreault (Toolik Field Station)",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/TZWMNBTMOK/XC940392-2024-06-05-07_33-LESC-01.mp3",
+    "bird_name": "コスズガモ",
+    "call_type": "地鳴き"
+  },
+  "shinorigamo_saezuri": {
+    "xc_id": "294803",
+    "recorder": "Ross Gallardy",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/FNIOJOZADD/XC294803-HarlequinDuck_Japan_01212015_calls_takeoff.mp3",
+    "bird_name": "シノリガモ",
+    "call_type": "さえずり"
+  },
+  "shinorigamo_jinaki": {
+    "xc_id": "294803",
+    "recorder": "Ross Gallardy",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/FNIOJOZADD/XC294803-HarlequinDuck_Japan_01212015_calls_takeoff.mp3",
+    "bird_name": "シノリガモ",
+    "call_type": "地鳴き"
+  },
+  "biroodokinkuro_saezuri": {
+    "xc_id": "727117",
+    "recorder": "Lars Edenius",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/MMEJYLOPDO/XC727117-Sv%C3%A4rta_09.mp3",
+    "bird_name": "ビロードキンクロ",
+    "call_type": "さえずり"
+  },
+  "biroodokinkuro_jinaki": {
+    "xc_id": "709704",
+    "recorder": "Peter Stronach",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/POUECYRDLL/XC709704-velvet%20scoter%20calls%20of%20female%20in%20flight%20landing%20-%20Burghead%20221221%201450.mp3",
+    "bird_name": "ビロードキンクロ",
+    "call_type": "地鳴き"
+  },
+  "kurogamo_saezuri": {
+    "xc_id": "970885",
+    "recorder": "Olof Strand",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/NQAZFZJXOX/XC970885-2025_02_02_10_37_29-amsj%C3%B6_red.wav",
+    "bird_name": "クロガモ",
+    "call_type": "さえずり"
+  },
+  "kurogamo_jinaki": {
+    "xc_id": "970885",
+    "recorder": "Olof Strand",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/NQAZFZJXOX/XC970885-2025_02_02_10_37_29-amsj%C3%B6_red.wav",
+    "bird_name": "クロガモ",
+    "call_type": "地鳴き"
+  },
+  "koorigamo_saezuri": {
+    "xc_id": "986025",
+    "recorder": "Uku Paal",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/XIBLXHRPJO/XC986025-CLAHYE-NINASE-250403_1026.mp3",
+    "bird_name": "コオリガモ",
+    "call_type": "さえずり"
+  },
+  "koorigamo_jinaki": {
+    "xc_id": "986025",
+    "recorder": "Uku Paal",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/XIBLXHRPJO/XC986025-CLAHYE-NINASE-250403_1026.mp3",
+    "bird_name": "コオリガモ",
+    "call_type": "地鳴き"
+  },
+  "hoojirogamo_saezuri": {
+    "xc_id": "980524",
+    "recorder": "NEVILLE MADON",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/JJVGEJFQGB/XC980524-mp3.mp3",
+    "bird_name": "ホオジロガモ",
+    "call_type": "さえずり"
+  },
+  "hoojirogamo_jinaki": {
+    "xc_id": "980524",
+    "recorder": "NEVILLE MADON",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/JJVGEJFQGB/XC980524-mp3.mp3",
+    "bird_name": "ホオジロガモ",
+    "call_type": "地鳴き"
+  },
+  "mikoaisa_saezuri": {
+    "xc_id": "1005208",
+    "recorder": "Lars Edenius",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/MMEJYLOPDO/XC1005208-Salskrake_17.mp3",
+    "bird_name": "ミコアイサ",
+    "call_type": "さえずり"
+  },
+  "mikoaisa_jinaki": {
+    "xc_id": "1005208",
+    "recorder": "Lars Edenius",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/MMEJYLOPDO/XC1005208-Salskrake_17.mp3",
+    "bird_name": "ミコアイサ",
+    "call_type": "地鳴き"
+  },
+  "kawaaisa_saezuri": {
+    "xc_id": "1033535",
+    "recorder": "Esperanza Poveda",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/PRVFBYIQYZ/XC1033535-mergus-merganser-5-labro-angar-11-04-2025.mp3",
+    "bird_name": "カワアイサ",
+    "call_type": "さえずり"
+  },
+  "kawaaisa_jinaki": {
+    "xc_id": "1000254",
+    "recorder": "Joost van Bruggen",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/RNMRWBXEZJ/XC1000254-Grote-Zaagbek%2C-vrouw%2C-flight-call%2C-Altmoisa-Guesthouse%2C-150525%2C-0604-uur.mp3",
+    "bird_name": "カワアイサ",
+    "call_type": "地鳴き"
+  },
+  "umiaisa_saezuri": {
+    "xc_id": "997202",
+    "recorder": "Eetu Paljakka",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/INCBVJJLBJ/XC997202-ZOOM0048-tukkakoskelo.mp3",
+    "bird_name": "ウミアイサ",
+    "call_type": "さえずり"
+  },
+  "umiaisa_jinaki": {
+    "xc_id": "649575",
+    "recorder": "Joost van Bruggen",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/RNMRWBXEZJ/XC649575-Middelste%20Zaagbek%2C%20flight%20call%2C%20Vierde%20Duintjes%20Terschelling%2C%201505221%2C%201141%20uur.mp3",
+    "bird_name": "ウミアイサ",
+    "call_type": "地鳴き"
+  },
+  "ezoraichou_saezuri": {
+    "xc_id": "972575",
+    "recorder": "Lars Edenius",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/MMEJYLOPDO/XC972575-J%C3%A4rpe_82.mp3",
+    "bird_name": "エゾライチョウ",
+    "call_type": "さえずり"
+  },
+  "ezoraichou_jinaki": {
+    "xc_id": "906316",
+    "recorder": "Dave GUO",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/KQMHASAYBL/XC906316-%E8%8A%B1%E5%B0%BE%E6%A6%9B%E9%B8%A1call-%E7%8F%B2%E6%98%A5%E6%95%AC%E4%BF%A1%E9%95%872.mp3",
+    "bird_name": "エゾライチョウ",
+    "call_type": "地鳴き"
+  },
+  "raichou_saezuri": {
+    "xc_id": "1019216",
+    "recorder": "Sven Normant",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/MPDFSJHTXH/XC1019216-Lagop%C3%A8de_alpin_Lagopus_muta_song_Kina_0617_A.wav",
+    "bird_name": "ライチョウ",
+    "call_type": "さえずり"
+  },
+  "raichou_jinaki": {
+    "xc_id": "727867",
+    "recorder": "Tanguy Loïs",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/PJVGDPHDIM/XC727867-lago%20flight%20call.mp3",
+    "bird_name": "ライチョウ",
+    "call_type": "地鳴き"
+  },
+  "yamadori_saezuri": {
+    "xc_id": "896111",
+    "recorder": "Walser Schwyzer Paul",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/ZHWIGZFXNS/XC896111-copper.mp3",
+    "bird_name": "ヤマドリ",
+    "call_type": "さえずり"
+  },
+  "yamadori_jinaki": {
+    "xc_id": "896111",
+    "recorder": "Walser Schwyzer Paul",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/ZHWIGZFXNS/XC896111-copper.mp3",
+    "bird_name": "ヤマドリ",
+    "call_type": "地鳴き"
+  },
+  "uzura_saezuri": {
+    "xc_id": "327171",
+    "recorder": "Tom Wulf",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/XVXHTBZRRW/XC327171-Japanese%20Quail%20song%2020160523%201741%20RUS%20OA%20Muraviovka%20Park%20TW%20LS_5.mp3",
+    "bird_name": "ウズラ",
+    "call_type": "さえずり"
+  },
+  "uzura_jinaki": {
+    "xc_id": "641741",
+    "recorder": "Whitney Neufeld-Kaiser",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/CQLSWYNMJK/XC641741-Ken%27s%20Mystery%20Bird_Call_Edited_2018_05_04_20_35_36.mp3",
+    "bird_name": "ウズラ",
+    "call_type": "地鳴き"
+  },
+  "kawarabato_saezuri": {
+    "xc_id": "781621",
+    "recorder": "Peter Boesman",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/OOECIWCSWV/XC781621-LS_53330-Rock-PIgeon-song-B.mp3",
+    "bird_name": "カワラバト",
+    "call_type": "さえずり"
+  },
+  "kawarabato_jinaki": {
+    "xc_id": "943192",
+    "recorder": "Greg Irving",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/YWRKFXUDUR/XC943192-020-Dove---Rock-%28Columba-livia%29-CallWings-OCT-0807h-50m-WatPhraPhuttabatNoiTH_gi_7763.mp3",
+    "bird_name": "カワラバト",
+    "call_type": "地鳴き"
+  },
+  "aobato_saezuri": {
+    "xc_id": "884466",
+    "recorder": "Barry Edmonston",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/FHQVLXJQKW/XC884466-White-bellied-Green-Pigeon-1.mp3",
+    "bird_name": "アオバト",
+    "call_type": "さえずり"
+  },
+  "aobato_jinaki": {
+    "xc_id": "884466",
+    "recorder": "Barry Edmonston",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/FHQVLXJQKW/XC884466-White-bellied-Green-Pigeon-1.mp3",
+    "bird_name": "アオバト",
+    "call_type": "地鳴き"
+  },
+  "sakei_saezuri": {
+    "xc_id": "813659",
+    "recorder": "Peter Boesman",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/OOECIWCSWV/XC813659-LS_54115-Pallas-Sandgrouse-call-flight-A-Barn-Swallow-song-C.mp3",
+    "bird_name": "サケイ",
+    "call_type": "さえずり"
+  },
+  "sakei_jinaki": {
+    "xc_id": "813658",
+    "recorder": "Peter Boesman",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/OOECIWCSWV/XC813658-LS_54110-Pallas-Sandgrouse-call-flight-B.mp3",
+    "bird_name": "サケイ",
+    "call_type": "地鳴き"
+  },
+  "segurokaxtukoo_saezuri": {
+    "xc_id": "919658",
+    "recorder": "Greg Irving",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/YWRKFXUDUR/XC919658-031-Cuckoo---Indian-%28Cuculus-micropteus-concretus%29-Song-JUN-1006h-150m-KualaTahanMY_gi_7343.mp3",
+    "bird_name": "セグロカッコウ",
+    "call_type": "さえずり"
+  },
+  "segurokaxtukoo_jinaki": {
+    "xc_id": "1015906",
+    "recorder": "Dave Guo",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/KQMHASAYBL/XC1015906-%E4%B8%8D%E4%B8%89%E4%B8%8D%E5%9B%9B%E6%9D%9C%E9%B9%83call-%E5%8F%8C%E8%BE%BD%E4%B8%83%E6%98%9F%E6%B9%96%E5%85%AC%E5%9B%AD.mp3",
+    "bird_name": "セグロカッコウ",
+    "call_type": "地鳴き"
+  },
+  "yotaka_saezuri": {
+    "xc_id": "369065",
+    "recorder": "Peter Boesman",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/OOECIWCSWV/XC369065-LS105111%20Jungle%20Nightjar%20song%20B.mp3",
+    "bird_name": "ヨタカ",
+    "call_type": "さえずり"
+  },
+  "yotaka_jinaki": {
+    "xc_id": "369067",
+    "recorder": "Peter Boesman",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/OOECIWCSWV/XC369067-LS105115%20Jungle%20Nightjar%20song%20and%20call%20B.mp3",
+    "bird_name": "ヨタカ",
+    "call_type": "地鳴き"
+  },
+  "harioamatsubame_saezuri": {
+    "xc_id": "1016659",
+    "recorder": "Uku Paal",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/XIBLXHRPJO/XC1016659-white-troated-needletail-mt-mokoto-250701_1381.mp3",
+    "bird_name": "ハリオアマツバメ",
+    "call_type": "さえずり"
+  },
+  "harioamatsubame_jinaki": {
+    "xc_id": "1016659",
+    "recorder": "Uku Paal",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/XIBLXHRPJO/XC1016659-white-troated-needletail-mt-mokoto-250701_1381.mp3",
+    "bird_name": "ハリオアマツバメ",
+    "call_type": "地鳴き"
+  },
+  "amatsubame_saezuri": {
+    "xc_id": "902592",
+    "recorder": "Bram Piot",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/RGSEIIJGHA/XC902592-PacificSwift_Paksong-Volcano_240506_4603_edited.mp3",
+    "bird_name": "アマツバメ",
+    "call_type": "さえずり"
+  },
+  "amatsubame_jinaki": {
+    "xc_id": "286309",
+    "recorder": "Peter Boesman",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/OOECIWCSWV/XC286309-LS_59227%20Pacific%20Swift%20calls%20B.mp3",
+    "bird_name": "アマツバメ",
+    "call_type": "地鳴き"
+  },
+  "himeatsubame_saezuri": {
+    "xc_id": "1004364",
+    "recorder": "David Darrell-Lambert",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/AYKHDFBYIH/XC1004364-House-Swift-singing-very-good-2025-06-5-Benjakiti-Park%2C-Bangkok%2C-Thailand_293_edited.wav",
+    "bird_name": "ヒメアマツバメ",
+    "call_type": "さえずり"
+  },
+  "himeatsubame_jinaki": {
+    "xc_id": "1004645",
+    "recorder": "Dave Guo",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/KQMHASAYBL/XC1004645-%E5%B0%8F%E7%99%BD%E8%85%B0%E9%9B%A8%E7%87%95call-%E5%A4%A7%E7%90%86%E8%8B%8D%E5%B1%B1%E7%8E%89%E5%B8%A6%E8%B7%AF.mp3",
+    "bird_name": "ヒメアマツバメ",
+    "call_type": "地鳴き"
+  },
+  "kuina_saezuri": {
+    "xc_id": "737579",
+    "recorder": "Oriental Stork",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/GGMHGNFCWG/XC737579-birdsong-2022-02-12-%E5%B0%8F%E6%B8%85%E6%B0%B4%E6%B2%B3-%E5%B0%8F%E9%B8%8A%E9%B7%89%26%E6%99%AE%E9%80%9A%E7%A7%A7%E9%B8%A1-10-18-0.mp3",
+    "bird_name": "クイナ",
+    "call_type": "さえずり"
+  },
+  "kuina_jinaki": {
+    "xc_id": "326877",
+    "recorder": "Tom Wulf",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/XVXHTBZRRW/XC326877-Eastern%20Water%20Rail%20calls%2020160521%202139%20RUS%20OA%20Muraviovka%20Park%20TW%20LS_5.mp3",
+    "bird_name": "クイナ",
+    "call_type": "地鳴き"
+  },
+  "tsurukuina_saezuri": {
+    "xc_id": "822881",
+    "recorder": "Greg Irving",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/YWRKFXUDUR/XC822881-033-Watercock-%28Gallicrex-cinerea%29-Song-AUG-1900h-30m-200m-TaiYaiPaddiesTH_gi_4904.mp3",
+    "bird_name": "ツルクイナ",
+    "call_type": "さえずり"
+  },
+  "tsurukuina_jinaki": {
+    "xc_id": "1030587",
+    "recorder": "Peter Boesman",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/OOECIWCSWV/XC1030587-LS_51253-Watercock-call-D.mp3",
+    "bird_name": "ツルクイナ",
+    "call_type": "地鳴き"
+  },
+  "shiroharakuina_saezuri": {
+    "xc_id": "910592",
+    "recorder": "小菜鸟",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/YNARAYCDTO/XC910592-%E7%99%BD%E8%83%B8%E8%8B%A6%E6%81%B6%E9%B8%9F202406011210%E5%AD%99%E5%AE%B6%E6%9D%91song.mp3",
+    "bird_name": "シロハラクイナ",
+    "call_type": "さえずり"
+  },
+  "shiroharakuina_jinaki": {
+    "xc_id": "1030460",
+    "recorder": "Peter Boesman",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/OOECIWCSWV/XC1030460-LS_51183-White-breasted-Waterhen-call-in-pouring-rain-C.mp3",
+    "bird_name": "シロハラクイナ",
+    "call_type": "地鳴き"
+  },
+  "hikuina_saezuri": {
+    "xc_id": "917575",
+    "recorder": "脉动",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/HUWJFEFCYY/XC917575-%E7%BA%A2%E8%83%B8%E7%94%B0%E9%B8%A1_230806_0647_%E6%BA%A7%E9%98%B3%E9%95%BF%E8%8D%A1%E6%B9%96_song_A.mp3",
+    "bird_name": "ヒクイナ",
+    "call_type": "さえずり"
+  },
+  "hikuina_jinaki": {
+    "xc_id": "655478",
+    "recorder": "Saqib Khaliq",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/QUCFUBTOUB/XC655478-RB%20Crake%20call2%20xeno.mp3",
+    "bird_name": "ヒクイナ",
+    "call_type": "地鳴き"
+  },
+  "himekuina_saezuri": {
+    "xc_id": "983934",
+    "recorder": "Bosco Dies / BirdingAlbufera",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/SWDZZMJQJW/XC983934-Zappus_250325_0847.mp3",
+    "bird_name": "ヒメクイナ",
+    "call_type": "さえずり"
+  },
+  "himekuina_jinaki": {
+    "xc_id": "908614",
+    "recorder": "Chèvremont Fabian",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/VQKRAEESLX/XC908614-29-05-24-%28marouette-de-Baillon%2C-cri-cri-d-alarme%2C-r%C3%A9duction-de-bruit%2C-kleine-Netevallei%29.mp3",
+    "bird_name": "ヒメクイナ",
+    "call_type": "地鳴き"
+  },
+  "shimakuina_saezuri": {
+    "xc_id": "422047",
+    "recorder": "Terry Townshend",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/AAGSDSFQPK/XC422047-2018-06-17%202034%20Swinhoe%27s%20Rail%20%28trill%20and%20song%29%2C%20Wuerqihan%20%28good%29.mp3",
+    "bird_name": "シマクイナ",
+    "call_type": "さえずり"
+  },
+  "shimakuina_jinaki": {
+    "xc_id": "321491",
+    "recorder": "Tom Wulf",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/XVXHTBZRRW/XC321491-Swinhoe%27s%20Rail%20call%2020160614%200000%20RUS%20OA%20Muraviovka%20Park%20TW%20LS_5.mp3",
+    "bird_name": "シマクイナ",
+    "call_type": "地鳴き"
+  },
+  "kanadaduru_saezuri": {
+    "xc_id": "1060243",
+    "recorder": "Bram Piot",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/RGSEIIJGHA/XC1060243-SandhillCrane_Minesing_251114_4681_editted.mp3",
+    "bird_name": "カナダヅル",
+    "call_type": "さえずり"
+  },
+  "kanadaduru_jinaki": {
+    "xc_id": "1036233",
+    "recorder": "Greg Irving",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/YWRKFXUDUR/XC1036233-036-Crane---Sandhill-%28Grus-canadensis%29-Call-AUG-0652h-360m-HemlockLakeWI_gi_250815_004.mp3",
+    "bird_name": "カナダヅル",
+    "call_type": "地鳴き"
+  },
+  "manaduru_saezuri": {
+    "xc_id": "897754",
+    "recorder": "Barry Edmonston",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/FHQVLXJQKW/XC897754-White-naped-Crane-1.mp3",
+    "bird_name": "マナヅル",
+    "call_type": "さえずり"
+  },
+  "manaduru_jinaki": {
+    "xc_id": "294828",
+    "recorder": "Ross Gallardy",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/FNIOJOZADD/XC294828-WhitenapedCrane_Japan_01252015_calls.mp3",
+    "bird_name": "マナヅル",
+    "call_type": "地鳴き"
+  },
+  "kuroduru_saezuri": {
+    "xc_id": "961201",
+    "recorder": "FRIEDRICH Richard",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/IUFRBODZJL/XC961201-RIC_20241201_053200_061357_Grues-cendr%C3%A9es-juv_adult_ailes.mp3",
+    "bird_name": "クロヅル",
+    "call_type": "さえずり"
+  },
+  "kuroduru_jinaki": {
+    "xc_id": "961201",
+    "recorder": "FRIEDRICH Richard",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/IUFRBODZJL/XC961201-RIC_20241201_053200_061357_Grues-cendr%C3%A9es-juv_adult_ailes.mp3",
+    "bird_name": "クロヅル",
+    "call_type": "地鳴き"
+  },
+  "nabeduru_saezuri": {
+    "xc_id": "840638",
+    "recorder": "Bo Shunqi 薄顺奇",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/YNOAMCSSHX/XC840638-Hooded-Crane%E7%99%BD%E5%A4%B4%E9%B9%A4-song-%E5%B4%87%E6%98%8E%E4%B8%9C%E6%BB%A9-230211_1408--A.mp3",
+    "bird_name": "ナベヅル",
+    "call_type": "さえずり"
+  },
+  "nabeduru_jinaki": {
+    "xc_id": "454871",
+    "recorder": "Phil Gregory",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/GNEWSLMDAM/XC454871-HOODED%20CRANES%20Flight%20calls%202%20birds%20one%20after%20the%20other%20and%20juvs%20rasping%20E%20Fields%20Feb%202%202019%20PG1168.mp3",
+    "bird_name": "ナベヅル",
+    "call_type": "地鳴き"
+  },
+  "seitakashigi_saezuri": {
+    "xc_id": "1005538",
+    "recorder": "David Darrell-Lambert",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/AYKHDFBYIH/XC1005538-Black-winged-Stilt-call-very-good-2025-06-10-Phanthai-Norasing-Non-hunting-Area--DMCR-Center-II%E2%80%8B-%28Khok-Kham-mangroves-%26-mudflats%29%2C-Samut-Sakhon%2C-Thailand_340_Edited.wav",
+    "bird_name": "セイタカシギ",
+    "call_type": "さえずり"
+  },
+  "seitakashigi_jinaki": {
+    "xc_id": "973070",
+    "recorder": "Greg Irving",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/YWRKFXUDUR/XC973070-061-Stilt---Black-winged-%28Himantopus-himantopus%29-Call-FEB-1136h-170m-HuayChorakaeTH_gi_8256.mp3",
+    "bird_name": "セイタカシギ",
+    "call_type": "地鳴き"
+  },
+  "sorihashiseitakashigi_saezuri": {
+    "xc_id": "992550",
+    "recorder": "Feather V",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/GZUBDKWLGI/XC992550-pied-avocet.mp3",
+    "bird_name": "ソリハシセイタカシギ",
+    "call_type": "さえずり"
+  },
+  "sorihashiseitakashigi_jinaki": {
+    "xc_id": "988393",
+    "recorder": "Peter Boesman",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/OOECIWCSWV/XC988393-LS_59987-Pied-Avocet-call-flight-group-C.mp3",
+    "bird_name": "ソリハシセイタカシギ",
+    "call_type": "地鳴き"
+  },
+  "miyakodori_saezuri": {
+    "xc_id": "987590",
+    "recorder": "Reyt Sylvain",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/REDEBRKSQW/XC987590-huitrier-pie---cris-vol---oman---Fri-Feb-14-2025-00-28-18.mp3",
+    "bird_name": "ミヤコドリ",
+    "call_type": "さえずり"
+  },
+  "miyakodori_jinaki": {
+    "xc_id": "974466",
+    "recorder": "David Darrell-Lambert",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/AYKHDFBYIH/XC974466-Western-Oystercatcher-flight-call-very-good-2025-02-19-West-Thurrock-Marshes%2C-Essex%2C-England_002_edited.wav",
+    "bird_name": "ミヤコドリ",
+    "call_type": "地鳴き"
+  },
+  "daizen_saezuri": {
+    "xc_id": "974544",
+    "recorder": "JAYRSON ARAUJO DE OLIVEIRA",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/LXKLWEDKEM/XC974544-12-02-2025-9e43-Batuirucu-de-axila-preta-%28Pluvialis-squatarola%29-LUIS-CORREIA.mp3",
+    "bird_name": "ダイゼン",
+    "call_type": "さえずり"
+  },
+  "daizen_jinaki": {
+    "xc_id": "996795",
+    "recorder": "Francesco Sottile",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/ITHRUQEQCF/XC996795-Pluvialis-squatarola_call_0509_1930.mp3",
+    "bird_name": "ダイゼン",
+    "call_type": "地鳴き"
+  },
+  "munaguro_saezuri": {
+    "xc_id": "962866",
+    "recorder": "Peter Ericsson",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/VTCWEPHHIE/XC962866-250123_0746sm.mp3",
+    "bird_name": "ムナグロ",
+    "call_type": "さえずり"
+  },
+  "munaguro_jinaki": {
+    "xc_id": "881231",
+    "recorder": "小菜鸟",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/YNARAYCDTO/XC881231-%E9%87%91%E6%96%91%E9%B8%BB240310_0712%E5%9B%9B%E5%AD%A3%E5%86%9C%E5%9C%BAcall.wav",
+    "bird_name": "ムナグロ",
+    "call_type": "地鳴き"
+  },
+  "kochidori_saezuri": {
+    "xc_id": "974014",
+    "recorder": "Greg Irving",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/YWRKFXUDUR/XC974014-062-Plover---Little-Ringed-%28Charadrius-dubius%29-Flight-FEB-1645h-100m-BanTaMuiMekongTH_gi_8520.mp3",
+    "bird_name": "コチドリ",
+    "call_type": "さえずり"
+  },
+  "kochidori_jinaki": {
+    "xc_id": "974014",
+    "recorder": "Greg Irving",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/YWRKFXUDUR/XC974014-062-Plover---Little-Ringed-%28Charadrius-dubius%29-Flight-FEB-1645h-100m-BanTaMuiMekongTH_gi_8520.mp3",
+    "bird_name": "コチドリ",
+    "call_type": "地鳴き"
+  },
+  "ikaruchidori_saezuri": {
+    "xc_id": "603902",
+    "recorder": "Gerbenth",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/RLHNOEMHJU/XC603902-2018-05-31%2012.57.27-JapanseBontbekplevier.mp3",
+    "bird_name": "イカルチドリ",
+    "call_type": "さえずり"
+  },
+  "ikaruchidori_jinaki": {
+    "xc_id": "",
+    "recorder": "Frank Lambert",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/YTUXOCTUEM/Charadrius_placidus-FL%20calls%20nr%20Foping%20Town%2024Jul12%20LS110885.mp3",
+    "bird_name": "イカルチドリ",
+    "call_type": "地鳴き"
+  },
+  "tageri_saezuri": {
+    "xc_id": "987170",
+    "recorder": "Pere Josa",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/DMQLDFORTG/XC987170-Vanvan_260325_Song_BM_TS.wav",
+    "bird_name": "タゲリ",
+    "call_type": "さえずり"
+  },
+  "tageri_jinaki": {
+    "xc_id": "999015",
+    "recorder": "Branislav Oblučar",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/ASHYJYGAZS/XC999015-Van.van-calls-evening-Mala-Mlaka-250516_2329.mp3",
+    "bird_name": "タゲリ",
+    "call_type": "地鳴き"
+  },
+  "medaichidori_saezuri": {
+    "xc_id": "491185",
+    "recorder": "Peter Boesman",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/OOECIWCSWV/XC491185-LS103519%20Lesser%20Sand%20Plover%20song%20and%20call%20B.mp3",
+    "bird_name": "メダイチドリ",
+    "call_type": "さえずり"
+  },
+  "medaichidori_jinaki": {
+    "xc_id": "286060",
+    "recorder": "Peter Boesman",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/OOECIWCSWV/XC286060-LS_58728%20Sandplover%20call%20A.mp3",
+    "bird_name": "メダイチドリ",
+    "call_type": "地鳴き"
+  },
+  "shirochidori_saezuri": {
+    "xc_id": "988294",
+    "recorder": "Reyt Sylvain",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/REDEBRKSQW/XC988294-gci---cris-vol---Fri-Feb-14-2025-02-16-10.mp3",
+    "bird_name": "シロチドリ",
+    "call_type": "さえずり"
+  },
+  "shirochidori_jinaki": {
+    "xc_id": "892982",
+    "recorder": "Bo Shunqi薄顺奇",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/YNOAMCSSHX/XC892982-Kentish-Plover%E7%8E%AF%E9%A2%88%E9%B8%BB-%E9%BB%91%E8%85%B9%E6%BB%A8%E9%B9%AC-call-%E4%BC%91%E6%81%AF%E7%BE%A4-%E5%A5%89%E8%B4%A4%E6%B5%B7%E6%B9%BE-CICADA-2403240859_0423---B.mp3",
+    "bird_name": "シロチドリ",
+    "call_type": "地鳴き"
+  },
+  "tamashigi_saezuri": {
+    "xc_id": "936883",
+    "recorder": "Greg Irving",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/YWRKFXUDUR/XC936883-065-Painted-Snipe---Greater-%28Rostratula-benghalensis%29-Song-SEP-1457h-0m-BangKhaemTH_gi_7661.mp3",
+    "bird_name": "タマシギ",
+    "call_type": "さえずり"
+  },
+  "tamashigi_jinaki": {
+    "xc_id": "1042819",
+    "recorder": "Romuald Mikusek",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/BLMSIUFTFU/XC1042819-130225_009_Greater-Painted-snipe.mp3",
+    "bird_name": "タマシギ",
+    "call_type": "地鳴き"
+  },
+  "renkaku_saezuri": {
+    "xc_id": "1018181",
+    "recorder": "Ray Tsu 诸仁",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/FROVFAFTMA/XC1018181-20250720-0441-%E6%B5%B7%E6%B9%BE%E6%A3%AE%E6%9E%97-%E6%B0%B4%E9%9B%89song-bmic-h1e.wav",
+    "bird_name": "レンカク",
+    "call_type": "さえずり"
+  },
+  "renkaku_jinaki": {
+    "xc_id": "936408",
+    "recorder": "Greg Irving",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/YWRKFXUDUR/XC936408-066-Jacana---Pheasant-tailed-%28Hydrophasianus-chirugus%29-Call-SEP-1014h-5m-BangKhaemTH_gi_7639.mp3",
+    "bird_name": "レンカク",
+    "call_type": "地鳴き"
+  },
+  "chuushakushigi_saezuri": {
+    "xc_id": "973478",
+    "recorder": "Aladdin",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/WDTGKKSKNG/XC973478-Whimbrel---16-Feb-2025.mp3",
+    "bird_name": "チュウシャクシギ",
+    "call_type": "さえずり"
+  },
+  "chuushakushigi_jinaki": {
+    "xc_id": "995937",
+    "recorder": "Bo Shunqi 薄顺奇",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/YNOAMCSSHX/XC995937-Whimbrel-%E4%B8%AD%E6%9D%93%E9%B9%AC-call--%E6%B7%B1%E5%9C%B3%E6%97%A5%E5%87%BA%E5%89%A7%E5%9C%BA-%E5%B0%8F%E9%94%85-%2BJS4006%E5%8D%95%E9%BA%A6-250205_0652---A.mp3",
+    "bird_name": "チュウシャクシギ",
+    "call_type": "地鳴き"
+  },
+  "koshakushigi_saezuri": {
+    "xc_id": "931502",
+    "recorder": "Jochem Verweij",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/OECYVAVRRI/XC931502-180109_0453.mp3",
+    "bird_name": "コシャクシギ",
+    "call_type": "さえずり"
+  },
+  "koshakushigi_jinaki": {
+    "xc_id": "792063",
+    "recorder": "Bo Shunqi 薄顺奇",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/YNOAMCSSHX/XC792063-Little-Curlew%E5%B0%8F%E6%9D%93%E9%B9%AC-call-2304081129-%E5%A5%89%E8%B4%A4%E6%B5%B7%E6%B9%BESHADOW_3101S12.mp3",
+    "bird_name": "コシャクシギ",
+    "call_type": "地鳴き"
+  },
+  "daishakushigi_saezuri": {
+    "xc_id": "960305",
+    "recorder": "Frederik Fluyt",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/COJPKBPZLS/XC960305-wulp.mp3",
+    "bird_name": "ダイシャクシギ",
+    "call_type": "さえずり"
+  },
+  "daishakushigi_jinaki": {
+    "xc_id": "982449",
+    "recorder": "Sven Normant",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/MPDFSJHTXH/XC982449-courlis_cendr%C3%A9_call_gawi_11_A.wav",
+    "bird_name": "ダイシャクシギ",
+    "call_type": "地鳴き"
+  },
+  "hourokushigi_saezuri": {
+    "xc_id": "658131",
+    "recorder": "Terry Townshend",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/AAGSDSFQPK/XC658131-2021-06-16%20Eastern%20Curlew%20calls%20and%20song%2C%20Inner%20Mongolia.mp3",
+    "bird_name": "ホウロクシギ",
+    "call_type": "さえずり"
+  },
+  "hourokushigi_jinaki": {
+    "xc_id": "658131",
+    "recorder": "Terry Townshend",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/AAGSDSFQPK/XC658131-2021-06-16%20Eastern%20Curlew%20calls%20and%20song%2C%20Inner%20Mongolia.mp3",
+    "bird_name": "ホウロクシギ",
+    "call_type": "地鳴き"
+  },
+  "oosorihashishigi_saezuri": {
+    "xc_id": "1041728",
+    "recorder": "David Darrell-Lambert",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/AYKHDFBYIH/XC1041728-Bar-tailed-Godwit-flight-call-very-good-2025-09-19-Easington-Lagoon%2C-Spurn%2C-Yorkshire%2C-England_017A_edited.wav",
+    "bird_name": "オオソリハシシギ",
+    "call_type": "さえずり"
+  },
+  "oosorihashishigi_jinaki": {
+    "xc_id": "982485",
+    "recorder": "Sven Normant",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/MPDFSJHTXH/XC982485-barge_rousse_ambiance_call_14_A.wav",
+    "bird_name": "オオソリハシシギ",
+    "call_type": "地鳴き"
+  },
+  "oguroshigi_saezuri": {
+    "xc_id": "966082",
+    "recorder": "Aladdin",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/WDTGKKSKNG/XC966082-Black-tailed-Godwit.mp3",
+    "bird_name": "オグロシギ",
+    "call_type": "さえずり"
+  },
+  "oguroshigi_jinaki": {
+    "xc_id": "1026619",
+    "recorder": "David Darrell-Lambert",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/AYKHDFBYIH/XC1026619-Islandic-Black-tailed-Godwit-flight-call-good-2025-03-27-Rainham-Marshes%2C-London%2C-England_0019_001_edited.wav",
+    "bird_name": "オグロシギ",
+    "call_type": "地鳴き"
+  },
+  "oohashishigi_saezuri": {
+    "xc_id": "1055893",
+    "recorder": "Christiana Fattorelli",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/NREKAVFDXE/XC1055893-Long-billed-Dowitcher.mp3",
+    "bird_name": "オオハシシギ",
+    "call_type": "さえずり"
+  },
+  "oohashishigi_jinaki": {
+    "xc_id": "617775",
+    "recorder": "Manuel Grosselet",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/ILUHRFXDNU/XC617775-Long-billed%20Dowitcher%20calls%20mina%20eneo%2020%201200_1571.mp3",
+    "bird_name": "オオハシシギ",
+    "call_type": "地鳴き"
+  },
+  "yamashigi_saezuri": {
+    "xc_id": "993720",
+    "recorder": "Radek Grochowski",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/CHZCZGQRZW/XC993720-250428_0412-Scolopax-rusticola-song.mp3",
+    "bird_name": "ヤマシギ",
+    "call_type": "さえずり"
+  },
+  "yamashigi_jinaki": {
+    "xc_id": "959607",
+    "recorder": "Sonothèque ADVL",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/BJAXFFKOML/XC959607-B%C3%A9cassedesbois_030125_duceyboisdardennes_15h48_battementailes.mp3",
+    "bird_name": "ヤマシギ",
+    "call_type": "地鳴き"
+  },
+  "aoshigi_saezuri": {
+    "xc_id": "717426",
+    "recorder": "chujumaru",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/EGOWNDHMEI/XC717426-2021-02-15_175615_sound.mp3",
+    "bird_name": "アオシギ",
+    "call_type": "さえずり"
+  },
+  "aoshigi_jinaki": {
+    "xc_id": "401822",
+    "recorder": "Kuan-Chieh (Chuck) Hung, TaiwanBirdGuide.com",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/SFPCKSRWSJ/XC401822-FlightCall_UNI_N_10m_20180205_113358OK.mp3",
+    "bird_name": "アオシギ",
+    "call_type": "地鳴き"
+  },
+  "oojishigi_saezuri": {
+    "xc_id": "286264",
+    "recorder": "Peter Boesman",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/OOECIWCSWV/XC286264-LS_59154%20Latham%27s%20Snipe%20ground%20song.mp3",
+    "bird_name": "オオジシギ",
+    "call_type": "さえずり"
+  },
+  "oojishigi_jinaki": {
+    "xc_id": "488222",
+    "recorder": "Amar-Singh HSS",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/QBVYYBZQKH/XC488222-Latham%27s%20Snipe-calls-1-3-Xeno-ground-East%20Hokkaido%2C%20Japan-11th%20June%202019.mp3",
+    "bird_name": "オオジシギ",
+    "call_type": "地鳴き"
+  },
+  "tashigi_saezuri": {
+    "xc_id": "961740",
+    "recorder": "Ruysschaert",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/CGVHGYNNOJ/XC961740-250119-07h35_BecMar-Parade_Maubeuge.mp3",
+    "bird_name": "タシギ",
+    "call_type": "さえずり"
+  },
+  "tashigi_jinaki": {
+    "xc_id": "962810",
+    "recorder": "David Darrell-Lambert",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/AYKHDFBYIH/XC962810-Common-Snipe-flight-call-very-good-2025-01-13-Thankon-Khat-paddies%2C-Nakhon-Pathom%2C-Thailand_015_edited.wav",
+    "bird_name": "タシギ",
+    "call_type": "地鳴き"
+  },
+  "akaerihireashishigi_saezuri": {
+    "xc_id": "963359",
+    "recorder": "Nicolas Martinez",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/CVLRXNQXVL/XC963359-rednecked-ZOOM0142_Tr1.mp3",
+    "bird_name": "アカエリヒレアシシギ",
+    "call_type": "さえずり"
+  },
+  "akaerihireashishigi_jinaki": {
+    "xc_id": "1030421",
+    "recorder": "Frank Lambert",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/YTUXOCTUEM/XC1030421-Phalaropus_lobatus-FL-calls-flight-%5BSteppe-gull%5D-Gull-colony-nr-Maishukur-Kaz-22May25-9am-LS110346b.mp3",
+    "bird_name": "アカエリヒレアシシギ",
+    "call_type": "地鳴き"
+  },
+  "isoshigi_saezuri": {
+    "xc_id": "973824",
+    "recorder": "Greg Irving",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/YWRKFXUDUR/XC973824-067-Sandpiper---Common-%28Actitis-hypoleucos%29-Call-FEB-1820h-110m-BanTaMuiMekongTH_gi_8513.mp3",
+    "bird_name": "イソシギ",
+    "call_type": "さえずり"
+  },
+  "isoshigi_jinaki": {
+    "xc_id": "973824",
+    "recorder": "Greg Irving",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/YWRKFXUDUR/XC973824-067-Sandpiper---Common-%28Actitis-hypoleucos%29-Call-FEB-1820h-110m-BanTaMuiMekongTH_gi_8513.mp3",
+    "bird_name": "イソシギ",
+    "call_type": "地鳴き"
+  },
+  "kusashigi_saezuri": {
+    "xc_id": "965502",
+    "recorder": "Michael John O Mahony",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/PSTCNWXKNE/XC965502-green-sand.mp3",
+    "bird_name": "クサシギ",
+    "call_type": "さえずり"
+  },
+  "kusashigi_jinaki": {
+    "xc_id": "960562",
+    "recorder": "João Tomás",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/POVKNQVSGU/XC960562-Tringa-ochropus_flight-call_110125_Cantalapiedra-La-Carolina.wav",
+    "bird_name": "クサシギ",
+    "call_type": "地鳴き"
+  },
+  "kiashishigi_saezuri": {
+    "xc_id": "286073",
+    "recorder": "Peter Boesman",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/OOECIWCSWV/XC286073-LS_58742%20Grey-tailed%20Tattler%20call%20A.mp3",
+    "bird_name": "キアシシギ",
+    "call_type": "さえずり"
+  },
+  "kiashishigi_jinaki": {
+    "xc_id": "286073",
+    "recorder": "Peter Boesman",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/OOECIWCSWV/XC286073-LS_58742%20Grey-tailed%20Tattler%20call%20A.mp3",
+    "bird_name": "キアシシギ",
+    "call_type": "地鳴き"
+  },
+  "koaoashishigi_saezuri": {
+    "xc_id": "777454",
+    "recorder": "JISHNU KIZHAKKILLAM",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/TRDPDBQNRO/XC777454-230128_010-marsh.mp3",
+    "bird_name": "コアオアシシギ",
+    "call_type": "さえずり"
+  },
+  "koaoashishigi_jinaki": {
+    "xc_id": "781371",
+    "recorder": "Peter Boesman",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/OOECIWCSWV/XC781371-LS_52772-Marsh-Sandpiper-call-flight-C-Sand-PLover-.mp3",
+    "bird_name": "コアオアシシギ",
+    "call_type": "地鳴き"
+  },
+  "akaashishigi_saezuri": {
+    "xc_id": "961396",
+    "recorder": "Paul Kelly",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/WBZVBDKAUE/XC961396-redshanksong.wav",
+    "bird_name": "アカアシシギ",
+    "call_type": "さえずり"
+  },
+  "akaashishigi_jinaki": {
+    "xc_id": "966074",
+    "recorder": "Aladdin",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/WDTGKKSKNG/XC966074-Common-Redshank---Flight-call.mp3",
+    "bird_name": "アカアシシギ",
+    "call_type": "地鳴き"
+  },
+  "tsurushigi_saezuri": {
+    "xc_id": "961246",
+    "recorder": "Cedric Mroczko",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/TJSRKPHQNP/XC961246-250105_002_Tr1.mp3",
+    "bird_name": "ツルシギ",
+    "call_type": "さえずり"
+  },
+  "tsurushigi_jinaki": {
+    "xc_id": "991482",
+    "recorder": "Joost van Bruggen",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/RNMRWBXEZJ/XC991482-Spotted-Redshank%2C-flight-call%2C-Bengal-Florican-grasslands%2C-Cambodia%2C-250225%2C-0747-uur.wav",
+    "bird_name": "ツルシギ",
+    "call_type": "地鳴き"
+  },
+  "aoashishigi_saezuri": {
+    "xc_id": "987571",
+    "recorder": "Reyt Sylvain",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/REDEBRKSQW/XC987571-Chevalier-aboyeur_Thu-Feb-13-2025-18-34-47.mp3",
+    "bird_name": "アオアシシギ",
+    "call_type": "さえずり"
+  },
+  "aoashishigi_jinaki": {
+    "xc_id": "1027535",
+    "recorder": "Joost van Bruggen",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/RNMRWBXEZJ/XC1027535-Groenpootruiter%2C-flightcall%2C-IGS%2C-020525%2C-1133-uur.mp3",
+    "bird_name": "アオアシシギ",
+    "call_type": "地鳴き"
+  },
+  "kyoujoushigi_saezuri": {
+    "xc_id": "974473",
+    "recorder": "JAYRSON ARAUJO DE OLIVEIRA",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/LXKLWEDKEM/XC974473-12-02-2025-7e9-Vira-pedras-LUIS-CORREIA.mp3",
+    "bird_name": "キョウジョシギ",
+    "call_type": "さえずり"
+  },
+  "kyoujoushigi_jinaki": {
+    "xc_id": "1033334",
+    "recorder": "Paul Coiffard",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/TLORJJUZZT/XC1033334-Tournepierre-%C3%A0-collier-A-NFC-tew-and-short-calls-20250826_2210-Rochefort.wav",
+    "bird_name": "キョウジョシギ",
+    "call_type": "地鳴き"
+  },
+  "obashigi_saezuri": {
+    "xc_id": "118149",
+    "recorder": "Thijs Fijen",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/YEEQSGIKMT/XC118149-Great%20Knot_20121120_03_vluchtroep.mp3",
+    "bird_name": "オバシギ",
+    "call_type": "さえずり"
+  },
+  "obashigi_jinaki": {
+    "xc_id": "982482",
+    "recorder": "Sven Normant",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/MPDFSJHTXH/XC982482-anadyr_call_14_C.wav",
+    "bird_name": "オバシギ",
+    "call_type": "地鳴き"
+  },
+  "koobashigi_saezuri": {
+    "xc_id": "1003477",
+    "recorder": "Mark Pearson",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/PDMQHRJMYN/XC1003477-Knot-29.04.25-FLA.mp3",
+    "bird_name": "コオバシギ",
+    "call_type": "さえずり"
+  },
+  "koobashigi_jinaki": {
+    "xc_id": "1003477",
+    "recorder": "Mark Pearson",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/PDMQHRJMYN/XC1003477-Knot-29.04.25-FLA.mp3",
+    "bird_name": "コオバシギ",
+    "call_type": "地鳴き"
+  },
+  "erimakishigi_saezuri": {
+    "xc_id": "1001334",
+    "recorder": "Uku Paal",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/XIBLXHRPJO/XC1001334-CALPUG-TARVASTU-250509_1145.mp3",
+    "bird_name": "エリマキシギ",
+    "call_type": "さえずり"
+  },
+  "erimakishigi_jinaki": {
+    "xc_id": "360222",
+    "recorder": "Francesco Sottile",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/ITHRUQEQCF/XC360222-Combattenti_calls_1137.mp3",
+    "bird_name": "エリマキシギ",
+    "call_type": "地鳴き"
+  },
+  "kiriai_saezuri": {
+    "xc_id": "911575",
+    "recorder": "Niclas Backstrom",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/EDUVQXFOSM/XC911575-132_240607_Calidris_falcinellus_Song.wav",
+    "bird_name": "キリアイ",
+    "call_type": "さえずり"
+  },
+  "kiriai_jinaki": {
+    "xc_id": "781369",
+    "recorder": "Peter Boesman",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/OOECIWCSWV/XC781369-LS_52765-Broad-billed-Sandpiper-call-B-Little-Stint-C-Redshank-C.mp3",
+    "bird_name": "キリアイ",
+    "call_type": "地鳴き"
+  },
+  "uzurashigi_saezuri": {
+    "xc_id": "1032738",
+    "recorder": "Lim Ying Hien 林勇贤",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/NXHTMHMNSS/XC1032738-Sharp-tailed-Sandpiper-20250817-11.36am-Ogii-Lake-xeno.mp3",
+    "bird_name": "ウズラシギ",
+    "call_type": "さえずり"
+  },
+  "uzurashigi_jinaki": {
+    "xc_id": "859705",
+    "recorder": "Peter Boesman",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/OOECIWCSWV/XC859705-LS_55654-Sharp-tailed-Sandpiper-call-flight-B.mp3",
+    "bird_name": "ウズラシギ",
+    "call_type": "地鳴き"
+  },
+  "saruhamashigi_saezuri": {
+    "xc_id": "988280",
+    "recorder": "Reyt Sylvain",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/REDEBRKSQW/XC988280-b%C3%A9casseau-cocorli---cris-vol---oman---Fri-Feb-14-2025-01-57-08.mp3",
+    "bird_name": "サルハマシギ",
+    "call_type": "さえずり"
+  },
+  "saruhamashigi_jinaki": {
+    "xc_id": "947998",
+    "recorder": "Peter Boesman",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/OOECIWCSWV/XC947998-LS_59736-Curlew-Sandpiper-call-B.mp3",
+    "bird_name": "サルハマシギ",
+    "call_type": "地鳴き"
+  },
+  "ojirotounen_saezuri": {
+    "xc_id": "1032747",
+    "recorder": "Lars Edenius",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/MMEJYLOPDO/XC1032747-Mosn%C3%A4ppa_11.mp3",
+    "bird_name": "オジロトウネン",
+    "call_type": "さえずり"
+  },
+  "ojirotounen_jinaki": {
+    "xc_id": "813273",
+    "recorder": "Peter Boesman",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/OOECIWCSWV/XC813273-LS_54339-Temminck-QQ-calls-A-Little-Stint-C.mp3",
+    "bird_name": "オジロトウネン",
+    "call_type": "地鳴き"
+  },
+  "hibarishigi_saezuri": {
+    "xc_id": "192314",
+    "recorder": "Ross Gallardy",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/FNIOJOZADD/XC192314-longtoedstint_okinawa_082314_calls2.mp3",
+    "bird_name": "ヒバリシギ",
+    "call_type": "さえずり"
+  },
+  "hibarishigi_jinaki": {
+    "xc_id": "192314",
+    "recorder": "Ross Gallardy",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/FNIOJOZADD/XC192314-longtoedstint_okinawa_082314_calls2.mp3",
+    "bird_name": "ヒバリシギ",
+    "call_type": "地鳴き"
+  },
+  "tounen_saezuri": {
+    "xc_id": "896223",
+    "recorder": "Lim Ying Hien",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/NXHTMHMNSS/XC896223-Red-necked-Stint-20240414-Serdang-e-xeno.mp3",
+    "bird_name": "トウネン",
+    "call_type": "さえずり"
+  },
+  "tounen_jinaki": {
+    "xc_id": "719959",
+    "recorder": "Bo Shunqi",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/YNOAMCSSHX/XC719959-%20call%20180503%E6%A8%AA%E6%B2%99SHADOW_0254S12.mp3",
+    "bird_name": "トウネン",
+    "call_type": "地鳴き"
+  },
+  "herashigi_saezuri": {
+    "xc_id": "737210",
+    "recorder": "Alex Yakovlev",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/NETFZPZEUQ/XC737210-220605_0218_C-pygmaea.mp3",
+    "bird_name": "ヘラシギ",
+    "call_type": "さえずり"
+  },
+  "herashigi_jinaki": {
+    "xc_id": "737210",
+    "recorder": "Alex Yakovlev",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/NETFZPZEUQ/XC737210-220605_0218_C-pygmaea.mp3",
+    "bird_name": "ヘラシギ",
+    "call_type": "地鳴き"
+  },
+  "miyubishigi_saezuri": {
+    "xc_id": "1000307",
+    "recorder": "Aku Kalliomäki",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/EUNWJADFAF/XC1000307-calalb_song_nous15.wav",
+    "bird_name": "ミユビシギ",
+    "call_type": "さえずり"
+  },
+  "miyubishigi_jinaki": {
+    "xc_id": "1022229",
+    "recorder": "Stanislas Wroza",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/SDPCHKOHRH/XC1022229-Sat-May-31-2025-01-29-46-B%C3%A9casseau-sanderling-nocmig-aberrant-ot%3Dtringa-like-calls-B.wav",
+    "bird_name": "ミユビシギ",
+    "call_type": "地鳴き"
+  },
+  "hamashigi_saezuri": {
+    "xc_id": "983482",
+    "recorder": "Philip Steinhoff",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/ONGZKMANHN/XC983482-SONGMETER2_20250325_014302_UnknownFlightCall_NocMig.wav",
+    "bird_name": "ハマシギ",
+    "call_type": "さえずり"
+  },
+  "hamashigi_jinaki": {
+    "xc_id": "1003186",
+    "recorder": "Andrew McCafferty",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/HMSTLGFWNA/XC1003186-LS110744-dunlin-calls.mp3",
+    "bird_name": "ハマシギ",
+    "call_type": "地鳴き"
+  },
+  "tsubamechidori_saezuri": {
+    "xc_id": "193586",
+    "recorder": "Ross Gallardy",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/FNIOJOZADD/XC193586-OrientalPratincole_Okinawa_083114_flyover_singlecall.mp3",
+    "bird_name": "ツバメチドリ",
+    "call_type": "さえずり"
+  },
+  "tsubamechidori_jinaki": {
+    "xc_id": "193586",
+    "recorder": "Ross Gallardy",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/FNIOJOZADD/XC193586-OrientalPratincole_Okinawa_083114_flyover_singlecall.mp3",
+    "bird_name": "ツバメチドリ",
+    "call_type": "地鳴き"
+  },
+  "yurikamome_saezuri": {
+    "xc_id": "971943",
+    "recorder": "Evan van Wezel",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/UXVHTJXTBT/XC971943-vogel-onbekend-31-jan-0054.mp3",
+    "bird_name": "ユリカモメ",
+    "call_type": "さえずり"
+  },
+  "yurikamome_jinaki": {
+    "xc_id": "1003303",
+    "recorder": "Dave Guo",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/KQMHASAYBL/XC1003303-%E7%BA%A2%E5%98%B4%E9%B8%A5call-%E5%A4%A7%E7%90%86%E6%B4%B1%E6%B5%B7%E8%BE%B9.mp3",
+    "bird_name": "ユリカモメ",
+    "call_type": "地鳴き"
+  },
+  "umineko_saezuri": {
+    "xc_id": "1016634",
+    "recorder": "Uku Paal",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/XIBLXHRPJO/XC1016634-black-tailed-gull-vardijarv-250628_1292.mp3",
+    "bird_name": "ウミネコ",
+    "call_type": "さえずり"
+  },
+  "umineko_jinaki": {
+    "xc_id": "286306",
+    "recorder": "Peter Boesman",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/OOECIWCSWV/XC286306-LS_59219%20Black-tailed%20Gull%20call%20A.mp3",
+    "bird_name": "ウミネコ",
+    "call_type": "地鳴き"
+  },
+  "kamome_saezuri": {
+    "xc_id": "961275",
+    "recorder": "Benoit Froelich",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/BOMQOWIQVI/XC961275-20250115_003556GoelandCendr%C3%A9.mp3",
+    "bird_name": "カモメ",
+    "call_type": "さえずり"
+  },
+  "kamome_jinaki": {
+    "xc_id": "991534",
+    "recorder": "Astrid Cervantes",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/GHZBANAZPO/XC991534-Bird-call-----20.03.2025-----01.30u.mp3",
+    "bird_name": "カモメ",
+    "call_type": "地鳴き"
+  },
+  "segurokamome_saezuri": {
+    "xc_id": "984422",
+    "recorder": "Guillaume Bigayon",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/HCKTRQCLWR/XC984422-Go%C3%A9land_argent%C3%A9250310_1137.mp3",
+    "bird_name": "セグロカモメ",
+    "call_type": "さえずり"
+  },
+  "segurokamome_jinaki": {
+    "xc_id": "1002938",
+    "recorder": "Philippe_Grange",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/WYRMCTPCIX/XC1002938-Marais-d-olonne-1-3052025-Larus-argentatus-alarme--.wav",
+    "bird_name": "セグロカモメ",
+    "call_type": "地鳴き"
+  },
+  "oosegurokamome_saezuri": {
+    "xc_id": "1016568",
+    "recorder": "Uku Paal",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/XIBLXHRPJO/XC1016568-slaty-backed-gull-cape-nosappu-250628_1293b.mp3",
+    "bird_name": "オオセグロカモメ",
+    "call_type": "さえずり"
+  },
+  "oosegurokamome_jinaki": {
+    "xc_id": "294816",
+    "recorder": "Ross Gallardy",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/FNIOJOZADD/XC294816-SlatyBackedGull_Japan_01222015_longcall3.mp3",
+    "bird_name": "オオセグロカモメ",
+    "call_type": "地鳴き"
+  },
+  "koajisashi_saezuri": {
+    "xc_id": "980804",
+    "recorder": "Aladdin",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/WDTGKKSKNG/XC980804-Little-Tern---March-2025.mp3",
+    "bird_name": "コアジサシ",
+    "call_type": "さえずり"
+  },
+  "koajisashi_jinaki": {
+    "xc_id": "982440",
+    "recorder": "Sven Normant",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/MPDFSJHTXH/XC982440-sterne_naine_flock_gawi_call_11_B.wav",
+    "bird_name": "コアジサシ",
+    "call_type": "地鳴き"
+  },
+  "kuroharaajisashi_saezuri": {
+    "xc_id": "973471",
+    "recorder": "Aladdin",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/WDTGKKSKNG/XC973471-Whiskered-Tern---16-Feb-2025.mp3",
+    "bird_name": "クロハラアジサシ",
+    "call_type": "さえずり"
+  },
+  "kuroharaajisashi_jinaki": {
+    "xc_id": "1030497",
+    "recorder": "Peter Boesman",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/OOECIWCSWV/XC1030497-LS_50660-Whiskered-Tern-call-B.mp3",
+    "bird_name": "クロハラアジサシ",
+    "call_type": "地鳴き"
+  },
+  "ajisashi_saezuri": {
+    "xc_id": "960971",
+    "recorder": "Aladdin",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/WDTGKKSKNG/XC960971-Common-Tern.mp3",
+    "bird_name": "アジサシ",
+    "call_type": "さえずり"
+  },
+  "ajisashi_jinaki": {
+    "xc_id": "1016022",
+    "recorder": "Dave Guo",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/KQMHASAYBL/XC1016022-%E6%99%AE%E9%80%9A%E7%87%95%E9%B8%A5flight-call-%E9%80%9A%E8%BE%BD%E8%8A%B1%E5%91%BC%E8%88%92%E6%B3%A1%E5%AD%90.mp3",
+    "bird_name": "アジサシ",
+    "call_type": "地鳴き"
+  },
+  "hajirokaitsiburi_saezuri": {
+    "xc_id": "896456",
+    "recorder": "Alain De Broyer",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/QJYMMMPQIE/XC896456-GCN-240409_02h42_RochefortBE_ADeBroyer.mp3",
+    "bird_name": "ハジロカイツブリ",
+    "call_type": "さえずり"
+  },
+  "hajirokaitsiburi_jinaki": {
+    "xc_id": "578258",
+    "recorder": "Bobby Wilcox",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/YHKQPPJDVP/XC578258-200710_0216EAGR%20calls%2020m%20Catnip%200500%20mp3%20amp.mp3",
+    "bird_name": "ハジロカイツブリ",
+    "call_type": "地鳴き"
+  },
+  "akaerikaitsiburi_saezuri": {
+    "xc_id": "1031305",
+    "recorder": "Frank Lambert",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/YTUXOCTUEM/XC1031305-Podiceps_grisegena_nom-FL-song-nr-Egindykol-24May25-9.33am-LS110461a.mp3",
+    "bird_name": "アカエリカイツブリ",
+    "call_type": "さえずり"
+  },
+  "akaerikaitsiburi_jinaki": {
+    "xc_id": "1001316",
+    "recorder": "Uku Paal",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/XIBLXHRPJO/XC1001316-PODGRI-call-S4A10246_20250501_211502-m%C3%A4nnamaa.mp3",
+    "bird_name": "アカエリカイツブリ",
+    "call_type": "地鳴き"
+  },
+  "kanmurikaitsiburi_saezuri": {
+    "xc_id": "986425",
+    "recorder": "Laurens",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/LQNYAZMUKB/XC986425-2025-04-03-Fuut-onz.mp3",
+    "bird_name": "カンムリカイツブリ",
+    "call_type": "さえずり"
+  },
+  "kanmurikaitsiburi_jinaki": {
+    "xc_id": "1015721",
+    "recorder": "Dave Guo",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/KQMHASAYBL/XC1015721-%E5%87%A4%E5%A4%B4%E9%B8%8A%E9%B7%89call-%E5%8F%8C%E8%BE%BD%E6%9E%B6%E6%A0%91%E5%8F%B0%E6%B3%A1.mp3",
+    "bird_name": "カンムリカイツブリ",
+    "call_type": "地鳴き"
+  },
+  "mimikaitsiburi_saezuri": {
+    "xc_id": "1031926",
+    "recorder": "Esperanza Poveda",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/PRVFBYIQYZ/XC1031926-podiceps-ruficollis-1-hammartorp-05-04-2025.mp3",
+    "bird_name": "ミミカイツブリ",
+    "call_type": "さえずり"
+  },
+  "mimikaitsiburi_jinaki": {
+    "xc_id": "860571",
+    "recorder": "Sven Normant",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/MPDFSJHTXH/XC860571-Gr%C3%A8be_esclavon_Podiceps_auritus_call_Argol.wav",
+    "bird_name": "ミミカイツブリ",
+    "call_type": "地鳴き"
+  },
+  "abi_saezuri": {
+    "xc_id": "988913",
+    "recorder": "Anders Lönning",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/TVDQARALRT/XC988913-250416_0565Sm%C3%A5spov.mp3",
+    "bird_name": "アビ",
+    "call_type": "さえずり"
+  },
+  "abi_jinaki": {
+    "xc_id": "1019231",
+    "recorder": "Sven Normant",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/MPDFSJHTXH/XC1019231-Plongeon_catmarin_Gavia_stellata_flight_call_Mehamn_0701_B.wav",
+    "bird_name": "アビ",
+    "call_type": "地鳴き"
+  },
+  "ooham_saezuri": {
+    "xc_id": "957957",
+    "recorder": "LE ROY Renaud",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/QTJCIDJUEK/XC957957-plo-arc-bilfot-020125.mp3",
+    "bird_name": "オオハム",
+    "call_type": "さえずり"
+  },
+  "ooham_jinaki": {
+    "xc_id": "788605",
+    "recorder": "B Whyte",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/RWLOMPENJC/XC788605-BTD-call.mp3",
+    "bird_name": "オオハム",
+    "call_type": "地鳴き"
+  },
+  "oomizunagidori_saezuri": {
+    "xc_id": "581448",
+    "recorder": "xuky",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/KWWSYYIVNZ/XC581448-Streaked%20Shearwater-two-fight-sound.mp3",
+    "bird_name": "オオミズナギドリ",
+    "call_type": "さえずり"
+  },
+  "oomizunagidori_jinaki": {
+    "xc_id": "581447",
+    "recorder": "xuky",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/KWWSYYIVNZ/XC581447-Streaked%20Shearwater-five-call.mp3",
+    "bird_name": "オオミズナギドリ",
+    "call_type": "地鳴き"
+  },
+  "kounotori_saezuri": {
+    "xc_id": "401954",
+    "recorder": "Oscar Campbell",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/RFRTVEHIZX/XC401954-171226_OrientalWhiteStork_bill_clattering_PoYang_OC.mp3",
+    "bird_name": "コウノトリ",
+    "call_type": "さえずり"
+  },
+  "kounotori_jinaki": {
+    "xc_id": "401954",
+    "recorder": "Oscar Campbell",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/RFRTVEHIZX/XC401954-171226_OrientalWhiteStork_bill_clattering_PoYang_OC.mp3",
+    "bird_name": "コウノトリ",
+    "call_type": "地鳴き"
+  },
+  "himeu_saezuri": {
+    "xc_id": "165616",
+    "recorder": "Andrew Spencer",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/CDTGHVBGZP/XC165616-Pelagic%20Cormorant2013-12-26-1.mp3",
+    "bird_name": "ヒメウ",
+    "call_type": "さえずり"
+  },
+  "himeu_jinaki": {
+    "xc_id": "165616",
+    "recorder": "Andrew Spencer",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/CDTGHVBGZP/XC165616-Pelagic%20Cormorant2013-12-26-1.mp3",
+    "bird_name": "ヒメウ",
+    "call_type": "地鳴き"
+  },
+  "kawau_saezuri": {
+    "xc_id": "884129",
+    "recorder": "Barry Edmonston",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/FHQVLXJQKW/XC884129-Great-Cormorant-1.mp3",
+    "bird_name": "カワウ",
+    "call_type": "さえずり"
+  },
+  "kawau_jinaki": {
+    "xc_id": "892269",
+    "recorder": "Bo Shunqi薄顺奇",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/YNOAMCSSHX/XC892269-Great-Cormorant%E6%99%AE%E9%80%9A%E9%B8%AC%E9%B9%9A-call--%E5%A5%89%E8%B4%A4%E6%B5%B7%E6%B9%BE2401060736_0212---B.mp3",
+    "bird_name": "カワウ",
+    "call_type": "地鳴き"
+  },
+  "herasagi_saezuri": {
+    "xc_id": "957857",
+    "recorder": "Esperanza Poveda",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/PRVFBYIQYZ/XC957857-platalea-leucorodia-9-colonia-esp%C3%A1tulas-villamanrique-04-05-2022.mp3",
+    "bird_name": "ヘラサギ",
+    "call_type": "さえずり"
+  },
+  "herasagi_jinaki": {
+    "xc_id": "791628",
+    "recorder": "Bo Shunqi 薄顺奇",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/YNOAMCSSHX/XC791628--call-2304060918-%E5%B4%87%E6%98%8E%E4%B8%9C%E6%BB%A9SHADOW_3087S12.mp3",
+    "bird_name": "ヘラサギ",
+    "call_type": "地鳴き"
+  },
+  "sankanogoi_saezuri": {
+    "xc_id": "964941",
+    "recorder": "Evan van Wezel",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/UXVHTJXTBT/XC964941-roerdomp.mp3",
+    "bird_name": "サンカノゴイ",
+    "call_type": "さえずり"
+  },
+  "sankanogoi_jinaki": {
+    "xc_id": "985155",
+    "recorder": "Norman",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/YIGMOTMQRD/XC985155-Roerdomp-%28call%29_Tue-Apr-01-2025-02-17-59.mp3",
+    "bird_name": "サンカノゴイ",
+    "call_type": "地鳴き"
+  },
+  "ooyoshigoi_saezuri": {
+    "xc_id": "319945",
+    "recorder": "Tom Wulf",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/XVXHTBZRRW/XC319945-Schrenck%27s%20Bittern%20song%2020160601%202039%20RUS%20OA%20Muraviovka%20Park%20TW%20LS_5.mp3",
+    "bird_name": "オオヨシゴイ",
+    "call_type": "さえずり"
+  },
+  "ooyoshigoi_jinaki": {
+    "xc_id": "1015913",
+    "recorder": "Dave Guo",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/KQMHASAYBL/XC1015913-%E7%B4%AB%E8%83%8C%E8%8B%87%E9%B3%BDcall-%E5%8F%8C%E8%BE%BD%E4%B8%83%E6%98%9F%E6%B9%96%E5%85%AC%E5%9B%AD2.mp3",
+    "bird_name": "オオヨシゴイ",
+    "call_type": "地鳴き"
+  },
+  "yoshigoi_saezuri": {
+    "xc_id": "768612",
+    "recorder": "Dave Guo",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/KQMHASAYBL/XC768612-song-%E6%88%90%E9%83%BD%E7%99%BD%E9%B9%AD%E6%B9%BE%E6%B9%BF%E5%9C%B0%E5%85%AC%E5%9B%AD.mp3",
+    "bird_name": "ヨシゴイ",
+    "call_type": "さえずり"
+  },
+  "yoshigoi_jinaki": {
+    "xc_id": "1003903",
+    "recorder": "小菜鸟",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/YNARAYCDTO/XC1003903-%E9%BB%84%E8%8B%87%E9%B3%BDfightcall202506030534%E5%8C%97%E5%9B%A2.mp3",
+    "bird_name": "ヨシゴイ",
+    "call_type": "地鳴き"
+  },
+  "goisagi_saezuri": {
+    "xc_id": "973348",
+    "recorder": "FREDERIC Lionel",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/VJARXMSBTG/XC973348-NYCNYC_nfc_250214_Ch%C3%A9cy.mp3",
+    "bird_name": "ゴイサギ",
+    "call_type": "さえずり"
+  },
+  "goisagi_jinaki": {
+    "xc_id": "995929",
+    "recorder": "Bo Shunqi 薄顺奇",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/YNOAMCSSHX/XC995929-Black-crowned-Night-Heron-%E5%A4%9C%E9%B9%AD-call---%E6%B7%B1%E5%9C%B3%E7%BA%A2%E6%A0%91%E6%9E%97%E5%85%AC%E5%9B%AD-%E5%B0%8F%E9%94%85-%2BJS4006%E5%8D%95%E9%BA%A6-250204_0637----A.mp3",
+    "bird_name": "ゴイサギ",
+    "call_type": "地鳴き"
+  },
+  "sasagoi_saezuri": {
+    "xc_id": "791520",
+    "recorder": "Dries Van de Loock",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/IIJAXHKSCC/XC791520-straited-heron-%28song%29-ntandacottage%2CChingola%2CZAMBIA_20230401_124355_01.mp3",
+    "bird_name": "ササゴイ",
+    "call_type": "さえずり"
+  },
+  "sasagoi_jinaki": {
+    "xc_id": "1002992",
+    "recorder": "David Darrell-Lambert",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/AYKHDFBYIH/XC1002992-Striated-Heron-flight-call-very-good-2025-05-31-Teochew-Cemetery%2C-Bangkok%2C-Thailand_0038.wav",
+    "bird_name": "ササゴイ",
+    "call_type": "地鳴き"
+  },
+  "daisagi_saezuri": {
+    "xc_id": "973480",
+    "recorder": "Aladdin",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/WDTGKKSKNG/XC973480-Great-White-Egret.mp3",
+    "bird_name": "ダイサギ",
+    "call_type": "さえずり"
+  },
+  "daisagi_jinaki": {
+    "xc_id": "GreatEgretflightcall7",
+    "recorder": "Valerie Heemstra",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/ZEFHZHEMLK/XC1015381-MixPre-1757XCGreatEgretflightcall7-11-25PeninsulaPt.mp3",
+    "bird_name": "ダイサギ",
+    "call_type": "地鳴き"
+  },
+  "chuusagi_saezuri": {
+    "xc_id": "842970",
+    "recorder": "FREDERIC Lionel",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/VJARXMSBTG/XC842970-Aigrette_interm%C3%A9diaire_231105_Thailande.mp3",
+    "bird_name": "チュウサギ",
+    "call_type": "さえずり"
+  },
+  "chuusagi_jinaki": {
+    "xc_id": "460203",
+    "recorder": "Peter Boesman",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/OOECIWCSWV/XC460203-LS101102%20Intermediate%20Egret%20calls%20B%20Little%20Egret%20C.mp3",
+    "bird_name": "チュウサギ",
+    "call_type": "地鳴き"
+  },
+  "kosagi_saezuri": {
+    "xc_id": "959929",
+    "recorder": "Andy Birch",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/VGPZBRESLG/XC959929-lilegret.wav",
+    "bird_name": "コサギ",
+    "call_type": "さえずり"
+  },
+  "kosagi_jinaki": {
+    "xc_id": "988354",
+    "recorder": "Peter Boesman",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/OOECIWCSWV/XC988354-LS_59926-Little-Egret-call-A.mp3",
+    "bird_name": "コサギ",
+    "call_type": "地鳴き"
+  },
+  "kurosagi_saezuri": {
+    "xc_id": "193903",
+    "recorder": "Ross Gallardy",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/FNIOJOZADD/XC193903-PacificReefHeron_Okinawa_090214_call_flushed.mp3",
+    "bird_name": "クロサギ",
+    "call_type": "さえずり"
+  },
+  "kurosagi_jinaki": {
+    "xc_id": "193903",
+    "recorder": "Ross Gallardy",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/FNIOJOZADD/XC193903-PacificReefHeron_Okinawa_090214_call_flushed.mp3",
+    "bird_name": "クロサギ",
+    "call_type": "地鳴き"
+  },
+  "akagashirasagi_saezuri": {
+    "xc_id": "837538",
+    "recorder": "Bram Piot",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/RGSEIIJGHA/XC837538-ChinesePondHeron_NongKhamsenNorth_231021_2591_edited.mp3",
+    "bird_name": "アカガシラサギ",
+    "call_type": "さえずり"
+  },
+  "akagashirasagi_jinaki": {
+    "xc_id": "771285",
+    "recorder": "Dave Guo",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/KQMHASAYBL/XC771285-call-%E6%B5%B7%E5%8F%A3%E7%81%B5%E5%B1%B1%E9%95%87.mp3",
+    "bird_name": "アカガシラサギ",
+    "call_type": "地鳴き"
+  },
+  "amasagi_saezuri": {
+    "xc_id": "982245",
+    "recorder": "Frédéric Cazaban",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/COLBPWBRIF/XC982245-2025032122_tarnos_HGB-0020.mp3",
+    "bird_name": "アマサギ",
+    "call_type": "さえずり"
+  },
+  "amasagi_jinaki": {
+    "xc_id": "872292",
+    "recorder": "Dries Van de Loock",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/IIJAXHKSCC/XC872292-cattle-egret-%28call%29-kamfinsadairy%2Ckitwe%2CZAMBIA_20240203_163510_01.mp3",
+    "bird_name": "アマサギ",
+    "call_type": "地鳴き"
+  },
+  "murasakisagi_saezuri": {
+    "xc_id": "984239",
+    "recorder": "Frédéric Cazaban",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/COLBPWBRIF/XC984239-2025032728_tarnos_HP-2210b.mp3",
+    "bird_name": "ムラサキサギ",
+    "call_type": "さえずり"
+  },
+  "murasakisagi_jinaki": {
+    "xc_id": "962812",
+    "recorder": "David Darrell-Lambert",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/AYKHDFBYIH/XC962812-Purple-Heron-flight-call-very-good-2025-01-13-Thankon-Khat-paddies%2C-Nakhon-Pathom%2C-Thailand_016_edited.wav",
+    "bird_name": "ムラサキサギ",
+    "call_type": "地鳴き"
+  },
+  "misago_saezuri": {
+    "xc_id": "930122",
+    "recorder": "Sue Riffe",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/PVQOLRXXWL/XC930122-Osprey-begging-call-on-8.24.24-at-17.39-for-.15-at-Pella-Crossing-Bulder-Cty-CO.mp3",
+    "bird_name": "ミサゴ",
+    "call_type": "さえずり"
+  },
+  "misago_jinaki": {
+    "xc_id": "930122",
+    "recorder": "Sue Riffe",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/PVQOLRXXWL/XC930122-Osprey-begging-call-on-8.24.24-at-17.39-for-.15-at-Pella-Crossing-Bulder-Cty-CO.mp3",
+    "bird_name": "ミサゴ",
+    "call_type": "地鳴き"
+  },
+  "inuwashi_saezuri": {
+    "xc_id": "989966",
+    "recorder": "Uku Paal",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/XIBLXHRPJO/XC989966-aquchr-sirtsi-250414.mp3",
+    "bird_name": "イヌワシ",
+    "call_type": "さえずり"
+  },
+  "inuwashi_jinaki": {
+    "xc_id": "989966",
+    "recorder": "Uku Paal",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/XIBLXHRPJO/XC989966-aquchr-sirtsi-250414.mp3",
+    "bird_name": "イヌワシ",
+    "call_type": "地鳴き"
+  },
+  "tsumi_saezuri": {
+    "xc_id": "286203",
+    "recorder": "Peter Boesman",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/OOECIWCSWV/XC286203-LS_59042%20Japanese%20Sparrowhawk%20Q%20call.mp3",
+    "bird_name": "ツミ",
+    "call_type": "さえずり"
+  },
+  "tsumi_jinaki": {
+    "xc_id": "286203",
+    "recorder": "Peter Boesman",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/OOECIWCSWV/XC286203-LS_59042%20Japanese%20Sparrowhawk%20Q%20call.mp3",
+    "bird_name": "ツミ",
+    "call_type": "地鳴き"
+  },
+  "akaharadaka_saezuri": {
+    "xc_id": "999086",
+    "recorder": "Feather V",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/GZUBDKWLGI/XC999086-250517_1358_01.mp3",
+    "bird_name": "アカハラダカ",
+    "call_type": "さえずり"
+  },
+  "akaharadaka_jinaki": {
+    "xc_id": "801421",
+    "recorder": "Terry Townshend",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/YEIIYXTGTU/XC801421-2023-05-15-1815-Chinese-Sparrowhawks-calls-and-mating%2C-Wenyu-River.mp3",
+    "bird_name": "アカハラダカ",
+    "call_type": "地鳴き"
+  },
+  "haitaka_saezuri": {
+    "xc_id": "984822",
+    "recorder": "Uku Paal",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/XIBLXHRPJO/XC984822-ACCNIS-PAHUVERE-MAGI-250328_1002.mp3",
+    "bird_name": "ハイタカ",
+    "call_type": "さえずり"
+  },
+  "haitaka_jinaki": {
+    "xc_id": "1030443",
+    "recorder": "Peter Boesman",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/OOECIWCSWV/XC1030443-LS_50371-Eurasian-Sparrowhawk-interaction-calls-C.mp3",
+    "bird_name": "ハイタカ",
+    "call_type": "地鳴き"
+  },
+  "ootaka_saezuri": {
+    "xc_id": "1011644",
+    "recorder": "Grzegorz Michalski",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/KKSNZEPHBQ/XC1011644-20240216_1145_Astur-gentilis_M-song_Zabierz%C3%B3w_VN860273.wav",
+    "bird_name": "オオタカ",
+    "call_type": "さえずり"
+  },
+  "ootaka_jinaki": {
+    "xc_id": "907004",
+    "recorder": "Stuart Fisher",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/VXZDHTKCBO/XC907004-Goshawk%2C-Northern-call-240331_1108-dAccipiter.mp3",
+    "bird_name": "オオタカ",
+    "call_type": "地鳴き"
+  },
+  "chuuhi_saezuri": {
+    "xc_id": "254086",
+    "recorder": "Jarmo Pirhonen",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/AHEASHOMCO/XC254086-Cirspi%20Mongolia%20120615%20song%20male.mp3",
+    "bird_name": "チュウヒ",
+    "call_type": "さえずり"
+  },
+  "chuuhi_jinaki": {
+    "xc_id": "840873",
+    "recorder": "Bo Shunqi 薄顺奇",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/YNOAMCSSHX/XC840873-Eastern-Marsh-Harrier%E7%99%BD%E8%85%B9%E9%B9%9E-call-1%E5%86%AC%E4%B8%AA%E4%BD%93-2310241450-%E6%A8%AA%E6%B2%99SHADOW_3895S12.mp3",
+    "bird_name": "チュウヒ",
+    "call_type": "地鳴き"
+  },
+  "haiirochuuhi_saezuri": {
+    "xc_id": "880616",
+    "recorder": "Christian Bøggild",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/DJPZGYTAWH/XC880616-Bl%C3%A5-k%C3%A6rh%C3%B8g-%28Circus-cyaneus%29-M-Sevel-Plantage_20240224-1100-advarsel.mp3",
+    "bird_name": "ハイイロチュウヒ",
+    "call_type": "さえずり"
+  },
+  "haiirochuuhi_jinaki": {
+    "xc_id": "733446",
+    "recorder": "Manceau Lionel",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/YCPZMKPRPA/XC733446-Cri_alarme_BSM-m%C3%A2le.mp3",
+    "bird_name": "ハイイロチュウヒ",
+    "call_type": "地鳴き"
+  },
+  "ojirowashi_saezuri": {
+    "xc_id": "965221",
+    "recorder": "Lars Mogensen",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/UOMNPGBULW/XC965221-Hav%C3%B8rn-%C3%98by-d-28-jan-25-kl.23.45-Retning-Viskum-skov.mp3",
+    "bird_name": "オジロワシ",
+    "call_type": "さえずり"
+  },
+  "ojirowashi_jinaki": {
+    "xc_id": "965221",
+    "recorder": "Lars Mogensen",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/UOMNPGBULW/XC965221-Hav%C3%B8rn-%C3%98by-d-28-jan-25-kl.23.45-Retning-Viskum-skov.mp3",
+    "bird_name": "オジロワシ",
+    "call_type": "地鳴き"
+  },
+  "oowashi_saezuri": {
+    "xc_id": "638292",
+    "recorder": "Markus Jacobs",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/XHQPIINHIC/XC638292-200216_0702.mp3",
+    "bird_name": "オオワシ",
+    "call_type": "さえずり"
+  },
+  "oowashi_jinaki": {
+    "xc_id": "294811",
+    "recorder": "Ross Gallardy",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/FNIOJOZADD/XC294811-StellersSeaEagle_Japan_01212015_calls.mp3",
+    "bird_name": "オオワシ",
+    "call_type": "地鳴き"
+  },
+  "sashiba_saezuri": {
+    "xc_id": "578809",
+    "recorder": "Okamoto Keita Sin",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/ZPYEHLWXXX/XC578809-Buzzard%2C%20Grey-faced_2019-12-16_1041_Japan_Okinawa.mp3",
+    "bird_name": "サシバ",
+    "call_type": "さえずり"
+  },
+  "sashiba_jinaki": {
+    "xc_id": "524721",
+    "recorder": "Jarmo Pirhonen",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/AHEASHOMCO/XC524721-Harmaanaamahaukka%20Butastur%20indicus%20calls%2012%2019%20Thailand.mp3",
+    "bird_name": "サシバ",
+    "call_type": "地鳴き"
+  },
+  "keashinosuri_saezuri": {
+    "xc_id": "940177",
+    "recorder": "Seth Beaudreault (Toolik Field Station)",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/TZWMNBTMOK/XC940177-2024-05-07-14_57-RLHA-02.mp3",
+    "bird_name": "ケアシノスリ",
+    "call_type": "さえずり"
+  },
+  "keashinosuri_jinaki": {
+    "xc_id": "580104",
+    "recorder": "Stein Ø. Nilsen",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/TLPLNAINFU/XC580104-SNI-375_01FJELLV%C3%85K-CALL-SAND-19072020.mp3",
+    "bird_name": "ケアシノスリ",
+    "call_type": "地鳴き"
+  },
+  "nosuri_saezuri": {
+    "xc_id": "1016607",
+    "recorder": "Uku Paal",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/XIBLXHRPJO/XC1016607-eastern-buzzard-sendai-karurada2-250625_1246.mp3",
+    "bird_name": "ノスリ",
+    "call_type": "さえずり"
+  },
+  "nosuri_jinaki": {
+    "xc_id": "992578",
+    "recorder": "Bo Shunqi 薄顺奇",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/YNOAMCSSHX/XC992578-Eastern-Buzzard-%E6%99%AE%E9%80%9A%E9%B5%9F-call-2%E5%8F%AA-%E6%9C%AA%E5%AF%B9%E5%87%86-%E5%A5%89%E8%B4%A4%E6%B5%B7%E6%B9%BE%E6%A3%AE%E6%9E%97%E5%85%AC%E5%9B%AD-%E8%8D%B7%E8%8A%B1%E6%B1%A0-primo164-A10-250118_1320---B.mp3",
+    "bird_name": "ノスリ",
+    "call_type": "地鳴き"
+  },
+  "ookonohazuku_saezuri": {
+    "xc_id": "915254",
+    "recorder": "Greg Irving",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/YWRKFXUDUR/XC915254-075-Scops-Owl---Sunda-%28Otus-l.-lempiji%29-Song-JUN-2057h-100m-SanKalaKhiriTH_gi_7049.mp3",
+    "bird_name": "オオコノハズク",
+    "call_type": "さえずり"
+  },
+  "ookonohazuku_jinaki": {
+    "xc_id": "1009673",
+    "recorder": "David Boyle",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/YHOCFQHBDL/XC1009673-CollaredScopsOwl.2025.06.14%281045%29.Fraser-sHill%28MaxwellTrail%29.mp3",
+    "bird_name": "オオコノハズク",
+    "call_type": "地鳴き"
+  },
+  "konohazuku_saezuri": {
+    "xc_id": "1001387",
+    "recorder": "Jacobo Ramil Millarengo",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/LHCOINSOBZ/XC1001387-250524_19-Otus-scops-song--Carreir%C3%B3n-pi%C3%B1eiral-23.15-.mp3",
+    "bird_name": "コノハズク",
+    "call_type": "さえずり"
+  },
+  "konohazuku_jinaki": {
+    "xc_id": "1003607",
+    "recorder": "Paul Coiffard",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/TLORJJUZZT/XC1003607-Petit-duc-scops-A-NFC-2-calls-w-one-more-distant-20250603_0004-Rochefort.wav",
+    "bird_name": "コノハズク",
+    "call_type": "地鳴き"
+  },
+  "torafuzuku_saezuri": {
+    "xc_id": "973590",
+    "recorder": "Niclas Backstrom",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/EDUVQXFOSM/XC973590-291_250216_Asio_otus_Song.wav",
+    "bird_name": "トラフズク",
+    "call_type": "さえずり"
+  },
+  "torafuzuku_jinaki": {
+    "xc_id": "966083",
+    "recorder": "João Tomás",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/POVKNQVSGU/XC966083-Asio-otus_female-call_010225_Aldeaseca-de-la-Armu%C3%B1a.wav",
+    "bird_name": "トラフズク",
+    "call_type": "地鳴き"
+  },
+  "komimizuku_saezuri": {
+    "xc_id": "972987",
+    "recorder": "Lars Mogensen",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/UOMNPGBULW/XC972987-Mosehornugle-%C3%98by-d-7-feb-25-kl.00.52.mp3",
+    "bird_name": "コミミズク",
+    "call_type": "さえずり"
+  },
+  "komimizuku_jinaki": {
+    "xc_id": "1053181",
+    "recorder": "Lars Mogensen",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/UOMNPGBULW/XC1053181-Mosehornugle-alarmkald-og-hy%C3%A6ndekald-%C3%98by-d-7-nov-25-kl.18.31.mp3",
+    "bird_name": "コミミズク",
+    "call_type": "地鳴き"
+  },
+  "yatsugashira_saezuri": {
+    "xc_id": "992649",
+    "recorder": "Bo Shunqi 薄顺奇",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/YNOAMCSSHX/XC992649-Eurasian-Hoopoe-%E6%88%B4%E8%83%9C-song-%E5%A5%89%E8%B4%A4%E6%B5%B7%E6%B9%BE%E6%A3%AE%E6%9E%97%E5%85%AC%E5%9B%AD-X8-CICADA-2503151223_1115---A.mp3",
+    "bird_name": "ヤツガシラ",
+    "call_type": "さえずり"
+  },
+  "yatsugashira_jinaki": {
+    "xc_id": "990285",
+    "recorder": "Francesco Sottile",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/ITHRUQEQCF/XC990285-Upupa-epops_song-and-call_0419_1635.mp3",
+    "bird_name": "ヤツガシラ",
+    "call_type": "地鳴き"
+  },
+  "yamashoubin_saezuri": {
+    "xc_id": "802087",
+    "recorder": "小菜鸟",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/YNARAYCDTO/XC802087-%E7%96%91%E4%BC%BC%E7%BF%A1%E7%BF%A02023.5.13%E5%8C%97%E6%9C%A8%E5%B1%B1.mp3",
+    "bird_name": "ヤマショウビン",
+    "call_type": "さえずり"
+  },
+  "yamashoubin_jinaki": {
+    "xc_id": "613727",
+    "recorder": "Lim Ying Hien",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/NXHTMHMNSS/XC613727-Black-capped%20Kingfisher%20Nov2020%20callx5.mp3",
+    "bird_name": "ヤマショウビン",
+    "call_type": "地鳴き"
+  },
+  "yamasemi_saezuri": {
+    "xc_id": "864418",
+    "recorder": "王自堃",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/UKETHWCXNC/XC864418-240128_005_%E5%86%A0%E9%B1%BC%E7%8B%97.mp3",
+    "bird_name": "ヤマセミ",
+    "call_type": "さえずり"
+  },
+  "yamasemi_jinaki": {
+    "xc_id": "472795",
+    "recorder": "Peter Boesman",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/OOECIWCSWV/XC472795-LS102142%20Crested%20Kingfisher%20call%20flight%20D.mp3",
+    "bird_name": "ヤマセミ",
+    "call_type": "地鳴き"
+  },
+  "buppousou_saezuri": {
+    "xc_id": "1000130",
+    "recorder": "Penghui Lou",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/HRDULTSHFW/XC1000130-%E4%B8%89%E5%AE%9D%E9%B8%9F1.mp3",
+    "bird_name": "ブッポウソウ",
+    "call_type": "さえずり"
+  },
+  "buppousou_jinaki": {
+    "xc_id": "897526",
+    "recorder": "Greg Irving",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/YWRKFXUDUR/XC897526-087-Dollarbird---Oriental-%28Eurystomus-o.-orientalis%29-FlightCall-MAR-1753h-110m-NapasanSubicLuzonPH_gi_6902.mp3",
+    "bird_name": "ブッポウソウ",
+    "call_type": "地鳴き"
+  },
+  "arisui_saezuri": {
+    "xc_id": "998598",
+    "recorder": "Branislav Oblučar",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/ASHYJYGAZS/XC998598-Jyn.tor-Savica-song-250513_2293.mp3",
+    "bird_name": "アリスイ",
+    "call_type": "さえずり"
+  },
+  "arisui_jinaki": {
+    "xc_id": "1016078",
+    "recorder": "Dave Guo",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/KQMHASAYBL/XC1016078-%E8%9A%81%E9%B4%B7call-%E5%BB%B6%E8%BE%B9%E5%AE%89%E5%9B%BE%E4%B8%AD%E5%8D%8E%E7%A7%8B%E6%B2%99%E9%B8%AD%E5%85%AC%E5%9B%AD.mp3",
+    "bird_name": "アリスイ",
+    "call_type": "地鳴き"
+  },
+  "ooakagera_saezuri": {
+    "xc_id": "979049",
+    "recorder": "Teet Sirotkin",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/GELAPBFFDU/XC979049-250309-0640-Vitryggig-hackspett-Gysinge.mp3",
+    "bird_name": "オオアカゲラ",
+    "call_type": "さえずり"
+  },
+  "ooakagera_jinaki": {
+    "xc_id": "916194",
+    "recorder": "Peter Boesman",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/OOECIWCSWV/XC916194-LS_57361-White-backed-Woodpecker-call-B.mp3",
+    "bird_name": "オオアカゲラ",
+    "call_type": "地鳴き"
+  },
+  "koakagera_saezuri": {
+    "xc_id": "984712",
+    "recorder": "Jordi Calvet",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/PNYKOPBQBQ/XC984712-DRYMIN260325MixPre-023-%282%29_SONG.wav",
+    "bird_name": "コアカゲラ",
+    "call_type": "さえずり"
+  },
+  "koakagera_jinaki": {
+    "xc_id": "976592",
+    "recorder": "Jordi Calvet",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/PNYKOPBQBQ/XC976592-DENMIN240225MixPre-008_CALL-%282%29.wav",
+    "bird_name": "コアカゲラ",
+    "call_type": "地鳴き"
+  },
+  "kumagera_saezuri": {
+    "xc_id": "960933",
+    "recorder": "FRIEDRICH Richard",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/IUFRBODZJL/XC960933-20250113_141388_Pic-noir-Etang-de-P%C3%A9tra.mp3",
+    "bird_name": "クマゲラ",
+    "call_type": "さえずり"
+  },
+  "kumagera_jinaki": {
+    "xc_id": "978965",
+    "recorder": "Branislav Oblučar",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/ASHYJYGAZS/XC978965-Dry.mar-call-short-Kalnik-250308_2157.mp3",
+    "bird_name": "クマゲラ",
+    "call_type": "地鳴き"
+  },
+  "kochougenbou_saezuri": {
+    "xc_id": "990071",
+    "recorder": "Denis Provencher",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/QQHLLSOTCS/XC990071-2025-04-19-12_10-Faucon-%C3%A9merillon.mp3",
+    "bird_name": "コチョウゲンボウ",
+    "call_type": "さえずり"
+  },
+  "kochougenbou_jinaki": {
+    "xc_id": "990071",
+    "recorder": "Denis Provencher",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/QQHLLSOTCS/XC990071-2025-04-19-12_10-Faucon-%C3%A9merillon.mp3",
+    "bird_name": "コチョウゲンボウ",
+    "call_type": "地鳴き"
+  },
+  "chigohayabusa_saezuri": {
+    "xc_id": "1002709",
+    "recorder": "Johan Andin",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/FFKSDEQVDX/XC1002709-250512L%C3%A4rkfalk.mp3",
+    "bird_name": "チゴハヤブサ",
+    "call_type": "さえずり"
+  },
+  "chigohayabusa_jinaki": {
+    "xc_id": "996383",
+    "recorder": "David Darrell-Lambert",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/AYKHDFBYIH/XC996383-Eurasian-Hobby-call-good-2025-05-03-Queen-s-Wood%2C-London%2C-England_212_edited.wav",
+    "bird_name": "チゴハヤブサ",
+    "call_type": "地鳴き"
+  },
+  "hayabusa_saezuri": {
+    "xc_id": "976515",
+    "recorder": "Stuart Wilson",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/ORWAOAWXIV/XC976515-VJP-Alarm.mp3",
+    "bird_name": "ハヤブサ",
+    "call_type": "さえずり"
+  },
+  "hayabusa_jinaki": {
+    "xc_id": "976515",
+    "recorder": "Stuart Wilson",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/ORWAOAWXIV/XC976515-VJP-Alarm.mp3",
+    "bird_name": "ハヤブサ",
+    "call_type": "地鳴き"
+  },
+  "yairochou_saezuri": {
+    "xc_id": "188359",
+    "recorder": "Frank Lambert",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/YTUXOCTUEM/XC188359-Pitta_nympha-FL%20song%20nr%20Huben%201May14%202pm%20%28rain%29%20LS112272c.mp3",
+    "bird_name": "ヤイロチョウ",
+    "call_type": "さえずり"
+  },
+  "yairochou_jinaki": {
+    "xc_id": "664516",
+    "recorder": "Yann Muzika",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/GZZOWJJVZS/XC664516-Fairy%20Pitta%20%20%40Tobishima%202105190528.mp3",
+    "bird_name": "ヤイロチョウ",
+    "call_type": "地鳴き"
+  },
+  "sanshoukui_saezuri": {
+    "xc_id": "715116",
+    "recorder": "Ray Tsu 诸仁",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/FROVFAFTMA/XC715116-20220413-0737-%E4%B8%8A%E6%B5%B7%E7%94%B0%E6%9E%97-%E5%B0%8F%E7%81%B0%E5%B1%B1%E6%A4%92%E9%B8%9Fsong-00-tascam.mp3",
+    "bird_name": "サンショウクイ",
+    "call_type": "さえずり"
+  },
+  "sanshoukui_jinaki": {
+    "xc_id": "285695",
+    "recorder": "Peter Boesman",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/OOECIWCSWV/XC285695-LS_58070%20Ashy%20Minivet%20flight%20call%20A.mp3",
+    "bird_name": "サンショウクイ",
+    "call_type": "地鳴き"
+  },
+  "kouraiuguisu_saezuri": {
+    "xc_id": "",
+    "recorder": "wz_shenhai",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://static.inaturalist.org/sounds/1745357.wav?1768784321",
+    "bird_name": "コウライウグイス",
+    "call_type": "さえずり"
+  },
+  "kouraiuguisu_jinaki": {
+    "xc_id": "",
+    "recorder": "Rob Macfie",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://static.inaturalist.org/sounds/1526648.wav?1750068120",
+    "bird_name": "コウライウグイス",
+    "call_type": "地鳴き"
+  },
+  "ouchuu_saezuri": {
+    "xc_id": "1030549",
+    "recorder": "Peter Boesman",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/OOECIWCSWV/XC1030549-LS_51095-Black-Drongo-song-A-Hawk-Cuckoo.mp3",
+    "bird_name": "オウチュウ",
+    "call_type": "さえずり"
+  },
+  "ouchuu_jinaki": {
+    "xc_id": "959950",
+    "recorder": "Viral Patel & Pankaj Maheria",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/HLVNWOZJJK/XC959950-Black-Drongo-call.mp3",
+    "bird_name": "オウチュウ",
+    "call_type": "地鳴き"
+  },
+  "chigomozu_saezuri": {
+    "xc_id": "916274",
+    "recorder": "Peter Boesman",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/OOECIWCSWV/XC916274-LS_58516-Tiger-Shrike-call-B.mp3",
+    "bird_name": "チゴモズ",
+    "call_type": "さえずり"
+  },
+  "chigomozu_jinaki": {
+    "xc_id": "916274",
+    "recorder": "Peter Boesman",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/OOECIWCSWV/XC916274-LS_58516-Tiger-Shrike-call-B.mp3",
+    "bird_name": "チゴモズ",
+    "call_type": "地鳴き"
+  },
+  "akamozu_saezuri": {
+    "xc_id": "907907",
+    "recorder": "Dave GUO",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/KQMHASAYBL/XC907907-%E7%BA%A2%E5%B0%BE%E4%BC%AF%E5%8A%B3song-%E5%8F%8C%E8%BE%BD%E4%B8%83%E6%98%9F%E6%B9%96%E5%85%AC%E5%9B%AD.mp3",
+    "bird_name": "アカモズ",
+    "call_type": "さえずり"
+  },
+  "akamozu_jinaki": {
+    "xc_id": "1051207",
+    "recorder": "Frank Lambert",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/YTUXOCTUEM/XC1051207-Lanius_cristatus_ssp-FL-x-calls-Linggi-River-Negeri-Sembilan-25Oct25-C.mp3",
+    "bird_name": "アカモズ",
+    "call_type": "地鳴き"
+  },
+  "oomozu_saezuri": {
+    "xc_id": "1045539",
+    "recorder": "David Darrell-Lambert",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/AYKHDFBYIH/XC1045539-Great-Grey-Shrike-koenigi-singing-good-Golf-Los-Palos%2C-Tenerife%2C-Canary-Islands%2C-Spain_029_edited.wav",
+    "bird_name": "オオモズ",
+    "call_type": "さえずり"
+  },
+  "oomozu_jinaki": {
+    "xc_id": "1030610",
+    "recorder": "Peter Boesman",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/OOECIWCSWV/XC1030610-LS_51066-Great-Grey-Shrike-call-B.mp3",
+    "bird_name": "オオモズ",
+    "call_type": "地鳴き"
+  },
+  "onaga_saezuri": {
+    "xc_id": "892209",
+    "recorder": "Bo Shunqi薄顺奇",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/YNOAMCSSHX/XC892209-Azure-winged-Magpie%E7%81%B0%E5%96%9C%E9%B9%8A-call-%E7%AC%91%E5%A3%B0--%E8%99%8E%E7%88%AA%E6%BA%AA-%E6%A2%A6%E6%B8%85%E5%9B%AD-%E7%99%BD%E5%A4%B4%E9%B9%8E-%E5%A4%9A%E7%A7%8Dsong-%E4%B9%8C%E9%B8%AB-call-%E7%81%B0%E5%96%9C%E9%B9%8A-call-240227_1114---B.mp3",
+    "bird_name": "オナガ",
+    "call_type": "さえずり"
+  },
+  "onaga_jinaki": {
+    "xc_id": "1015907",
+    "recorder": "Dave Guo",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/KQMHASAYBL/XC1015907-%E7%81%B0%E5%96%9C%E9%B9%8Acall-%E5%8F%8C%E8%BE%BD%E5%AE%A2%E8%BF%90%E7%AB%99.mp3",
+    "bird_name": "オナガ",
+    "call_type": "地鳴き"
+  },
+  "kasasagi_saezuri": {
+    "xc_id": "959234",
+    "recorder": "Filippo Ceccolini",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/VWVVYWSUYS/XC959234-Gazza-Avanos.mp3",
+    "bird_name": "カササギ",
+    "call_type": "さえずり"
+  },
+  "kasasagi_jinaki": {
+    "xc_id": "988260",
+    "recorder": "Jacobo Ramil Millarengo",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/LHCOINSOBZ/XC988260-250413_03.-Pica-pica-call-10.00-Campus-sur.-mp3.mp3",
+    "bird_name": "カササギ",
+    "call_type": "地鳴き"
+  },
+  "hoshigarasu_saezuri": {
+    "xc_id": "1027040",
+    "recorder": "Richard E. Webster",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/KZYUWIRZVH/XC1027040-NUTCRAC_Spotted-Mongomorit-1500m-052325-1113.mp3",
+    "bird_name": "ホシガラス",
+    "call_type": "さえずり"
+  },
+  "hoshigarasu_jinaki": {
+    "xc_id": "1016363",
+    "recorder": "Dave Guo",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/KQMHASAYBL/XC1016363-%E5%8C%97%E6%98%9F%E9%B8%A6call-%E7%99%BD%E5%B1%B1%E6%8A%9A%E6%9D%BE%E7%99%BD%E6%BA%AA%E5%B0%8F%E9%95%87.mp3",
+    "bird_name": "ホシガラス",
+    "call_type": "地鳴き"
+  },
+  "kokumarugarasu_saezuri": {
+    "xc_id": "454866",
+    "recorder": "Phil Gregory",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/GNEWSLMDAM/XC454866-DAURIAN%20JACKDAW%204%20Arasaki%20Feb%202%20PG1149.mp3",
+    "bird_name": "コクマルガラス",
+    "call_type": "さえずり"
+  },
+  "kokumarugarasu_jinaki": {
+    "xc_id": "1047140",
+    "recorder": "Dave Guo",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/KQMHASAYBL/XC1047140-%E8%BE%BE%E4%B9%8C%E9%87%8C%E5%AF%92%E9%B8%A6flight-call-%E5%8F%8C%E8%BE%BD%E9%82%A3%E6%9C%A8%E4%B9%A1.mp3",
+    "bird_name": "コクマルガラス",
+    "call_type": "地鳴き"
+  },
+  "miyamagarasu_saezuri": {
+    "xc_id": "960850",
+    "recorder": "FREDERIC Lionel",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/VJARXMSBTG/XC960850-CORFRU_atypique_250111_Ch%C3%A9cy.mp3",
+    "bird_name": "ミヤマガラス",
+    "call_type": "さえずり"
+  },
+  "miyamagarasu_jinaki": {
+    "xc_id": "1027532",
+    "recorder": "Joost van Bruggen",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/RNMRWBXEZJ/XC1027532-Roek%2C-call%2C-IGS%2C-030525%2C-0826-uur.mp3",
+    "bird_name": "ミヤマガラス",
+    "call_type": "地鳴き"
+  },
+  "tsurisugara_saezuri": {
+    "xc_id": "1000530",
+    "recorder": "Joost van Bruggen",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/RNMRWBXEZJ/XC1000530-Buidelmees%2C-song%2C-Audru-Polder%2C-Estonia%2C-160525%2C-1419-uur.mp3",
+    "bird_name": "ツリスガラ",
+    "call_type": "さえずり"
+  },
+  "tsurisugara_jinaki": {
+    "xc_id": "981135",
+    "recorder": "Jordi Calvet",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/PNYKOPBQBQ/XC981135-REMPEN120325MixPre-029_SONG_CALL-%282%29.wav",
+    "bird_name": "ツリスガラ",
+    "call_type": "地鳴き"
+  },
+  "kohibari_saezuri": {
+    "xc_id": "1029687",
+    "recorder": "Frank Lambert",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/YTUXOCTUEM/XC1029687-Calandrella_brachydactyla_longipennis-FL-X-song-Desert-Camp-Kaz-17May25-11.55am-LS110216b.mp3",
+    "bird_name": "コヒバリ",
+    "call_type": "さえずり"
+  },
+  "kohibari_jinaki": {
+    "xc_id": "960271",
+    "recorder": "David Darrell-Lambert",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/AYKHDFBYIH/XC960271-Greater-Short-toed-Lark-flight-call-very-good-2025-01-05-Raiswasa-Lake-%26-surroundings%2C-Sikar%2C-Rajasthan%2C-India_004_edited.wav",
+    "bird_name": "コヒバリ",
+    "call_type": "地鳴き"
+  },
+  "sekka_saezuri": {
+    "xc_id": "1007541",
+    "recorder": "Francesco Sottile",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/ITHRUQEQCF/XC1007541-Cisticola-juncidis_song_0615_0650.mp3",
+    "bird_name": "セッカ",
+    "call_type": "さえずり"
+  },
+  "sekka_jinaki": {
+    "xc_id": "960412",
+    "recorder": "Jacobo Ramil Millarengo",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/LHCOINSOBZ/XC960412-250111_04-C-juncidis-call%2C-schrill-call%2C-alarm-call-Xinzo-52-snr.mp3",
+    "bird_name": "セッカ",
+    "call_type": "地鳴き"
+  },
+  "koyoshikiri_saezuri": {
+    "xc_id": "978292",
+    "recorder": "Dave Guo",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/KQMHASAYBL/XC978292-%E9%BB%91%E7%9C%89%E8%8B%87%E8%8E%BAcall-%2B-%E5%B0%8F%E8%9D%97%E8%8E%BAsong-%E6%B5%B7%E5%8F%A3%E6%BD%AD%E4%B8%B0%E6%B4%8B.mp3",
+    "bird_name": "コヨシキリ",
+    "call_type": "さえずり"
+  },
+  "koyoshikiri_jinaki": {
+    "xc_id": "978292",
+    "recorder": "Dave Guo",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/KQMHASAYBL/XC978292-%E9%BB%91%E7%9C%89%E8%8B%87%E8%8E%BAcall-%2B-%E5%B0%8F%E8%9D%97%E8%8E%BAsong-%E6%B5%B7%E5%8F%A3%E6%BD%AD%E4%B8%B0%E6%B4%8B.mp3",
+    "bird_name": "コヨシキリ",
+    "call_type": "地鳴き"
+  },
+  "ezosennyu_saezuri": {
+    "xc_id": "340010",
+    "recorder": "Tom Wulf",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/XVXHTBZRRW/XC340010-Gray%27s%20Warbler%20song%2020160606%200450%20RUS%20OA%20Muraviovka%20Park%20TW%20LS_5.mp3",
+    "bird_name": "エゾセンニュウ",
+    "call_type": "さえずり"
+  },
+  "ezosennyu_jinaki": {
+    "xc_id": "486542",
+    "recorder": "Stanislas Wroza",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/SDPCHKOHRH/XC486542-Locustelle%20fasciee%20cris%20d%20alarme%20en%20tak.mp3",
+    "bird_name": "エゾセンニュウ",
+    "call_type": "地鳴き"
+  },
+  "oosekka_saezuri": {
+    "xc_id": "285604",
+    "recorder": "Peter Boesman",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/OOECIWCSWV/XC285604-LS_57944%20Grassbird%20song%20B%20cisticola.mp3",
+    "bird_name": "オオセッカ",
+    "call_type": "さえずり"
+  },
+  "oosekka_jinaki": {
+    "xc_id": "988413",
+    "recorder": "Peter Boesman",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/OOECIWCSWV/XC988413-LS_50015-Marsh-Grassbird-call-B.mp3",
+    "bird_name": "オオセッカ",
+    "call_type": "地鳴き"
+  },
+  "shimasennyu_saezuri": {
+    "xc_id": "155649",
+    "recorder": "Frank Lambert",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/YTUXOCTUEM/XC155649-Locustella_ochotensis-FL%20song%20Lake%20Furen%20%281%29%2C%20Hokkaido%2022Jun13%205.16pm%202m%20LS115619.mp3",
+    "bird_name": "シマセンニュウ",
+    "call_type": "さえずり"
+  },
+  "shimasennyu_jinaki": {
+    "xc_id": "914704",
+    "recorder": "Goro",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/DULJLRPGXQ/XC914704-240619_0660scZ4.8k%E3%82%B7%E3%83%9E%E3%82%BB%E3%83%B3%E3%83%8B%E3%83%A5%E3%82%A6-2%E7%BE%BD%E9%81%93%E8%B7%AF%E6%8C%9F%E3%82%93%E3%81%A7callsong%E8%B1%8A%E5%B9%B3%E5%B7%9D%E5%90%88%E6%B5%81%E4%BB%98%E8%BF%912406192010.wav",
+    "bird_name": "シマセンニュウ",
+    "call_type": "地鳴き"
+  },
+  "makinosennyu_saezuri": {
+    "xc_id": "861074",
+    "recorder": "Lim Ying Hien",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/NXHTMHMNSS/XC861074-Lanceolated-Warbler-20240106-%28sub-song%29-CC-e3-xeno.mp3",
+    "bird_name": "マキノセンニュウ",
+    "call_type": "さえずり"
+  },
+  "makinosennyu_jinaki": {
+    "xc_id": "889922",
+    "recorder": "Dave GUO",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/KQMHASAYBL/XC889922-%E7%9F%9B%E6%96%91%E8%9D%97%E8%8E%BAcall-%E6%B5%B7%E5%8F%A3%E7%BE%8E%E8%88%8D%E6%B2%B3.mp3",
+    "bird_name": "マキノセンニュウ",
+    "call_type": "地鳴き"
+  },
+  "shoudoutsubame_saezuri": {
+    "xc_id": "1016635",
+    "recorder": "Uku Paal",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/XIBLXHRPJO/XC1016635-riprip-vardijarv-250628_1292.mp3",
+    "bird_name": "ショウドウツバメ",
+    "call_type": "さえずり"
+  },
+  "shoudoutsubame_jinaki": {
+    "xc_id": "1016021",
+    "recorder": "Dave Guo",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/KQMHASAYBL/XC1016021-%E5%B4%96%E6%B2%99%E7%87%95flight-call-%E9%80%9A%E8%BE%BD%E8%8A%B1%E5%91%BC%E8%88%92%E6%B3%A1%E5%AD%902.mp3",
+    "bird_name": "ショウドウツバメ",
+    "call_type": "地鳴き"
+  },
+  "iwatsubame_saezuri": {
+    "xc_id": "916191",
+    "recorder": "Peter Boesman",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/OOECIWCSWV/XC916191-LS_57777-Asian-House-Martin-call-and-song-B.mp3",
+    "bird_name": "イワツバメ",
+    "call_type": "さえずり"
+  },
+  "iwatsubame_jinaki": {
+    "xc_id": "285623",
+    "recorder": "Peter Boesman",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/OOECIWCSWV/XC285623-LS_57972%20Asian%20House%20Martin%20call%20A.mp3",
+    "bird_name": "イワツバメ",
+    "call_type": "地鳴き"
+  },
+  "koshiakatsubame_saezuri": {
+    "xc_id": "1015914",
+    "recorder": "Dave Guo",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/KQMHASAYBL/XC1015914-%E9%87%91%E8%85%B0%E7%87%95song-%E5%8F%8C%E8%BE%BD%E8%BE%BD%E6%B2%B3%E5%85%AC%E5%9B%AD.mp3",
+    "bird_name": "コシアカツバメ",
+    "call_type": "さえずり"
+  },
+  "koshiakatsubame_jinaki": {
+    "xc_id": "962763",
+    "recorder": "David Darrell-Lambert",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/AYKHDFBYIH/XC962763-Asian-Red-rumped-Swallow-call-good-2025-01-10-Benjekiti-Park%2C-Bangkok%2C-Thailand_005_edited.wav",
+    "bird_name": "コシアカツバメ",
+    "call_type": "地鳴き"
+  },
+  "kimayumushikui_saezuri": {
+    "xc_id": "995869",
+    "recorder": "Bo Shunqi 薄顺奇",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/YNOAMCSSHX/XC995869-Yellow-browed-Warbler-%E9%BB%84%E7%9C%89%E6%9F%B3%E8%8E%BA-song-%E5%8A%A8%E7%89%A9%E5%9B%AD-X8-CICADA-2504260555_1269----A.mp3",
+    "bird_name": "キマユムシクイ",
+    "call_type": "さえずり"
+  },
+  "kimayumushikui_jinaki": {
+    "xc_id": "978291",
+    "recorder": "Dave Guo",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/KQMHASAYBL/XC978291-%E9%BB%84%E7%9C%89%E6%9F%B3%E8%8E%BAcall-%E6%B5%B7%E5%8F%A3%E6%BD%AD%E4%B8%B0%E6%B4%8B.mp3",
+    "bird_name": "キマユムシクイ",
+    "call_type": "地鳴き"
+  },
+  "mujisekka_saezuri": {
+    "xc_id": "995374",
+    "recorder": "Bo Shunqi 薄顺奇",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/YNOAMCSSHX/XC995374-Dusky-Warbler-%E8%A4%90%E6%9F%B3%E8%8E%BA-song-%E5%B2%B1%E5%B1%B1%E5%B2%9B-%E6%B5%B7%E5%B2%AC%E5%85%AC%E5%9B%AD-X8-CICADA-2505030537_1310----A.mp3",
+    "bird_name": "ムジセッカ",
+    "call_type": "さえずり"
+  },
+  "mujisekka_jinaki": {
+    "xc_id": "988406",
+    "recorder": "Peter Boesman",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/OOECIWCSWV/XC988406-LS_50005-Dusky-Warbler-call-A.mp3",
+    "bird_name": "ムジセッカ",
+    "call_type": "地鳴き"
+  },
+  "ezomushikui_saezuri": {
+    "xc_id": "990799",
+    "recorder": "Ray Tsu 诸仁",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/FROVFAFTMA/XC990799-20250422-0742-%E7%BE%A1%E5%B1%B1%E6%A4%8D%E7%89%A9%E5%9B%AD-%E5%BA%93%E9%A1%B5%E5%B2%9B%E6%9F%B3%E8%8E%BAsong-hisound-dr100m3.wav",
+    "bird_name": "エゾムシクイ",
+    "call_type": "さえずり"
+  },
+  "ezomushikui_jinaki": {
+    "xc_id": "994775",
+    "recorder": "Ray Tsu 诸仁",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/FROVFAFTMA/XC994775-20250420-1637-%E7%BE%A1%E5%B1%B1%E6%A4%8D%E7%89%A9%E5%9B%AD-%E5%BA%93%E9%A1%B5%E5%B2%9B%E6%9F%B3%E8%8E%BAcall-1458-m10j.wav",
+    "bird_name": "エゾムシクイ",
+    "call_type": "地鳴き"
+  },
+  "mebosomushikui_saezuri": {
+    "xc_id": "285740",
+    "recorder": "Peter Boesman",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/OOECIWCSWV/XC285740-LS_58169%20japanese%20Leaf%20Warbler%20song.mp3",
+    "bird_name": "メボソムシクイ",
+    "call_type": "さえずり"
+  },
+  "mebosomushikui_jinaki": {
+    "xc_id": "285742",
+    "recorder": "Peter Boesman",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/OOECIWCSWV/XC285742-LS_58171%20Japanese%20Leaf%20Warbler%20call.mp3",
+    "bird_name": "メボソムシクイ",
+    "call_type": "地鳴き"
+  },
+  "oomushikui_saezuri": {
+    "xc_id": "1000898",
+    "recorder": "Feather V",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/GZUBDKWLGI/XC1000898-Sat-May-24-2025-08-44-31-%E5%8B%98%E5%AF%9F%E5%8A%A0-call%2C-song_01.mp3",
+    "bird_name": "オオムシクイ",
+    "call_type": "さえずり"
+  },
+  "oomushikui_jinaki": {
+    "xc_id": "1000898",
+    "recorder": "Feather V",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/GZUBDKWLGI/XC1000898-Sat-May-24-2025-08-44-31-%E5%8B%98%E5%AF%9F%E5%8A%A0-call%2C-song_01.mp3",
+    "bird_name": "オオムシクイ",
+    "call_type": "地鳴き"
+  },
+  "soushichou_saezuri": {
+    "xc_id": "",
+    "recorder": "fabgras",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://static.inaturalist.org/sounds/1663219.wav?1760095544",
+    "bird_name": "ソウシチョウ",
+    "call_type": "さえずり"
+  },
+  "soushichou_jinaki": {
+    "xc_id": "",
+    "recorder": "mtntopview",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://static.inaturalist.org/sounds/1567984.m4a?1752459504",
+    "bird_name": "ソウシチョウ",
+    "call_type": "地鳴き"
+  },
+  "gabichou_saezuri": {
+    "xc_id": "",
+    "recorder": "User 211482",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://observation.org/sounds/340266.wav",
+    "bird_name": "ガビチョウ",
+    "call_type": "さえずり"
+  },
+  "gabichou_jinaki": {
+    "xc_id": "",
+    "recorder": "User 211482",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://observation.org/sounds/340266.wav",
+    "bird_name": "ガビチョウ",
+    "call_type": "地鳴き"
+  },
+  "kikuitadaki_saezuri": {
+    "xc_id": "962883",
+    "recorder": "Paul Kelly",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/WBZVBDKAUE/XC962883-song5.wav",
+    "bird_name": "キクイタダキ",
+    "call_type": "さえずり"
+  },
+  "kikuitadaki_jinaki": {
+    "xc_id": "988083",
+    "recorder": "FRIEDRICH Richard",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/IUFRBODZJL/XC988083-Roitelet-hupp%C3%A9-%28call%29_Thu-Apr-10-2025-12-59-58.mp3",
+    "bird_name": "キクイタダキ",
+    "call_type": "地鳴き"
+  },
+  "kibashiri_saezuri": {
+    "xc_id": "977139",
+    "recorder": "Mike Wheeler",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/UPVKBNAAKN/XC977139-Treecreeper-song-01032025-Buckton-Bog.mp3",
+    "bird_name": "キバシリ",
+    "call_type": "さえずり"
+  },
+  "kibashiri_jinaki": {
+    "xc_id": "989846",
+    "recorder": "Dag Österlund",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/MMSAKXGUCH/XC989846-tra%CC%88dkrypare_call_red.mp3",
+    "bird_name": "キバシリ",
+    "call_type": "地鳴き"
+  },
+  "hoshimukudori_saezuri": {
+    "xc_id": "961272",
+    "recorder": "Cedric Mroczko",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/TJSRKPHQNP/XC961272-250107_006_Tr1.mp3",
+    "bird_name": "ホシムクドリ",
+    "call_type": "さえずり"
+  },
+  "hoshimukudori_jinaki": {
+    "xc_id": "961272",
+    "recorder": "Cedric Mroczko",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/TJSRKPHQNP/XC961272-250107_006_Tr1.mp3",
+    "bird_name": "ホシムクドリ",
+    "call_type": "地鳴き"
+  },
+  "komukudori_saezuri": {
+    "xc_id": "",
+    "recorder": "Timur Kalininsky",
+    "license": "http://creativecommons.org/licenses/by/4.0/legalcode",
+    "url": "https://static.inaturalist.org/sounds/248923.mp3?1623217736",
+    "bird_name": "コムクドリ",
+    "call_type": "さえずり"
+  },
+  "komukudori_jinaki": {
+    "xc_id": "",
+    "recorder": "Timur Kalininsky",
+    "license": "http://creativecommons.org/licenses/by/4.0/legalcode",
+    "url": "https://static.inaturalist.org/sounds/248923.mp3?1623217736",
+    "bird_name": "コムクドリ",
+    "call_type": "地鳴き"
+  },
+  "toratsugumi_saezuri": {
+    "xc_id": "1037095",
+    "recorder": "Untung Sarmawi",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/QEZGRNWCPL/XC1037095-scaly-thrush-20250906_060402.mp3",
+    "bird_name": "トラツグミ",
+    "call_type": "さえずり"
+  },
+  "toratsugumi_jinaki": {
+    "xc_id": "468894",
+    "recorder": "Frank Lambert",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/YTUXOCTUEM/XC468894-Zoothera_dauma_horsfieldi-FL%20calls%20Mt%20Ijen%20Rd%2021Feb19%208.52am%20LS116739b.mp3",
+    "bird_name": "トラツグミ",
+    "call_type": "地鳴き"
+  },
+  "mamijiro_saezuri": {
+    "xc_id": "664515",
+    "recorder": "Yann Muzika",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/GZZOWJJVZS/XC664515-Siberian%20Thrush%20Song%20%40Tobishima%202105200532.mp3",
+    "bird_name": "マミジロ",
+    "call_type": "さえずり"
+  },
+  "mamijiro_jinaki": {
+    "xc_id": "748169",
+    "recorder": "Ray Tsu 诸仁",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/FROVFAFTMA/XC748169-20220911-0437-%E4%B8%8A%E6%B5%B7%E7%94%B0%E6%9E%97-%E7%81%B0%E5%A4%B4%E9%B9%80call-0520-d10.mp3",
+    "bird_name": "マミジロ",
+    "call_type": "地鳴き"
+  },
+  "mamichajinaishirohara_saezuri": {
+    "xc_id": "899244",
+    "recorder": "王自堃",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/UKETHWCXNC/XC899244-240428_0643_%E7%99%BD%E7%9C%89%E9%B8%ABsong%2B%E9%BB%84%E7%9C%89%E6%9F%B3%E8%8E%BA%2B%E5%86%95%E6%9F%B3%E8%8E%BA.mp3",
+    "bird_name": "マミチャジナイ",
+    "call_type": "さえずり"
+  },
+  "mamichajinaishirohara_jinaki": {
+    "xc_id": "858358",
+    "recorder": "Greg Irving",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/YWRKFXUDUR/XC858358-204-Thrush---Eyebrowed-%28Turdus-obscurus%29-Calls-DEC-1600h-1535m-PangKhonTH_gi_5773.mp3",
+    "bird_name": "マミチャジナイ",
+    "call_type": "地鳴き"
+  },
+  "akahara_saezuri": {
+    "xc_id": "285803",
+    "recorder": "Peter Boesman",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/OOECIWCSWV/XC285803-LS_58261%20Brown-hooded%20Thrush%20song%20A.mp3",
+    "bird_name": "アカハラ",
+    "call_type": "さえずり"
+  },
+  "akahara_jinaki": {
+    "xc_id": "",
+    "recorder": "Kuan-Chieh Hung",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/SFPCKSRWSJ/100417_16Brown-headed%20ThrushCall.mp3",
+    "bird_name": "アカハラ",
+    "call_type": "地鳴き"
+  },
+  "ezobitaki_saezuri": {
+    "xc_id": "114225",
+    "recorder": "Frank Lambert",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/YTUXOCTUEM/XC114225-Muscicapa_griseisticta-FL%20song%20Bishui%20NNR%20area%2C%20Heilongjiang%206Jul12%20LS111949.mp3",
+    "bird_name": "エゾビタキ",
+    "call_type": "さえずり"
+  },
+  "ezobitaki_jinaki": {
+    "xc_id": "712811",
+    "recorder": "Ray Tsu 诸仁",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/FROVFAFTMA/XC712811-20220401-0841-%E4%B8%8A%E6%B5%B7%E7%94%B0%E6%9E%97-%E7%81%B0%E7%BA%B9%E9%B9%9Fcall%EF%BC%9F-00-tascam_mixdown.mp3",
+    "bird_name": "エゾビタキ",
+    "call_type": "地鳴き"
+  },
+  "samebitaki_saezuri": {
+    "xc_id": "1016372",
+    "recorder": "Dave Guo",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/KQMHASAYBL/XC1016372-%E4%B9%8C%E9%B9%9Fcall-%2B-%E7%81%B0%E5%B1%B1%E6%A4%92%E9%B8%9Fcall-%2B-%E8%A4%90%E5%A4%B4%E5%B1%B1%E9%9B%80call-%2B-%E6%B7%A1%E8%84%9A%E6%9F%B3%E8%8E%BAsong-%E7%99%BD%E5%B1%B1%E6%8A%9A%E6%9D%BE%E7%99%BD%E6%BA%AA%E5%B0%8F%E9%95%87.mp3",
+    "bird_name": "サメビタキ",
+    "call_type": "さえずり"
+  },
+  "samebitaki_jinaki": {
+    "xc_id": "1016372",
+    "recorder": "Dave Guo",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/KQMHASAYBL/XC1016372-%E4%B9%8C%E9%B9%9Fcall-%2B-%E7%81%B0%E5%B1%B1%E6%A4%92%E9%B8%9Fcall-%2B-%E8%A4%90%E5%A4%B4%E5%B1%B1%E9%9B%80call-%2B-%E6%B7%A1%E8%84%9A%E6%9F%B3%E8%8E%BAsong-%E7%99%BD%E5%B1%B1%E6%8A%9A%E6%9D%BE%E7%99%BD%E6%BA%AA%E5%B0%8F%E9%95%87.mp3",
+    "bird_name": "サメビタキ",
+    "call_type": "地鳴き"
+  },
+  "kosamebitaki_saezuri": {
+    "xc_id": "915061",
+    "recorder": "Uku Paal",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/XIBLXHRPJO/XC915061-asian-brown-fc-song-nara-240612_0697.mp3",
+    "bird_name": "コサメビタキ",
+    "call_type": "さえずり"
+  },
+  "kosamebitaki_jinaki": {
+    "xc_id": "1015933",
+    "recorder": "Dave Guo",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/KQMHASAYBL/XC1015933-%E5%8C%97%E7%81%B0%E9%B9%9Fcall-%E9%95%BF%E6%98%A5%E5%8D%97%E6%B9%96%E5%85%AC%E5%9B%AD.mp3",
+    "bird_name": "コサメビタキ",
+    "call_type": "地鳴き"
+  },
+  "nogoma_saezuri": {
+    "xc_id": "1000801",
+    "recorder": "Bo Shunqi 薄顺奇",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/YNOAMCSSHX/XC1000801-Siberian-Rubythroat-%E7%BA%A2%E7%82%B9%E9%A2%8F-song-%E9%97%B5%E8%A1%8C%E7%B4%AB%E7%AB%B9--%E5%BC%B1-A10-JS4006--250323_0541---B.mp3",
+    "bird_name": "ノゴマ",
+    "call_type": "さえずり"
+  },
+  "nogoma_jinaki": {
+    "xc_id": "1000784",
+    "recorder": "Bo Shunqi 薄顺奇",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/YNOAMCSSHX/XC1000784-Siberian-Rubythroat-%E7%BA%A2%E7%82%B9%E9%A2%8F-song-call-%E9%97%B5%E8%A1%8C%E7%B4%AB%E7%AB%B9-X8-CICADA-2503080734_1101.mp3",
+    "bird_name": "ノゴマ",
+    "call_type": "地鳴き"
+  },
+  "mugimaki_saezuri": {
+    "xc_id": "1015928",
+    "recorder": "Dave Guo",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/KQMHASAYBL/XC1015928-%E9%B8%B2%E5%A7%AC%E9%B9%9F%EF%BC%88%E9%9B%8C%EF%BC%89song-%2B-%E7%BA%A2%E5%B0%BE%E6%AD%8C%E9%B8%B2song-%E9%95%BF%E6%98%A5%E5%8D%97%E6%B9%96%E5%85%AC%E5%9B%AD.mp3",
+    "bird_name": "ムギマキ",
+    "call_type": "さえずり"
+  },
+  "mugimaki_jinaki": {
+    "xc_id": "773619",
+    "recorder": "Greg Irving",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/YWRKFXUDUR/XC773619-205-Flycatcher---Mugimaki-%28Ficedula-mugimaki%29-Call-JAN-1517h-1200m-HuayLaengTH_gi_2924.mp3",
+    "bird_name": "ムギマキ",
+    "call_type": "地鳴き"
+  },
+  "nobitaki_saezuri": {
+    "xc_id": "714949",
+    "recorder": "Oscar Campbell",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/RFRTVEHIZX/XC714949-220327_African%20Stonechat_song_Al%20Soudah_OC.mp3",
+    "bird_name": "ノビタキ",
+    "call_type": "さえずり"
+  },
+  "nobitaki_jinaki": {
+    "xc_id": "815361",
+    "recorder": "Gregory Askew",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/LESINAMNUB/XC815361-African_stonechat_agitation_call_male_female_2.mp3",
+    "bird_name": "ノビタキ",
+    "call_type": "地鳴き"
+  },
+  "kirenjaku_saezuri": {
+    "xc_id": "962616",
+    "recorder": "Mats Olsson",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/JLAUXQLBHR/XC962616-Soundscape_Dalg23-Karlshamn_2025-01-22_1215.mp3",
+    "bird_name": "キレンジャク",
+    "call_type": "さえずり"
+  },
+  "kirenjaku_jinaki": {
+    "xc_id": "861615",
+    "recorder": "ANZHE",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/XCIREDVDVY/XC861615-20240113_%E5%A4%AA%E5%8E%9F%E5%B8%82%E5%B0%91%E5%B9%B4%E5%AE%AB_%E5%A4%AA%E5%B9%B3%E9%B8%9Fcall.mp3",
+    "bird_name": "キレンジャク",
+    "call_type": "地鳴き"
+  },
+  "hirenjaku_saezuri": {
+    "xc_id": "723873",
+    "recorder": "Bo Shunqi",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/YNOAMCSSHX/XC723873-%20song%201303150651%E7%80%9B%E6%B4%B2%E5%85%AC%E5%9B%AD.mp3",
+    "bird_name": "ヒレンジャク",
+    "call_type": "さえずり"
+  },
+  "hirenjaku_jinaki": {
+    "xc_id": "790531",
+    "recorder": "Bo Shunqi 薄顺奇",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/YNOAMCSSHX/XC790531-Japanese-Waxwing%E5%B0%8F%E5%A4%AA%E5%B9%B3%E9%B8%9F-call-%E9%99%B7%E9%98%B1%E5%BD%95%E5%88%B6-%E8%A7%85%E9%A3%9F%E4%BA%8E%E5%A5%B3%E8%B4%9E%E6%A0%91--%E6%9D%BE%E6%B1%9F%E5%8F%B6%E6%A6%AD230226_0907.mp3",
+    "bird_name": "ヒレンジャク",
+    "call_type": "地鳴き"
+  },
+  "iwabibari_saezuri": {
+    "xc_id": "961781",
+    "recorder": "Cedric Mroczko",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/TJSRKPHQNP/XC961781-250119_001b.mp3",
+    "bird_name": "イワヒバリ",
+    "call_type": "さえずり"
+  },
+  "iwabibari_jinaki": {
+    "xc_id": "1016243",
+    "recorder": "Dave Guo",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/KQMHASAYBL/XC1016243-%E9%A2%86%E5%B2%A9%E9%B9%A8begging-call-%E9%95%BF%E7%99%BD%E5%B1%B1%E5%A4%A9%E6%B1%A0%E8%A5%BF%E5%9D%A1.mp3",
+    "bird_name": "イワヒバリ",
+    "call_type": "地鳴き"
+  },
+  "kayakuguri_saezuri": {
+    "xc_id": "155660",
+    "recorder": "Frank Lambert",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/YTUXOCTUEM/XC155660-Prunella%20rubida-FL%20song%20Asahidake%20ski%20lift%20Hokkaido%2021Jum13%2012.10pm%201600m%20LS115578%2B79.mp3",
+    "bird_name": "カヤクグリ",
+    "call_type": "さえずり"
+  },
+  "kayakuguri_jinaki": {
+    "xc_id": "285738",
+    "recorder": "Peter Boesman",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/OOECIWCSWV/XC285738-LS_58151%20Japanese%20Accentor%20call%20A.mp3",
+    "bird_name": "カヤクグリ",
+    "call_type": "地鳴き"
+  },
+  "nyuunaisuzume_saezuri": {
+    "xc_id": "422860",
+    "recorder": "Jens Kirkeby",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/YKITMEIRRE/XC422860-Russet%20Sparrow%20male%20song%20%20Gangtey%20Paro%20jk180604-229.mp3",
+    "bird_name": "ニュウナイスズメ",
+    "call_type": "さえずり"
+  },
+  "nyuunaisuzume_jinaki": {
+    "xc_id": "987514",
+    "recorder": "Ray Tsu 诸仁",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/FROVFAFTMA/XC987514-20250322-0813-%E6%B1%BE%E5%8F%A3%E9%99%85%E5%B2%AD%E8%84%9A-%E5%B1%B1%E9%BA%BB%E9%9B%80call-hisound-dr100m3.wav",
+    "bird_name": "ニュウナイスズメ",
+    "call_type": "地鳴き"
+  },
+  "tsumesekirei_saezuri": {
+    "xc_id": "977438",
+    "recorder": "Sven Normant",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/MPDFSJHTXH/XC977438-berg_printa_song_salalah_park_5_A.wav",
+    "bird_name": "ツメナガセキレイ",
+    "call_type": "さえずり"
+  },
+  "tsumesekirei_jinaki": {
+    "xc_id": "1030371",
+    "recorder": "Frank Lambert",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/YTUXOCTUEM/XC1030371-Motacilla_flava_beema-FL-X-calls-Lake-W-of-Terektisor-Lake-21May25-12.04pm-LS110281a.mp3",
+    "bird_name": "ツメナガセキレイ",
+    "call_type": "地鳴き"
+  },
+  "binzui_saezuri": {
+    "xc_id": "1016664",
+    "recorder": "Uku Paal",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/XIBLXHRPJO/XC1016664-olive-backed-pipit-cape-ochiisi-250630_1336.mp3",
+    "bird_name": "ビンズイ",
+    "call_type": "さえずり"
+  },
+  "binzui_jinaki": {
+    "xc_id": "999989",
+    "recorder": "Bo Shunqi 薄顺奇",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/YNOAMCSSHX/XC999989-Olive-backed-Pipit-%E6%A0%91%E9%B9%A8-call-%E6%A4%8D%E7%89%A9%E5%9B%AD%E5%A3%B0%E7%BA%B9%E7%9B%91%E6%8E%A79B94_20250130_160003----B.mp3",
+    "bird_name": "ビンズイ",
+    "call_type": "地鳴き"
+  },
+  "tahibari_saezuri": {
+    "xc_id": "1029857",
+    "recorder": "Frank Lambert",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/YTUXOCTUEM/XC1029857-Anthus_spinoletta_blakistoni-FL-song-Tienshen-Mts-Kaz-2700m-14May25-8.52am-LS110072a.mp3",
+    "bird_name": "タヒバリ",
+    "call_type": "さえずり"
+  },
+  "tahibari_jinaki": {
+    "xc_id": "1023821",
+    "recorder": "Paul Driver",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/FSCGENVPXK/XC1023821-WATER-PIPIT-alarm-Ortisei-Italy-3.53pm-06282025-%282%29.mp3",
+    "bird_name": "タヒバリ",
+    "call_type": "地鳴き"
+  },
+  "atori_saezuri": {
+    "xc_id": "996273",
+    "recorder": "Joost van Bruggen",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/RNMRWBXEZJ/XC996273-Keep%2C-group-song%2C-Loenermark%2C-260325%2C-0833-uur.wav",
+    "bird_name": "アトリ",
+    "call_type": "さえずり"
+  },
+  "atori_jinaki": {
+    "xc_id": "986593",
+    "recorder": "Ray Tsu 诸仁",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/FROVFAFTMA/XC986593-20250317-1539-%E7%BE%A1%E5%B1%B1%E6%A4%8D%E7%89%A9%E5%9B%AD-%E7%87%95%E9%9B%80call-hisound-dr100m3.wav",
+    "bird_name": "アトリ",
+    "call_type": "地鳴き"
+  },
+  "shime_saezuri": {
+    "xc_id": "981337",
+    "recorder": "William Lambourne",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/YKCWCCBVOV/XC981337-Hawfinch-song-or-subsong.mp3",
+    "bird_name": "シメ",
+    "call_type": "さえずり"
+  },
+  "shime_jinaki": {
+    "xc_id": "972343",
+    "recorder": "Thierry THOMAS",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/JDDHNKDHCS/XC972343-2025.02.09-08h12-Grosbec-alarme.wav",
+    "bird_name": "シメ",
+    "call_type": "地鳴き"
+  },
+  "koikaru_saezuri": {
+    "xc_id": "",
+    "recorder": "Rob Macfie",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://static.inaturalist.org/sounds/984101.wav?1714129814",
+    "bird_name": "コイカル",
+    "call_type": "さえずり"
+  },
+  "koikaru_jinaki": {
+    "xc_id": "",
+    "recorder": "Rob Macfie",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://static.inaturalist.org/sounds/1704468.wav?1764331329",
+    "bird_name": "コイカル",
+    "call_type": "地鳴き"
+  },
+  "oomasiko_saezuri": {
+    "xc_id": "884669",
+    "recorder": "Barry Edmonston",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/FHQVLXJQKW/XC884669-Pallas-s-Rosefinch-1.mp3",
+    "bird_name": "オオマシコ",
+    "call_type": "さえずり"
+  },
+  "oomasiko_jinaki": {
+    "xc_id": "890861",
+    "recorder": "Dave GUO",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/KQMHASAYBL/XC890861-%E5%8C%97%E6%9C%B1%E9%9B%80call-%E8%BE%BD%E6%B2%B3%E5%85%AC%E5%9B%AD.mp3",
+    "bird_name": "オオマシコ",
+    "call_type": "地鳴き"
+  },
+  "hagimasiko_saezuri": {
+    "xc_id": "294807",
+    "recorder": "Ross Gallardy",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/FNIOJOZADD/XC294807-AsainRosyFinch_Japan_01212015_calls_flock2.mp3",
+    "bird_name": "ハギマシコ",
+    "call_type": "さえずり"
+  },
+  "hagimasiko_jinaki": {
+    "xc_id": "294807",
+    "recorder": "Ross Gallardy",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/FNIOJOZADD/XC294807-AsainRosyFinch_Japan_01212015_calls_flock2.mp3",
+    "bird_name": "ハギマシコ",
+    "call_type": "地鳴き"
+  },
+  "benihiwa_saezuri": {
+    "xc_id": "1003163",
+    "recorder": "Mario Baldauf",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/QURKCYWQQR/XC1003163-Alpenbirkenzeidig_song_310525.mp3",
+    "bird_name": "ベニヒワ",
+    "call_type": "さえずり"
+  },
+  "benihiwa_jinaki": {
+    "xc_id": "Redpolls1",
+    "recorder": "Valerie Heemstra",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/ZEFHZHEMLK/XC965722-MixPre-1122XCRedpolls1-31-25FumeeLakesNaturalAreaFlightcallsNormalized.mp3",
+    "bird_name": "ベニヒワ",
+    "call_type": "地鳴き"
+  },
+  "isuka_saezuri": {
+    "xc_id": "975602",
+    "recorder": "Sven Kransel",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/ZQQGDKDOZQ/XC975602-250130_0425---0905-Fichtenkreuzschnabel-Burgdorfer-Holz.mp3",
+    "bird_name": "イスカ",
+    "call_type": "さえずり"
+  },
+  "isuka_jinaki": {
+    "xc_id": "975602",
+    "recorder": "Sven Kransel",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/ZQQGDKDOZQ/XC975602-250130_0425---0905-Fichtenkreuzschnabel-Burgdorfer-Holz.mp3",
+    "bird_name": "イスカ",
+    "call_type": "地鳴き"
+  },
+  "mahiwa_saezuri": {
+    "xc_id": "999958",
+    "recorder": "Bo Shunqi 薄顺奇",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/YNOAMCSSHX/XC999958-Eurasian-Siskin-%E9%BB%84%E9%9B%80-song-%E7%BE%A4-%E6%A4%8D%E7%89%A9%E5%9B%AD-X8-CICADA-2503020711_1078---A.mp3",
+    "bird_name": "マヒワ",
+    "call_type": "さえずり"
+  },
+  "mahiwa_jinaki": {
+    "xc_id": "986581",
+    "recorder": "Ray Tsu 诸仁",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/FROVFAFTMA/XC986581-20250317-1539-%E7%BE%A1%E5%B1%B1%E6%A4%8D%E7%89%A9%E5%9B%AD-%E9%BB%84%E9%9B%80call-hisound-dr100m3.wav",
+    "bird_name": "マヒワ",
+    "call_type": "地鳴き"
+  },
+  "hooaka_saezuri": {
+    "xc_id": "285714",
+    "recorder": "Peter Boesman",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/OOECIWCSWV/XC285714-LS_58106%20Chestnut-eared%20Bunting%20song.mp3",
+    "bird_name": "ホオアカ",
+    "call_type": "さえずり"
+  },
+  "hooaka_jinaki": {
+    "xc_id": "285722",
+    "recorder": "Peter Boesman",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/OOECIWCSWV/XC285722-LS_58115%20Chestnut-eared%20Buntig%20call.mp3",
+    "bird_name": "ホオアカ",
+    "call_type": "地鳴き"
+  },
+  "kojurin_saezuri": {
+    "xc_id": "467361",
+    "recorder": "Yann Muzika",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/GZZOWJJVZS/XC467361-190418-083438%20Japanese%20Reed%20Bunting%20Song%20EDIT.mp3",
+    "bird_name": "コジュリン",
+    "call_type": "さえずり"
+  },
+  "kojurin_jinaki": {
+    "xc_id": "467364",
+    "recorder": "Yann Muzika",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/GZZOWJJVZS/XC467364-190418-083115%20Japanese%20Reed%20Bunting%20Calls%20EDIT.mp3",
+    "bird_name": "コジュリン",
+    "call_type": "地鳴き"
+  },
+  "oojurin_saezuri": {
+    "xc_id": "986011",
+    "recorder": "David Darrell-Lambert",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/AYKHDFBYIH/XC986011-Common-Reed-Bunting-singing-odd-very-good-2025-04-06-Walthamstow-Reservoirs%2C-London%2C-England_152_edited.wav",
+    "bird_name": "オオジュリン",
+    "call_type": "さえずり"
+  },
+  "oojurin_jinaki": {
+    "xc_id": "966090",
+    "recorder": "João Tomás",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/POVKNQVSGU/XC966090-Emberiza-schoeniclus_siu-call_160125_Arroyo-de-la-Encina_2.wav",
+    "bird_name": "オオジュリン",
+    "call_type": "地鳴き"
+  },
+  "nojiko_saezuri": {
+    "xc_id": "528851",
+    "recorder": "Okamoto Keita Sin",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/ZPYEHLWXXX/XC528851-Bunting%2C%20Yellow_2018-05-14_1001_Japan_Nagano_KaruizawaYachoNoMori.mp3",
+    "bird_name": "ノジコ",
+    "call_type": "さえずり"
+  },
+  "nojiko_jinaki": {
+    "xc_id": "285684",
+    "recorder": "Peter Boesman",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/OOECIWCSWV/XC285684-LS_58058%20Japanese%20Grosbeak%20call%20and.mp3",
+    "bird_name": "ノジコ",
+    "call_type": "地鳴き"
+  },
+  "kuroji_saezuri": {
+    "xc_id": "286345",
+    "recorder": "Peter Boesman",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/OOECIWCSWV/XC286345-LS_59297%20Grey%20Bunting%20song%20B.mp3",
+    "bird_name": "クロジ",
+    "call_type": "さえずり"
+  },
+  "kuroji_jinaki": {
+    "xc_id": "286328",
+    "recorder": "Peter Boesman",
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "url": "https://xeno-canto.org/sounds/uploaded/OOECIWCSWV/XC286328-LS_59262%20Grey%20Bunting%20call%20C.mp3",
+    "bird_name": "クロジ",
+    "call_type": "地鳴き"
+  }
+}

@@ -760,3 +760,127 @@ html, body {
     height: 64px;
   }
 }
+
+/* ===========================
+   Nakigoe (bird call) mode
+   =========================== */
+
+/* Grid card audio area */
+.audio-play-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 1 / 1;
+  background: var(--bg3);
+  gap: 6px;
+  cursor: pointer;
+}
+
+.speaker-btn {
+  background: none;
+  border: none;
+  color: var(--purple-lt);
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 50%;
+  transition: background 0.15s, transform 0.1s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.speaker-btn:hover {
+  background: rgba(139, 92, 246, 0.2);
+}
+
+.speaker-btn:active {
+  transform: scale(0.9);
+  background: rgba(139, 92, 246, 0.3);
+}
+
+.call-type-label {
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  font-weight: 600;
+}
+
+/* Single card audio area */
+.single-audio-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 16px;
+  gap: 12px;
+  background: var(--bg3);
+}
+
+.speaker-btn-large {
+  padding: 16px;
+}
+
+.speaker-btn-large svg {
+  width: 64px;
+  height: 64px;
+}
+
+.call-type-label-large {
+  font-size: 1.1rem;
+  color: var(--text-muted);
+  font-weight: 700;
+}
+
+/* Catalog speaker button */
+.catalog-speaker-btn {
+  width: 72px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg3);
+  border: none;
+  border-radius: 12px;
+  color: var(--purple-lt);
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.catalog-speaker-btn:hover {
+  background: rgba(139, 92, 246, 0.2);
+}
+
+.catalog-speaker-btn:active {
+  opacity: 0.7;
+}
+
+/* Result speaker button */
+.result-speaker-btn {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg3);
+  border: none;
+  border-radius: var(--radius-sm);
+  color: var(--purple-lt);
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.result-speaker-btn:active {
+  opacity: 0.7;
+}
+
+/* Mode switcher wrap for 3 buttons */
+.mode-switcher {
+  flex-wrap: wrap;
+}
+
+@media (max-width: 560px) {
+  .catalog-speaker-btn {
+    width: 64px;
+    height: 64px;
+  }
+}

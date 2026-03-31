@@ -36,6 +36,7 @@
       <div class="mode-switcher">
         <button class="mode-btn active" id="mode-bird" data-mode="bird">とり覚え</button>
         <button class="mode-btn" id="mode-tree" data-mode="tree">じゅもく覚え</button>
+        <button class="mode-btn" id="mode-nakigoe" data-mode="nakigoe">なきごえ覚え</button>
       </div>
 
       <div class="stat-block">
@@ -246,16 +247,18 @@
     <div class="screen-inner">
       <div class="screen-header">
         <button class="btn btn-back" id="btn-back-credits">← 戻る</button>
-        <h2 class="screen-title">写真クレジット</h2>
+        <h2 class="screen-title" id="credits-screen-title">写真クレジット</h2>
         <div></div>
       </div>
-      <p class="credits-intro">鳥の写真はすべてWikimedia Commonsのフリーライセンス画像を使用しています。</p>
+      <p class="credits-intro" id="credits-intro-text">鳥の写真はすべてWikimedia Commonsのフリーライセンス画像を使用しています。</p>
       <div class="credits-list" id="credits-list"></div>
     </div>
   </section>
 
   <script src="data.js"></script>
   <script src="tree_data.js"></script>
+  <script src="nakigoe_data.js"></script>
+  <script src="nakigoe_credits.js"></script>
   <script src="credits.js"></script>
   <script src="settings.js"></script>
   <script src="db.js"></script>

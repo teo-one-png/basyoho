@@ -15,7 +15,33 @@ var recentSessionHistoryByMode = { bird: [], tree: [] };
 
 // --------------- Active data source ---------------
 function getActiveData() {
-  return currentMode === 'tree' ? TREE_DATA : BIRD_DATA;
+  if (currentMode === 'tree') return TREE_DATA;
+  if (currentMode === 'nakigoe') return NAKIGOE_DATA;
+  return BIRD_DATA;
+}
+
+function isNakigoeMode() {
+  return currentMode === 'nakigoe';
+}
+
+// Audio playback for nakigoe mode
+var currentAudioElement = null;
+function playBirdAudio(audioSrc) {
+  if (currentAudioElement) {
+    currentAudioElement.pause();
+    currentAudioElement = null;
+  }
+  currentAudioElement = new Audio(audioSrc);
+  currentAudioElement.play().catch(function (e) {
+    console.error('Audio play error:', e);
+  });
+}
+
+function stopBirdAudio() {
+  if (currentAudioElement) {
+    currentAudioElement.pause();
+    currentAudioElement = null;
+  }
 }
 
 function getModeLabels(mode) {
@@ -25,6 +51,15 @@ function getModeLabels(mode) {
       subtitle: '葉っぱフラッシュカード',
       resultWrongTitle: '間違えた項目',
       catalogTitle: '樹木一覧'
+    };
+  }
+
+  if (mode === 'nakigoe') {
+    return {
+      title: 'なきごえ覚え',
+      subtitle: '野鳥の鳴き声トレーニング',
+      resultWrongTitle: '間違えた項目',
+      catalogTitle: '鳴き声一覧'
     };
   }
 
@@ -90,6 +125,7 @@ function renderMemorizeGrid() {
   var grid = document.getElementById('memorize-grid');
   var birds = currentQuestions.length ? currentQuestions : [];
   var isAnswerPhase = memorizePhase === 'grid-answer';
+  var isNakigoe = isNakigoeMode();
 
   grid.innerHTML = '';
 
@@ -98,12 +134,34 @@ function renderMemorizeGrid() {
     card.className = 'bird-card';
     card.dataset.idx = idx;
 
-    var img = document.createElement('img');
-    img.src = bird.image;
-    img.alt = isAnswerPhase ? '?' : bird.name;
-    img.loading = 'lazy';
+    if (isNakigoe) {
+      // Nakigoe mode: show speaker icon + call type
+      var audioArea = document.createElement('div');
+      audioArea.className = 'audio-play-area';
 
-    card.appendChild(img);
+      var speakerBtn = document.createElement('button');
+      speakerBtn.className = 'speaker-btn';
+      speakerBtn.innerHTML = '<svg viewBox="0 0 24 24" width="32" height="32" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/></svg>';
+      speakerBtn.addEventListener('click', function (e) {
+        e.stopPropagation();
+        playBirdAudio(bird.audio);
+      });
+
+      var callTypeEl = document.createElement('span');
+      callTypeEl.className = 'call-type-label';
+      callTypeEl.textContent = bird.callType;
+
+      audioArea.appendChild(speakerBtn);
+      audioArea.appendChild(callTypeEl);
+      card.appendChild(audioArea);
+    } else {
+      // Image mode
+      var img = document.createElement('img');
+      img.src = bird.image;
+      img.alt = isAnswerPhase ? '?' : bird.name;
+      img.loading = 'lazy';
+      card.appendChild(img);
+    }
 
     if (isAnswerPhase) {
       var input = document.createElement('input');
@@ -128,11 +186,15 @@ function renderMemorizeGrid() {
     } else {
       var nameEl = document.createElement('p');
       nameEl.className = 'bird-card-name';
-      nameEl.textContent = bird.name;
+      nameEl.textContent = isNakigoe ? bird.name : bird.name;
       card.appendChild(nameEl);
 
       card.addEventListener('click', function () {
-        openOverlay(bird);
+        if (isNakigoe) {
+          playBirdAudio(bird.audio);
+        } else {
+          openOverlay(bird);
+        }
       });
     }
 
@@ -312,6 +374,7 @@ function updateMemorizeActions() {
 
 async function startSession() {
   closeOverlay();
+  stopBirdAudio();
   await initializeSession();
   memorizePhase = 'memorize';
   renderMemorizeGrid();
@@ -338,6 +401,7 @@ function beginAnswerPhase() {
 
 function renderTestGrid() {
   var grid = document.getElementById('test-grid');
+  var isNakigoe = isNakigoeMode();
   grid.innerHTML = '';
 
   currentQuestions.forEach(function (bird, idx) {
@@ -345,10 +409,32 @@ function renderTestGrid() {
     card.className = 'bird-card';
     card.dataset.idx = idx;
 
-    var img = document.createElement('img');
-    img.src = bird.image;
-    img.alt = '?';
-    img.loading = 'lazy';
+    if (isNakigoe) {
+      var audioArea = document.createElement('div');
+      audioArea.className = 'audio-play-area';
+
+      var speakerBtn = document.createElement('button');
+      speakerBtn.className = 'speaker-btn';
+      speakerBtn.innerHTML = '<svg viewBox="0 0 24 24" width="32" height="32" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/></svg>';
+      speakerBtn.addEventListener('click', function (e) {
+        e.stopPropagation();
+        playBirdAudio(bird.audio);
+      });
+
+      var callTypeEl = document.createElement('span');
+      callTypeEl.className = 'call-type-label';
+      callTypeEl.textContent = bird.callType;
+
+      audioArea.appendChild(speakerBtn);
+      audioArea.appendChild(callTypeEl);
+      card.appendChild(audioArea);
+    } else {
+      var img = document.createElement('img');
+      img.src = bird.image;
+      img.alt = '?';
+      img.loading = 'lazy';
+      card.appendChild(img);
+    }
 
     var input = document.createElement('input');
     input.type = 'text';
@@ -356,7 +442,6 @@ function renderTestGrid() {
     input.placeholder = 'カタカナ';
     input.dataset.idx = idx;
 
-    // Enter key moves to next input
     input.addEventListener('keydown', function (e) {
       if (e.key === 'Enter') {
         var inputs = grid.querySelectorAll('.bird-card-input');
@@ -369,7 +454,6 @@ function renderTestGrid() {
       }
     });
 
-    card.appendChild(img);
     card.appendChild(input);
     grid.appendChild(card);
   });
@@ -442,6 +526,7 @@ function updateSingleDisplay() {
   if (currentQuestions.length === 0) return;
 
   var bird = currentQuestions[currentIndex];
+  var isNakigoe = isNakigoeMode();
 
   // Update counter
   var counter = document.getElementById('single-counter');
@@ -449,11 +534,44 @@ function updateSingleDisplay() {
     counter.textContent = (currentIndex + 1) + ' / ' + currentQuestions.length;
   }
 
-  // Update image
+  // Update image or audio area
   var img = document.getElementById('single-img');
-  if (img) {
-    img.src = bird.image;
-    img.alt = '?';
+  var singleAudioArea = document.getElementById('single-audio-area');
+
+  if (isNakigoe) {
+    if (img) img.style.display = 'none';
+    if (!singleAudioArea) {
+      singleAudioArea = document.createElement('div');
+      singleAudioArea.id = 'single-audio-area';
+      singleAudioArea.className = 'single-audio-area';
+      var singleCard = document.querySelector('.single-card');
+      if (singleCard && img) {
+        singleCard.insertBefore(singleAudioArea, img.nextSibling);
+      }
+    }
+    singleAudioArea.style.display = '';
+    singleAudioArea.innerHTML = '';
+
+    var speakerBtn = document.createElement('button');
+    speakerBtn.className = 'speaker-btn speaker-btn-large';
+    speakerBtn.innerHTML = '<svg viewBox="0 0 24 24" width="64" height="64" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/></svg>';
+    speakerBtn.addEventListener('click', function () {
+      playBirdAudio(bird.audio);
+    });
+
+    var callTypeEl = document.createElement('span');
+    callTypeEl.className = 'call-type-label-large';
+    callTypeEl.textContent = bird.callType;
+
+    singleAudioArea.appendChild(speakerBtn);
+    singleAudioArea.appendChild(callTypeEl);
+  } else {
+    if (img) {
+      img.style.display = '';
+      img.src = bird.image;
+      img.alt = '?';
+    }
+    if (singleAudioArea) singleAudioArea.style.display = 'none';
   }
 
   // Reset input area visibility
@@ -554,16 +672,29 @@ function showResult(correct, total) {
       var li = document.createElement('li');
       li.className = 'result-wrong-item';
 
-      var img = document.createElement('img');
-      img.src = bird.image;
-      img.alt = bird.name;
+      if (isNakigoeMode() && bird.audio) {
+        var audioBtn = document.createElement('button');
+        audioBtn.className = 'result-speaker-btn';
+        audioBtn.innerHTML = '<svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/></svg>';
+        audioBtn.addEventListener('click', function () {
+          playBirdAudio(bird.audio);
+        });
+        li.appendChild(audioBtn);
+      } else {
+        var img = document.createElement('img');
+        img.src = bird.image;
+        img.alt = bird.name;
+        li.appendChild(img);
+      }
 
       var info = document.createElement('div');
       info.className = 'result-wrong-item-info';
 
       var nameEl = document.createElement('span');
       nameEl.className = 'result-wrong-item-name';
-      nameEl.textContent = bird.name;
+      nameEl.textContent = isNakigoeMode() && bird.callType
+        ? bird.callType + '：' + bird.name
+        : bird.name;
 
       var answerEl = document.createElement('span');
       answerEl.className = 'result-wrong-item-answer';
@@ -573,7 +704,6 @@ function showResult(correct, total) {
 
       info.appendChild(nameEl);
       info.appendChild(answerEl);
-      li.appendChild(img);
       li.appendChild(info);
       wrongList.appendChild(li);
     });
@@ -625,6 +755,8 @@ async function renderCatalog() {
     progressMap[record.id] = record;
   });
 
+  var isNakigoe = currentMode === 'nakigoe';
+
   data.forEach(function (item) {
     var progress = progressMap[item.id];
     var isMastered = Boolean(progress && progress.mastered);
@@ -632,21 +764,34 @@ async function renderCatalog() {
     var row = document.createElement('div');
     row.className = 'catalog-item' + (isMastered ? ' mastered' : '');
 
-    var img = document.createElement('img');
-    img.src = item.image;
-    img.alt = item.name;
-    img.loading = 'lazy';
+    if (isNakigoe && item.audio) {
+      var audioBtn = document.createElement('button');
+      audioBtn.className = 'catalog-speaker-btn';
+      audioBtn.innerHTML = '<svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/></svg>';
+      audioBtn.addEventListener('click', function () {
+        playBirdAudio(item.audio);
+      });
+      row.appendChild(audioBtn);
+    } else {
+      var img = document.createElement('img');
+      img.src = item.image;
+      img.alt = item.name;
+      img.loading = 'lazy';
+      row.appendChild(img);
+    }
 
     var main = document.createElement('div');
     main.className = 'catalog-item-main';
 
     var nameEl = document.createElement('span');
     nameEl.className = 'catalog-item-name';
-    nameEl.textContent = item.name;
+    nameEl.textContent = isNakigoe && item.callType
+      ? item.callType + '：' + item.name
+      : item.name;
 
     var metaEl = document.createElement('span');
     metaEl.className = 'catalog-item-meta';
-    metaEl.textContent = item.tags && item.tags.length ? item.tags.join(' / ') : item.category;
+    metaEl.textContent = item.tags && item.tags.length ? item.tags.join(' / ') : (item.callType || item.category);
 
     var toggle = document.createElement('label');
     toggle.className = 'catalog-toggle';
@@ -1022,6 +1167,15 @@ function setupEvents() {
   var btnCredits = document.getElementById('btn-credits');
   if (btnCredits) {
     btnCredits.addEventListener('click', function () {
+      var creditsTitle = document.getElementById('credits-screen-title');
+      var creditsIntro = document.getElementById('credits-intro-text');
+      if (currentMode === 'nakigoe') {
+        if (creditsTitle) creditsTitle.textContent = '音源クレジット';
+        if (creditsIntro) creditsIntro.textContent = '鳥の鳴き声はすべてxeno-cantoのCC BY-NC 4.0ライセンス音源を使用しています。';
+      } else {
+        if (creditsTitle) creditsTitle.textContent = '写真クレジット';
+        if (creditsIntro) creditsIntro.textContent = '鳥の写真はすべてWikimedia Commonsのフリーライセンス画像を使用しています。';
+      }
       renderCredits();
       showScreen('screen-credits');
     });
@@ -1043,6 +1197,34 @@ function renderCredits() {
   var list = document.getElementById('credits-list');
   if (!list) return;
   list.innerHTML = '';
+
+  if (currentMode === 'nakigoe') {
+    // Nakigoe credits from nakigoe_credits.json (embedded)
+    var nakigoeCredits = typeof NAKIGOE_CREDITS !== 'undefined' ? NAKIGOE_CREDITS : {};
+    var nakigoeData = typeof NAKIGOE_DATA !== 'undefined' ? NAKIGOE_DATA : [];
+    nakigoeData.forEach(function (item) {
+      var credit = nakigoeCredits[item.id] || null;
+      var div = document.createElement('div');
+      div.className = 'credit-item';
+
+      var nameEl = document.createElement('span');
+      nameEl.className = 'credit-name';
+      nameEl.textContent = item.callType + '：' + item.name;
+
+      var infoEl = document.createElement('span');
+      infoEl.className = 'credit-info';
+      if (credit) {
+        infoEl.textContent = credit.recorder + ' / CC BY-NC 4.0';
+      } else {
+        infoEl.textContent = 'xeno-canto';
+      }
+
+      div.appendChild(nameEl);
+      div.appendChild(infoEl);
+      list.appendChild(div);
+    });
+    return;
+  }
 
   var allData = [].concat(BIRD_DATA, typeof TREE_DATA !== 'undefined' ? TREE_DATA : []);
   allData.forEach(function (bird) {
