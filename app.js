@@ -763,6 +763,7 @@ async function renderCatalog() {
 
     var row = document.createElement('div');
     row.className = 'catalog-item' + (isMastered ? ' mastered' : '');
+    var mediaEl;
 
     if (isNakigoe && item.audio) {
       var audioBtn = document.createElement('button');
@@ -771,13 +772,13 @@ async function renderCatalog() {
       audioBtn.addEventListener('click', function () {
         playBirdAudio(item.audio);
       });
-      row.appendChild(audioBtn);
+      mediaEl = audioBtn;
     } else {
       var img = document.createElement('img');
       img.src = item.image;
       img.alt = item.name;
       img.loading = 'lazy';
-      row.appendChild(img);
+      mediaEl = img;
     }
 
     var main = document.createElement('div');
@@ -822,7 +823,7 @@ async function renderCatalog() {
     main.appendChild(metaEl);
     toggle.appendChild(checkbox);
     toggle.appendChild(toggleText);
-    row.appendChild(img);
+    row.appendChild(mediaEl);
     row.appendChild(main);
     row.appendChild(toggle);
     list.appendChild(row);

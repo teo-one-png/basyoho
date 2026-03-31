@@ -1,10 +1,12 @@
-const CACHE_NAME = "torioboe-v7";
+const CACHE_NAME = "torioboe-v8";
 const ASSETS = [
   "./index.html",
   "./style.css",
   "./app.js",
   "./data.js",
   "./tree_data.js",
+  "./nakigoe_data.js",
+  "./nakigoe_credits.js",
   "./credits.js",
   "./db.js",
   "./quiz.js",

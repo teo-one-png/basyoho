@@ -65,7 +65,7 @@ js = f"""// nakigoe_data.js - {len(birds)}\u7a2e {len(entries)}\u554f
 // \u97f3\u6e90: xeno-canto (CC BY-NC 4.0) via GBIF
 
 const NAKIGOE_DATA = [
-{chr(44)+chr(10).join(entries)}
+{',\n'.join(entries)}
 ];
 """
 
