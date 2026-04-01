@@ -206,9 +206,11 @@ html, body {
 }
 
 .home-buttons .btn-primary,
-.home-buttons .btn-green {
+.home-buttons .btn-green,
+.home-buttons .btn-secondary {
   font-size: 1.1rem;
   padding: 16px;
+  width: 100%;
 }
 
 /* ===========================
@@ -219,9 +221,12 @@ html, body {
   grid-template-columns: repeat(3, 1fr);
   gap: 8px;
   margin-bottom: 8px;
+  align-items: start;
 }
 
 .bird-card {
+  display: flex;
+  flex-direction: column;
   background: var(--card-bg);
   border-radius: var(--radius-sm);
   overflow: hidden;
@@ -235,10 +240,14 @@ html, body {
 }
 
 .bird-card img {
-  width: 100%;
-  aspect-ratio: 1 / 1;
-  object-fit: cover;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: min(38vh, 280px);
+  object-fit: contain;
   display: block;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.04);
 }
 
 .bird-card-name {
@@ -323,10 +332,13 @@ html, body {
 }
 
 .overlay-img {
-  width: min(80vw, 80vh);
-  height: min(80vw, 80vh);
-  object-fit: cover;
+  width: auto;
+  max-width: min(92vw, 1100px);
+  height: auto;
+  max-height: 82vh;
+  object-fit: contain;
   border-radius: var(--radius);
+  background: rgba(255, 255, 255, 0.04);
 }
 
 .overlay-name {
@@ -347,10 +359,14 @@ html, body {
 }
 
 .single-img {
-  width: 100%;
-  max-height: 55vw;
-  object-fit: cover;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: min(65svh, 520px);
+  object-fit: contain;
   display: block;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.04);
 }
 
 .single-answer-area {
@@ -448,16 +464,19 @@ html, body {
 
 .result-wrong-item {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 10px;
 }
 
 .result-wrong-item img {
-  width: 48px;
-  height: 48px;
-  object-fit: cover;
+  width: auto;
+  max-width: 56px;
+  height: auto;
+  max-height: 56px;
+  object-fit: contain;
   border-radius: var(--radius-sm);
   flex-shrink: 0;
+  background: rgba(255, 255, 255, 0.04);
 }
 
 .result-wrong-item-info {
@@ -692,7 +711,7 @@ html, body {
   display: grid;
   grid-template-columns: 72px 1fr auto;
   gap: 0.9rem;
-  align-items: center;
+  align-items: start;
   padding: 0.8rem;
   border: 1px solid var(--border);
   border-radius: 16px;
@@ -704,11 +723,14 @@ html, body {
 }
 
 .catalog-item img {
-  width: 72px;
-  height: 72px;
-  object-fit: cover;
+  width: auto;
+  max-width: 72px;
+  height: auto;
+  max-height: 72px;
+  object-fit: contain;
   border-radius: 12px;
   background: rgba(255, 255, 255, 0.06);
+  justify-self: center;
 }
 
 .catalog-item-main {
@@ -756,8 +778,8 @@ html, body {
   }
 
   .catalog-item img {
-    width: 64px;
-    height: 64px;
+    max-width: 64px;
+    max-height: 64px;
   }
 }
 

@@ -10,6 +10,9 @@ var singleAnswered = [];      // Single mode: answered flags per index
 var currentSettings = null;   // Settings captured when the current session starts
 var memorizePhase = 'idle';   // idle | memorize | grid-answer
 var currentMode = 'bird';     // 'bird' | 'tree'
+var currentSessionOptions = { randomizeAnswerOrder: false };
+var lastSessionOptions = { randomizeAnswerOrder: false };
+var answerOrderShuffled = false;
 var lastSessionIdsByMode = { bird: [], tree: [] };
 var recentSessionHistoryByMode = { bird: [], tree: [] };
 
@@ -293,6 +296,38 @@ function rememberSessionQuestions(mode, items) {
   recentSessionHistoryByMode[mode] = history.slice(0, 5);
 }
 
+function normalizeSessionOptions(options) {
+  return {
+    randomizeAnswerOrder: Boolean(options && options.randomizeAnswerOrder)
+  };
+}
+
+function resetAnswerState() {
+  testAnswers = currentQuestions.map(function (bird) {
+    return { birdId: bird.id, userInput: '', isCorrect: null };
+  });
+  currentIndex = 0;
+  singleAnswered = currentQuestions.map(function () { return false; });
+}
+
+function shuffleQuestionsForAnswerPhase() {
+  if (currentQuestions.length <= 1) return;
+
+  var originalIds = getQuestionIds(currentQuestions);
+  var shuffled = currentQuestions.slice();
+
+  for (var attempt = 0; attempt < 8; attempt++) {
+    shuffled = shuffleArray(currentQuestions.slice());
+    if (!isSameQuestionOrder(shuffled, originalIds)) {
+      currentQuestions = shuffled;
+      return;
+    }
+  }
+
+  shuffled = currentQuestions.slice(1).concat(currentQuestions[0]);
+  currentQuestions = shuffled;
+}
+
 async function pickSessionQuestions(data, settings) {
   var previousIds = lastSessionIdsByMode[currentMode] || [];
   var recentHistory = getRecentHistory(currentMode);
@@ -352,11 +387,8 @@ async function initializeSession() {
     rememberSessionQuestions(currentMode, currentQuestions);
   }
 
-  testAnswers = currentQuestions.map(function (bird) {
-    return { birdId: bird.id, userInput: '', isCorrect: null };
-  });
-  currentIndex = 0;
-  singleAnswered = currentQuestions.map(function () { return false; });
+  resetAnswerState();
+  answerOrderShuffled = false;
 }
 
 function updateMemorizeActions() {
@@ -372,9 +404,11 @@ function updateMemorizeActions() {
   }
 }
 
-async function startSession() {
+async function startSession(options) {
   closeOverlay();
   stopBirdAudio();
+  currentSessionOptions = normalizeSessionOptions(options);
+  lastSessionOptions = normalizeSessionOptions(options);
   await initializeSession();
   memorizePhase = 'memorize';
   renderMemorizeGrid();
@@ -386,6 +420,12 @@ function beginAnswerPhase() {
   if (currentQuestions.length === 0) return;
 
   closeOverlay();
+
+  if (currentSessionOptions.randomizeAnswerOrder && !answerOrderShuffled) {
+    shuffleQuestionsForAnswerPhase();
+    resetAnswerState();
+    answerOrderShuffled = true;
+  }
 
   if (currentSettings && currentSettings.displayMode === 'single') {
     renderTestSingle();
@@ -1000,7 +1040,14 @@ function setupEvents() {
   var btnStartSession = document.getElementById('btn-start-session');
   if (btnStartSession) {
     btnStartSession.addEventListener('click', function () {
-      startSession();
+      startSession({ randomizeAnswerOrder: false });
+    });
+  }
+
+  var btnStartSessionRandom = document.getElementById('btn-start-session-random');
+  if (btnStartSessionRandom) {
+    btnStartSessionRandom.addEventListener('click', function () {
+      startSession({ randomizeAnswerOrder: true });
     });
   }
 
@@ -1133,7 +1180,7 @@ function setupEvents() {
   var btnRetry = document.getElementById('btn-retry');
   if (btnRetry) {
     btnRetry.addEventListener('click', function () {
-      startSession();
+      startSession(lastSessionOptions);
     });
   }
 
