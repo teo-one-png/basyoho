@@ -607,17 +607,39 @@ async function submitGridTest(gridId, submitButtonId) {
         shokusouInputs[0].disabled = true;
       }
 
+      // Check related names - ORDER INDEPENDENT
       var relNames = currentSubMode === 'insect' ? bird.foodPlants : bird.insects;
+      var remainingCorrect = relNames.slice(); // copy
+
       for (var ri = 0; ri < relNames.length; ri++) {
         var relInp = shokusouInputs[ri + 1];
         if (relInp) {
-          var relOk = checkAnswer(relInp.value, relNames[ri]);
-          relInp.classList.add(relOk ? 'correct' : 'wrong');
-          if (!relOk) {
-            relInp.value = relInp.value + ' → ' + relNames[ri];
+          var userVal = normalizeKatakana(relInp.value.trim());
+          var matchIdx = -1;
+          for (var mi = 0; mi < remainingCorrect.length; mi++) {
+            if (userVal === normalizeKatakana(remainingCorrect[mi])) {
+              matchIdx = mi;
+              break;
+            }
+          }
+          if (matchIdx >= 0) {
+            relInp.classList.add('correct');
+            remainingCorrect.splice(matchIdx, 1);
+          } else {
+            relInp.classList.add('wrong');
             allCorrect = false;
           }
           relInp.disabled = true;
+        }
+      }
+      // If any correct answers remain unmatched
+      if (remainingCorrect.length > 0) allCorrect = false;
+
+      // Show correct answers on wrong inputs
+      for (var wi = 0; wi < relNames.length; wi++) {
+        var inp = shokusouInputs[wi + 1];
+        if (inp && inp.classList.contains('wrong')) {
+          inp.value = inp.value + ' → ' + relNames[wi];
         }
       }
 
@@ -836,17 +858,40 @@ async function submitSingleAnswer() {
       inputs[0].disabled = true;
     }
 
+    // Check related names - ORDER INDEPENDENT
     var relNames = currentSubMode === 'insect' ? bird.foodPlants : bird.insects;
+    var remainingCorrect = relNames.slice(); // copy
+
     for (var ri = 0; ri < relNames.length; ri++) {
       var relInp = inputs[ri + 1];
       if (relInp) {
-        var relOk = checkAnswer(relInp.value, relNames[ri]);
-        relInp.classList.add(relOk ? 'correct' : 'wrong');
-        if (!relOk) {
+        var userVal = normalizeKatakana(relInp.value.trim());
+        var matchIdx = -1;
+        for (var mi = 0; mi < remainingCorrect.length; mi++) {
+          if (userVal === normalizeKatakana(remainingCorrect[mi])) {
+            matchIdx = mi;
+            break;
+          }
+        }
+        if (matchIdx >= 0) {
+          relInp.classList.add('correct');
+          remainingCorrect.splice(matchIdx, 1);
+        } else {
+          relInp.classList.add('wrong');
           feedbackParts.push(relInp.value + ' → ' + relNames[ri]);
           allCorrect = false;
         }
         relInp.disabled = true;
+      }
+    }
+    // If any correct answers remain unmatched
+    if (remainingCorrect.length > 0) allCorrect = false;
+
+    // Show correct answers on wrong inputs
+    for (var wi = 0; wi < relNames.length; wi++) {
+      var wInp = inputs[wi + 1];
+      if (wInp && wInp.classList.contains('wrong')) {
+        wInp.value = wInp.value + ' → ' + relNames[wi];
       }
     }
 
@@ -964,6 +1009,17 @@ function showResult(correct, total) {
       info.appendChild(nameEl);
       info.appendChild(answerEl);
       li.appendChild(info);
+
+      if (isShokusouMode()) {
+        var relNames = currentSubMode === 'insect' ? bird.foodPlants : bird.insects;
+        var relLabel = currentSubMode === 'insect' ? '食草' : '昆虫';
+        var relEl = document.createElement('span');
+        relEl.style.fontSize = '0.75rem';
+        relEl.style.color = 'var(--purple-lt)';
+        relEl.textContent = ' [' + relLabel + ': ' + relNames.join('、') + ']';
+        li.appendChild(relEl);
+      }
+
       wrongList.appendChild(li);
     });
   }
@@ -1385,10 +1441,23 @@ function setupEvents() {
     });
   }
 
-  var singleInput = document.getElementById('single-input');
-  if (singleInput) {
-    singleInput.addEventListener('keydown', function (e) {
-      if (e.key === 'Enter') submitSingleAnswer();
+  var singleAnswerArea = document.getElementById('single-answer-area');
+  if (singleAnswerArea) {
+    singleAnswerArea.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter') {
+        // In shokusou mode, Enter on a field should move to next field, submit on last
+        if (isShokusouMode()) {
+          var inputs = singleAnswerArea.querySelectorAll('input');
+          var inputsArr = Array.prototype.slice.call(inputs);
+          var currentIdx = inputsArr.indexOf(e.target);
+          if (currentIdx >= 0 && currentIdx < inputsArr.length - 1) {
+            e.preventDefault();
+            inputsArr[currentIdx + 1].focus();
+            return;
+          }
+        }
+        submitSingleAnswer();
+      }
     });
   }
 
