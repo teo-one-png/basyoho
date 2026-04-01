@@ -906,3 +906,95 @@ html, body {
     height: 64px;
   }
 }
+
+/* ===========================
+   Shokusou mode
+   =========================== */
+
+.mode-switcher .mode-btn {
+  font-size: 0.7rem;
+  padding: 6px 6px;
+  min-width: 0;
+}
+
+.submode-switcher {
+  display: flex;
+  gap: 6px;
+  margin: 8px 0 12px 0;
+  justify-content: center;
+}
+
+.submode-btn {
+  background: var(--bg2);
+  color: var(--text-muted);
+  border: 1px solid var(--border);
+  padding: 6px 14px;
+  border-radius: var(--radius-sm);
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.submode-btn.active {
+  background: var(--bg3);
+  color: var(--text);
+  border-color: var(--purple-lt);
+}
+
+.bird-grid.shokusou-grid {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.bird-card.shokusou-card img {
+  max-height: min(42vh, 300px);
+  object-fit: contain;
+  width: 100%;
+}
+
+.shokusou-answer-group {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  width: 100%;
+  padding: 4px;
+}
+
+.shokusou-answer-group .answer-label {
+  font-size: 0.55rem;
+  color: var(--text-muted);
+  padding-left: 4px;
+  margin-top: 2px;
+}
+
+.shokusou-answer-group input {
+  width: 100%;
+  background: var(--input-bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 4px 6px;
+  font-size: 0.7rem;
+  color: var(--text);
+  outline: none;
+}
+
+.shokusou-answer-group input:focus {
+  border-color: var(--purple-lt);
+}
+
+.shokusou-answer-group input.correct {
+  border-color: var(--green-lt);
+  color: var(--green-lt);
+}
+
+.shokusou-answer-group input.wrong {
+  border-color: var(--red);
+  color: var(--red);
+}
+
+.shokusou-related-names {
+  font-size: 0.6rem;
+  color: var(--purple-lt);
+  text-align: center;
+  padding: 2px 4px;
+  line-height: 1.3;
+}
