@@ -40,6 +40,105 @@ function getSessionModeKey() {
   return currentMode;
 }
 
+function getProgressKey(itemId) {
+  if (currentMode === 'shokusou') {
+    return 'progress:' + currentSubMode + ':' + itemId;
+  }
+  return itemId;
+}
+
+function getShokusouRelatedNames(item) {
+  return currentSubMode === 'insect' ? (item.foodPlants || []) : (item.insects || []);
+}
+
+function getShokusouPrimaryLabel() {
+  return currentSubMode === 'insect' ? '昆虫名' : '植物名';
+}
+
+function getShokusouRelatedLabel(index) {
+  return (currentSubMode === 'insect' ? '食草' : '昆虫') + index;
+}
+
+function getShokusouFieldDefinitions(item) {
+  var details = [{
+    label: getShokusouPrimaryLabel(),
+    expected: item.name,
+    field: 'name'
+  }];
+
+  getShokusouRelatedNames(item).forEach(function (name, idx) {
+    details.push({
+      label: getShokusouRelatedLabel(idx + 1),
+      expected: name,
+      field: 'related_' + idx
+    });
+  });
+
+  return details;
+}
+
+function buildShokusouAnswerSummary(details) {
+  return details.map(function (detail) {
+    return detail.label + ': ' + (detail.value ? detail.value : '（未入力）');
+  }).join(' / ');
+}
+
+function renderShokusouSingleAnswerArea(item, storedDetails) {
+  var answerArea = document.getElementById('single-answer-area');
+  if (!answerArea) return;
+
+  answerArea.innerHTML = '';
+  answerArea.style.display = '';
+
+  var answerGroup = document.createElement('div');
+  answerGroup.className = 'shokusou-answer-group';
+
+  var details = storedDetails || getShokusouFieldDefinitions(item).map(function (detail) {
+    return {
+      label: detail.label,
+      value: '',
+      expected: detail.expected,
+      state: ''
+    };
+  });
+
+  details.forEach(function (detail, idx) {
+    var label = document.createElement('span');
+    label.className = 'answer-label';
+    label.textContent = detail.label;
+    answerGroup.appendChild(label);
+
+    var input = document.createElement('input');
+    input.type = 'text';
+    input.className = 'answer-input';
+    input.placeholder = 'カタカナで入力';
+    input.dataset.field = idx === 0 ? 'name' : 'related_' + (idx - 1);
+    input.value = detail.value || '';
+
+    if (idx === 0) {
+      input.id = 'single-input';
+    }
+
+    if (detail.state) {
+      input.classList.add(detail.state);
+      input.disabled = true;
+    }
+
+    answerGroup.appendChild(input);
+  });
+
+  answerArea.appendChild(answerGroup);
+
+  if (!storedDetails) {
+    var submitBtn = document.createElement('button');
+    submitBtn.className = 'btn btn-primary';
+    submitBtn.id = 'btn-single-submit';
+    submitBtn.textContent = '答え合わせ';
+    submitBtn.addEventListener('click', submitSingleAnswer);
+    answerArea.appendChild(submitBtn);
+  }
+}
+
 // Audio playback for nakigoe mode
 var currentAudioElement = null;
 function playBirdAudio(audioSrc) {
@@ -126,7 +225,7 @@ function showScreen(id) {
 async function updateHomeStats() {
   try {
     var activeData = getActiveData();
-    var activeIds = new Set(activeData.map(function (d) { return d.id; }));
+    var activeIds = new Set(activeData.map(function (d) { return getProgressKey(d.id); }));
     var allProgress = await getAllProgress();
     // Filter progress to only current mode's items
     var modeProgress = allProgress.filter(function (p) { return activeIds.has(p.id); });
@@ -202,7 +301,7 @@ function renderMemorizeGrid() {
 
         var nameLabel = document.createElement('span');
         nameLabel.className = 'answer-label';
-        nameLabel.textContent = currentSubMode === 'insect' ? '昆虫名' : '植物名';
+        nameLabel.textContent = getShokusouPrimaryLabel();
         answerGroup.appendChild(nameLabel);
 
         var nameInput = document.createElement('input');
@@ -212,12 +311,12 @@ function renderMemorizeGrid() {
         nameInput.dataset.field = 'name';
         answerGroup.appendChild(nameInput);
 
-        var relatedNames = currentSubMode === 'insect' ? bird.foodPlants : bird.insects;
+        var relatedNames = getShokusouRelatedNames(bird);
         if (relatedNames) {
           relatedNames.forEach(function(rn, ri) {
             var label = document.createElement('span');
             label.className = 'answer-label';
-            label.textContent = (currentSubMode === 'insect' ? '食草' : '昆虫') + (ri + 1);
+            label.textContent = getShokusouRelatedLabel(ri + 1);
             answerGroup.appendChild(label);
 
             var inp = document.createElement('input');
@@ -258,7 +357,7 @@ function renderMemorizeGrid() {
         nameEl.textContent = bird.name;
         card.appendChild(nameEl);
 
-        var relatedNames = currentSubMode === 'insect' ? bird.foodPlants : bird.insects;
+        var relatedNames = getShokusouRelatedNames(bird);
         if (relatedNames) {
           var relatedEl = document.createElement('p');
           relatedEl.className = 'shokusou-related-names';
@@ -418,7 +517,9 @@ async function pickSessionQuestions(data, settings) {
   var bestCandidateOverlap = Infinity;
 
   for (var attempt = 0; attempt < 20; attempt++) {
-    selected = await selectQuestions(data, settings);
+    selected = await selectQuestions(data, settings, function (item) {
+      return getProgressKey(item.id);
+    });
 
     if (selected.length === 0) {
       continue;
@@ -596,6 +697,7 @@ async function submitGridTest(gridId, submitButtonId) {
     if (isShokusouMode()) {
       var shokusouInputs = card.querySelectorAll('.shokusou-answer-group input');
       var allCorrect = true;
+      var shokusouDetails = [];
 
       if (shokusouInputs[0]) {
         var nameOk = checkAnswer(shokusouInputs[0].value, bird.name);
@@ -605,10 +707,16 @@ async function submitGridTest(gridId, submitButtonId) {
           allCorrect = false;
         }
         shokusouInputs[0].disabled = true;
+        shokusouDetails.push({
+          label: getShokusouPrimaryLabel(),
+          value: shokusouInputs[0].value,
+          expected: bird.name,
+          state: nameOk ? 'correct' : 'wrong'
+        });
       }
 
       // Check related names - ORDER INDEPENDENT
-      var relNames = currentSubMode === 'insect' ? bird.foodPlants : bird.insects;
+      var relNames = getShokusouRelatedNames(bird);
       var remainingCorrect = relNames.slice(); // copy
 
       for (var ri = 0; ri < relNames.length; ri++) {
@@ -625,9 +733,21 @@ async function submitGridTest(gridId, submitButtonId) {
           if (matchIdx >= 0) {
             relInp.classList.add('correct');
             remainingCorrect.splice(matchIdx, 1);
+            shokusouDetails.push({
+              label: getShokusouRelatedLabel(ri + 1),
+              value: relInp.value,
+              expected: relNames[ri],
+              state: 'correct'
+            });
           } else {
             relInp.classList.add('wrong');
             allCorrect = false;
+            shokusouDetails.push({
+              label: getShokusouRelatedLabel(ri + 1),
+              value: relInp.value,
+              expected: relNames[ri],
+              state: 'wrong'
+            });
           }
           relInp.disabled = true;
         }
@@ -640,12 +760,16 @@ async function submitGridTest(gridId, submitButtonId) {
         var inp = shokusouInputs[wi + 1];
         if (inp && inp.classList.contains('wrong')) {
           inp.value = inp.value + ' → ' + relNames[wi];
+          if (shokusouDetails[wi + 1]) {
+            shokusouDetails[wi + 1].value = inp.value;
+          }
         }
       }
 
       if (allCorrect) correctCount++;
       testAnswers[i].isCorrect = allCorrect;
-      testAnswers[i].userInput = shokusouInputs[0] ? shokusouInputs[0].value : '';
+      testAnswers[i].userInput = buildShokusouAnswerSummary(shokusouDetails);
+      testAnswers[i].shokusouDetails = shokusouDetails;
 
       var nameEl = card.querySelector('.bird-card-name');
       if (!nameEl) {
@@ -656,7 +780,7 @@ async function submitGridTest(gridId, submitButtonId) {
       nameEl.textContent = bird.name;
       card.classList.add(allCorrect ? 'correct' : 'wrong');
 
-      try { await updateProgress(bird.id, allCorrect, settings.masteryThreshold); } catch(e) {}
+      try { await updateProgress(getProgressKey(bird.id), allCorrect, settings.masteryThreshold); } catch(e) {}
 
       continue;
     }
@@ -687,7 +811,7 @@ async function submitGridTest(gridId, submitButtonId) {
     }
 
     try {
-      await updateProgress(bird.id, isCorrect, settings.masteryThreshold);
+      await updateProgress(getProgressKey(bird.id), isCorrect, settings.masteryThreshold);
     } catch (e) {
       console.error('updateProgress error:', e);
     }
@@ -766,57 +890,26 @@ function updateSingleDisplay() {
   var feedback = document.getElementById('single-feedback');
   var input = document.getElementById('single-input');
 
-  if (isShokusouMode() && !singleAnswered[currentIndex]) {
-    answerArea.innerHTML = '';
-    answerArea.style.display = '';
-
-    var answerGroup = document.createElement('div');
-    answerGroup.className = 'shokusou-answer-group';
-
-    var nameLabel = document.createElement('span');
-    nameLabel.className = 'answer-label';
-    nameLabel.textContent = currentSubMode === 'insect' ? '昆虫名' : '植物名';
-    answerGroup.appendChild(nameLabel);
-
-    var nameInput = document.createElement('input');
-    nameInput.type = 'text';
-    nameInput.className = 'answer-input';
-    nameInput.id = 'single-input';
-    nameInput.placeholder = 'カタカナで入力';
-    nameInput.dataset.field = 'name';
-    answerGroup.appendChild(nameInput);
-
-    var relNames = currentSubMode === 'insect' ? bird.foodPlants : bird.insects;
-    if (relNames) {
-      relNames.forEach(function(rn, ri) {
-        var label = document.createElement('span');
-        label.className = 'answer-label';
-        label.textContent = (currentSubMode === 'insect' ? '食草' : '昆虫') + (ri + 1);
-        answerGroup.appendChild(label);
-
-        var inp = document.createElement('input');
-        inp.type = 'text';
-        inp.className = 'answer-input';
-        inp.placeholder = 'カタカナで入力';
-        inp.dataset.field = 'related_' + ri;
-        answerGroup.appendChild(inp);
-      });
+  if (isShokusouMode()) {
+    if (singleAnswered[currentIndex]) {
+      renderShokusouSingleAnswerArea(bird, testAnswers[currentIndex].shokusouDetails || []);
+      if (feedback) {
+        feedback.textContent = testAnswers[currentIndex].isCorrect
+          ? '正解！ ' + bird.name
+          : '不正解… 正解は「' + bird.name + '」';
+        feedback.className = 'single-feedback ' + (testAnswers[currentIndex].isCorrect ? 'correct' : 'wrong');
+      }
+    } else {
+      renderShokusouSingleAnswerArea(bird);
+      if (feedback) {
+        feedback.textContent = '';
+        feedback.className = 'single-feedback';
+      }
     }
+    return;
+  }
 
-    var submitBtn = document.createElement('button');
-    submitBtn.className = 'btn btn-primary';
-    submitBtn.id = 'btn-single-submit';
-    submitBtn.textContent = '答え合わせ';
-    submitBtn.addEventListener('click', submitSingleAnswer);
-
-    answerArea.appendChild(answerGroup);
-    answerArea.appendChild(submitBtn);
-
-    if (feedback) {
-      feedback.textContent = '';
-      feedback.className = 'single-feedback';
-    }
-  } else if (singleAnswered[currentIndex]) {
+  if (singleAnswered[currentIndex]) {
     if (answerArea) answerArea.style.display = 'none';
     if (input) input.value = testAnswers[currentIndex].userInput;
     if (feedback) {
@@ -846,20 +939,27 @@ async function submitSingleAnswer() {
     var answerGroup = document.querySelector('#single-answer-area .shokusou-answer-group');
     var inputs = answerGroup ? answerGroup.querySelectorAll('input') : [];
     var allCorrect = true;
-    var feedbackParts = [];
+    var fieldDefs = getShokusouFieldDefinitions(bird);
+    var shokusouDetails = [];
 
     if (inputs[0]) {
       var nameOk = checkAnswer(inputs[0].value, bird.name);
       inputs[0].classList.add(nameOk ? 'correct' : 'wrong');
       if (!nameOk) {
-        feedbackParts.push(inputs[0].value + ' → ' + bird.name);
+        inputs[0].value = inputs[0].value + ' → ' + bird.name;
         allCorrect = false;
       }
       inputs[0].disabled = true;
+      shokusouDetails[0] = {
+        label: fieldDefs[0].label,
+        value: inputs[0].value,
+        expected: bird.name,
+        state: nameOk ? 'correct' : 'wrong'
+      };
     }
 
     // Check related names - ORDER INDEPENDENT
-    var relNames = currentSubMode === 'insect' ? bird.foodPlants : bird.insects;
+    var relNames = getShokusouRelatedNames(bird);
     var remainingCorrect = relNames.slice(); // copy
 
     for (var ri = 0; ri < relNames.length; ri++) {
@@ -876,9 +976,14 @@ async function submitSingleAnswer() {
         if (matchIdx >= 0) {
           relInp.classList.add('correct');
           remainingCorrect.splice(matchIdx, 1);
+          shokusouDetails[ri + 1] = {
+            label: fieldDefs[ri + 1].label,
+            value: relInp.value,
+            expected: relNames[ri],
+            state: 'correct'
+          };
         } else {
           relInp.classList.add('wrong');
-          feedbackParts.push(relInp.value + ' → ' + relNames[ri]);
           allCorrect = false;
         }
         relInp.disabled = true;
@@ -892,11 +997,20 @@ async function submitSingleAnswer() {
       var wInp = inputs[wi + 1];
       if (wInp && wInp.classList.contains('wrong')) {
         wInp.value = wInp.value + ' → ' + relNames[wi];
+        shokusouDetails[wi + 1] = {
+          label: fieldDefs[wi + 1].label,
+          value: wInp.value,
+          expected: relNames[wi],
+          state: 'wrong'
+        };
       }
     }
 
+    shokusouDetails = shokusouDetails.filter(Boolean);
+
     isCorrect = allCorrect;
-    testAnswers[currentIndex].userInput = inputs[0] ? inputs[0].value : '';
+    testAnswers[currentIndex].userInput = buildShokusouAnswerSummary(shokusouDetails);
+    testAnswers[currentIndex].shokusouDetails = shokusouDetails;
     testAnswers[currentIndex].isCorrect = isCorrect;
     singleAnswered[currentIndex] = true;
 
@@ -907,9 +1021,7 @@ async function submitSingleAnswer() {
         : '不正解… 正解は「' + bird.name + '」';
       feedback.className = 'single-feedback ' + (isCorrect ? 'correct' : 'wrong');
     }
-
-    var answerArea = document.getElementById('single-answer-area');
-    if (answerArea) answerArea.style.display = 'none';
+    renderShokusouSingleAnswerArea(bird, shokusouDetails);
   } else {
     var input = document.getElementById('single-input');
     var userInput = input ? input.value : '';
@@ -933,7 +1045,7 @@ async function submitSingleAnswer() {
 
   // Update DB progress
   try {
-    await updateProgress(bird.id, isCorrect, settings.masteryThreshold);
+    await updateProgress(getProgressKey(bird.id), isCorrect, settings.masteryThreshold);
   } catch (e) {
     console.error('updateProgress error:', e);
   }
@@ -1011,7 +1123,7 @@ function showResult(correct, total) {
       li.appendChild(info);
 
       if (isShokusouMode()) {
-        var relNames = currentSubMode === 'insect' ? bird.foodPlants : bird.insects;
+        var relNames = getShokusouRelatedNames(bird);
         var relLabel = currentSubMode === 'insect' ? '食草' : '昆虫';
         var relEl = document.createElement('span');
         relEl.style.fontSize = '0.75rem';
@@ -1031,11 +1143,12 @@ function showResult(correct, total) {
 
 async function setItemMastered(itemId, mastered) {
   var settings = loadSettings();
-  var record = await getProgress(itemId);
+  var progressId = getProgressKey(itemId);
+  var record = await getProgress(progressId);
 
   if (!record) {
     record = {
-      id: itemId,
+      id: progressId,
       correctStreak: 0,
       totalAttempts: 0,
       correctTotal: 0,
@@ -1073,7 +1186,7 @@ async function renderCatalog() {
   var isNakigoe = currentMode === 'nakigoe';
 
   data.forEach(function (item) {
-    var progress = progressMap[item.id];
+    var progress = progressMap[getProgressKey(item.id)];
     var isMastered = Boolean(progress && progress.mastered);
 
     var row = document.createElement('div');

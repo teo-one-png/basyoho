@@ -34,16 +34,19 @@ function shuffleArray(arr) {
   return arr;
 }
 
-async function selectQuestions(birdData, settings) {
+async function selectQuestions(birdData, settings, progressKeyResolver) {
   const allProgress = await getAllProgress();
   const progressMap = {};
+  const resolveProgressKey = typeof progressKeyResolver === "function"
+    ? progressKeyResolver
+    : (bird) => bird.id;
   allProgress.forEach((p) => {
     progressMap[p.id] = p;
   });
 
   // Filter out mastered birds unless includeMastered is true
   let pool = birdData.filter((bird) => {
-    const progress = progressMap[bird.id];
+    const progress = progressMap[resolveProgressKey(bird)];
     if (!progress) return true;
     if (settings.includeMastered) return true;
     return !progress.mastered;
@@ -59,7 +62,7 @@ async function selectQuestions(birdData, settings) {
   if (settings.prioritizeWrong) {
     // Birds that have been answered wrong (correctStreak === 0 and have been seen)
     const wrongBirds = pool.filter((bird) => {
-      const progress = progressMap[bird.id];
+      const progress = progressMap[resolveProgressKey(bird)];
       return progress && !progress.mastered && progress.correctStreak === 0 && progress.totalAttempts > 0;
     });
 
