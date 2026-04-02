@@ -84,6 +84,85 @@ function buildShokusouAnswerSummary(details) {
   }).join(' / ');
 }
 
+function gradeShokusouAnswerInputs(inputs, item) {
+  var fieldDefs = getShokusouFieldDefinitions(item);
+  var relNames = getShokusouRelatedNames(item);
+  var remainingCorrect = relNames.slice();
+  var details = [];
+  var wrongRelatedFields = [];
+  var allCorrect = true;
+
+  if (inputs[0]) {
+    var nameOk = checkAnswer(inputs[0].value, item.name);
+    inputs[0].classList.add(nameOk ? 'correct' : 'wrong');
+    if (!nameOk) {
+      inputs[0].value = inputs[0].value + ' → ' + item.name;
+      allCorrect = false;
+    }
+    inputs[0].disabled = true;
+    details[0] = {
+      label: fieldDefs[0].label,
+      value: inputs[0].value,
+      expected: item.name,
+      state: nameOk ? 'correct' : 'wrong'
+    };
+  }
+
+  for (var ri = 0; ri < relNames.length; ri++) {
+    var relInp = inputs[ri + 1];
+    if (!relInp) continue;
+
+    var userVal = normalizeKatakana(relInp.value.trim());
+    var matchIdx = -1;
+
+    for (var mi = 0; mi < remainingCorrect.length; mi++) {
+      if (userVal === normalizeKatakana(remainingCorrect[mi])) {
+        matchIdx = mi;
+        break;
+      }
+    }
+
+    if (matchIdx >= 0) {
+      var matchedName = remainingCorrect[matchIdx];
+      relInp.classList.add('correct');
+      remainingCorrect.splice(matchIdx, 1);
+      details[ri + 1] = {
+        label: fieldDefs[ri + 1].label,
+        value: relInp.value,
+        expected: matchedName,
+        state: 'correct'
+      };
+    } else {
+      relInp.classList.add('wrong');
+      allCorrect = false;
+      wrongRelatedFields.push({
+        inputIndex: ri + 1,
+        input: relInp
+      });
+    }
+
+    relInp.disabled = true;
+  }
+
+  if (remainingCorrect.length > 0) allCorrect = false;
+
+  wrongRelatedFields.forEach(function (field) {
+    var expectedName = remainingCorrect.shift() || fieldDefs[field.inputIndex].expected;
+    field.input.value = field.input.value + ' → ' + expectedName;
+    details[field.inputIndex] = {
+      label: fieldDefs[field.inputIndex].label,
+      value: field.input.value,
+      expected: expectedName,
+      state: 'wrong'
+    };
+  });
+
+  return {
+    allCorrect: allCorrect,
+    details: details.filter(Boolean)
+  };
+}
+
 function renderShokusouSingleAnswerArea(item, storedDetails) {
   var answerArea = document.getElementById('single-answer-area');
   if (!answerArea) return;
@@ -706,75 +785,9 @@ async function submitGridTest(gridId, submitButtonId) {
 
     if (isShokusouMode()) {
       var shokusouInputs = card.querySelectorAll('.shokusou-answer-group input');
-      var allCorrect = true;
-      var shokusouDetails = [];
-
-      if (shokusouInputs[0]) {
-        var nameOk = checkAnswer(shokusouInputs[0].value, bird.name);
-        shokusouInputs[0].classList.add(nameOk ? 'correct' : 'wrong');
-        if (!nameOk) {
-          shokusouInputs[0].value = shokusouInputs[0].value + ' → ' + bird.name;
-          allCorrect = false;
-        }
-        shokusouInputs[0].disabled = true;
-        shokusouDetails.push({
-          label: getShokusouPrimaryLabel(),
-          value: shokusouInputs[0].value,
-          expected: bird.name,
-          state: nameOk ? 'correct' : 'wrong'
-        });
-      }
-
-      // Check related names - ORDER INDEPENDENT
-      var relNames = getShokusouRelatedNames(bird);
-      var remainingCorrect = relNames.slice(); // copy
-
-      for (var ri = 0; ri < relNames.length; ri++) {
-        var relInp = shokusouInputs[ri + 1];
-        if (relInp) {
-          var userVal = normalizeKatakana(relInp.value.trim());
-          var matchIdx = -1;
-          for (var mi = 0; mi < remainingCorrect.length; mi++) {
-            if (userVal === normalizeKatakana(remainingCorrect[mi])) {
-              matchIdx = mi;
-              break;
-            }
-          }
-          if (matchIdx >= 0) {
-            relInp.classList.add('correct');
-            remainingCorrect.splice(matchIdx, 1);
-            shokusouDetails.push({
-              label: getShokusouRelatedLabel(ri + 1),
-              value: relInp.value,
-              expected: relNames[ri],
-              state: 'correct'
-            });
-          } else {
-            relInp.classList.add('wrong');
-            allCorrect = false;
-            shokusouDetails.push({
-              label: getShokusouRelatedLabel(ri + 1),
-              value: relInp.value,
-              expected: relNames[ri],
-              state: 'wrong'
-            });
-          }
-          relInp.disabled = true;
-        }
-      }
-      // If any correct answers remain unmatched
-      if (remainingCorrect.length > 0) allCorrect = false;
-
-      // Show correct answers on wrong inputs
-      for (var wi = 0; wi < relNames.length; wi++) {
-        var inp = shokusouInputs[wi + 1];
-        if (inp && inp.classList.contains('wrong')) {
-          inp.value = inp.value + ' → ' + relNames[wi];
-          if (shokusouDetails[wi + 1]) {
-            shokusouDetails[wi + 1].value = inp.value;
-          }
-        }
-      }
+      var grading = gradeShokusouAnswerInputs(shokusouInputs, bird);
+      var allCorrect = grading.allCorrect;
+      var shokusouDetails = grading.details;
 
       if (allCorrect) correctCount++;
       testAnswers[i].isCorrect = allCorrect;
@@ -948,75 +961,9 @@ async function submitSingleAnswer() {
   if (isShokusouMode()) {
     var answerGroup = document.querySelector('#single-answer-area .shokusou-answer-group');
     var inputs = answerGroup ? answerGroup.querySelectorAll('input') : [];
-    var allCorrect = true;
-    var fieldDefs = getShokusouFieldDefinitions(bird);
-    var shokusouDetails = [];
-
-    if (inputs[0]) {
-      var nameOk = checkAnswer(inputs[0].value, bird.name);
-      inputs[0].classList.add(nameOk ? 'correct' : 'wrong');
-      if (!nameOk) {
-        inputs[0].value = inputs[0].value + ' → ' + bird.name;
-        allCorrect = false;
-      }
-      inputs[0].disabled = true;
-      shokusouDetails[0] = {
-        label: fieldDefs[0].label,
-        value: inputs[0].value,
-        expected: bird.name,
-        state: nameOk ? 'correct' : 'wrong'
-      };
-    }
-
-    // Check related names - ORDER INDEPENDENT
-    var relNames = getShokusouRelatedNames(bird);
-    var remainingCorrect = relNames.slice(); // copy
-
-    for (var ri = 0; ri < relNames.length; ri++) {
-      var relInp = inputs[ri + 1];
-      if (relInp) {
-        var userVal = normalizeKatakana(relInp.value.trim());
-        var matchIdx = -1;
-        for (var mi = 0; mi < remainingCorrect.length; mi++) {
-          if (userVal === normalizeKatakana(remainingCorrect[mi])) {
-            matchIdx = mi;
-            break;
-          }
-        }
-        if (matchIdx >= 0) {
-          relInp.classList.add('correct');
-          remainingCorrect.splice(matchIdx, 1);
-          shokusouDetails[ri + 1] = {
-            label: fieldDefs[ri + 1].label,
-            value: relInp.value,
-            expected: relNames[ri],
-            state: 'correct'
-          };
-        } else {
-          relInp.classList.add('wrong');
-          allCorrect = false;
-        }
-        relInp.disabled = true;
-      }
-    }
-    // If any correct answers remain unmatched
-    if (remainingCorrect.length > 0) allCorrect = false;
-
-    // Show correct answers on wrong inputs
-    for (var wi = 0; wi < relNames.length; wi++) {
-      var wInp = inputs[wi + 1];
-      if (wInp && wInp.classList.contains('wrong')) {
-        wInp.value = wInp.value + ' → ' + relNames[wi];
-        shokusouDetails[wi + 1] = {
-          label: fieldDefs[wi + 1].label,
-          value: wInp.value,
-          expected: relNames[wi],
-          state: 'wrong'
-        };
-      }
-    }
-
-    shokusouDetails = shokusouDetails.filter(Boolean);
+    var grading = gradeShokusouAnswerInputs(inputs, bird);
+    var allCorrect = grading.allCorrect;
+    var shokusouDetails = grading.details;
 
     isCorrect = allCorrect;
     testAnswers[currentIndex].userInput = buildShokusouAnswerSummary(shokusouDetails);

@@ -102,6 +102,25 @@ function exportData() {
   });
 }
 
+function normalizeImportedRecord(record) {
+  if (!record || typeof record !== "object" || Array.isArray(record)) {
+    throw new Error("Invalid progress record");
+  }
+
+  if (typeof record.id !== "string" || record.id.trim() === "") {
+    throw new Error("Progress record is missing a valid id");
+  }
+
+  return {
+    id: record.id,
+    correctStreak: Number(record.correctStreak) || 0,
+    totalAttempts: Number(record.totalAttempts) || 0,
+    correctTotal: Number(record.correctTotal ?? record.totalCorrect) || 0,
+    mastered: Boolean(record.mastered),
+    lastSeen: typeof record.lastSeen === "string" ? record.lastSeen : null,
+  };
+}
+
 function importData(jsonString) {
   let data;
   try {
@@ -110,28 +129,43 @@ function importData(jsonString) {
     return Promise.reject(new Error("Invalid JSON"));
   }
 
-  const progressRecords = data.progress || [];
-  const settings = data.settings || {};
+  if (!data || typeof data !== "object" || Array.isArray(data)) {
+    return Promise.reject(new Error("Invalid import format"));
+  }
 
-  return clearAllProgress().then(() => {
-    return openDB().then((db) => {
-      return new Promise((resolve, reject) => {
-        const tx = db.transaction(STORE_NAME, "readwrite");
-        const store = tx.objectStore(STORE_NAME);
+  const rawProgressRecords = data.progress ?? [];
+  if (!Array.isArray(rawProgressRecords)) {
+    return Promise.reject(new Error("Progress data must be an array"));
+  }
 
-        progressRecords.forEach((record) => {
-          store.put(record);
-        });
+  const progressRecords = rawProgressRecords.map(normalizeImportedRecord);
+  const settings =
+    data.settings && typeof data.settings === "object" && !Array.isArray(data.settings)
+      ? data.settings
+      : {};
 
-        tx.oncomplete = () => {
-          saveSettings({ ...DEFAULT_SETTINGS, ...settings });
-          resolve();
-        };
+  return openDB().then((db) => {
+    return new Promise((resolve, reject) => {
+      const tx = db.transaction(STORE_NAME, "readwrite");
+      const store = tx.objectStore(STORE_NAME);
 
-        tx.onerror = (event) => {
-          reject(event.target.error);
-        };
+      store.clear();
+      progressRecords.forEach((record) => {
+        store.put(record);
       });
+
+      tx.oncomplete = () => {
+        saveSettings({ ...DEFAULT_SETTINGS, ...settings });
+        resolve();
+      };
+
+      tx.onerror = (event) => {
+        reject(event.target.error);
+      };
+
+      tx.onabort = (event) => {
+        reject(event.target.error || tx.error || new Error("Import transaction aborted"));
+      };
     });
   });
 }
