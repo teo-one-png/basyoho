@@ -9,13 +9,13 @@ var currentIndex = 0;         // Single mode: current question index
 var singleAnswered = [];      // Single mode: answered flags per index
 var currentSettings = null;   // Settings captured when the current session starts
 var memorizePhase = 'idle';   // idle | memorize | grid-answer
-var currentMode = 'bird';     // 'bird' | 'tree'
+var currentMode = 'bird';     // 'bird' | 'tree' | 'nakigoe' | 'shokusou' | 'fish'
 var currentSubMode = 'insect';
 var currentSessionOptions = { randomizeAnswerOrder: false };
 var lastSessionOptions = { randomizeAnswerOrder: false };
 var answerOrderShuffled = false;
-var lastSessionIdsByMode = { bird: [], tree: [], fish: [], shokusou_insect: [], shokusou_plant: [] };
-var recentSessionHistoryByMode = { bird: [], tree: [], fish: [], shokusou_insect: [], shokusou_plant: [] };
+var lastSessionIdsByMode = { bird: [], tree: [], nakigoe: [], fish: [], shokusou_insect: [], shokusou_plant: [] };
+var recentSessionHistoryByMode = { bird: [], tree: [], nakigoe: [], fish: [], shokusou_insect: [], shokusou_plant: [] };
 
 // --------------- Active data source ---------------
 function getActiveData() {
