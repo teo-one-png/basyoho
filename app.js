@@ -14,8 +14,8 @@ var currentSubMode = 'insect';
 var currentSessionOptions = { randomizeAnswerOrder: false };
 var lastSessionOptions = { randomizeAnswerOrder: false };
 var answerOrderShuffled = false;
-var lastSessionIdsByMode = { bird: [], tree: [], shokusou_insect: [], shokusou_plant: [] };
-var recentSessionHistoryByMode = { bird: [], tree: [], shokusou_insect: [], shokusou_plant: [] };
+var lastSessionIdsByMode = { bird: [], tree: [], fish: [], shokusou_insect: [], shokusou_plant: [] };
+var recentSessionHistoryByMode = { bird: [], tree: [], fish: [], shokusou_insect: [], shokusou_plant: [] };
 
 // --------------- Active data source ---------------
 function getActiveData() {
@@ -24,6 +24,7 @@ function getActiveData() {
   if (currentMode === 'shokusou') {
     return currentSubMode === 'plant' ? PLANT_DATA : INSECT_DATA;
   }
+  if (currentMode === 'fish') return FISH_DATA;
   return BIRD_DATA;
 }
 
@@ -184,6 +185,15 @@ function getModeLabels(mode) {
       subtitle: currentSubMode === 'plant' ? 'しょくそう→むし' : 'むし→しょくそう',
       resultWrongTitle: '間違えた項目',
       catalogTitle: currentSubMode === 'plant' ? '植物一覧' : '昆虫一覧'
+    };
+  }
+
+  if (mode === 'fish') {
+    return {
+      title: 'さかなおぼえ',
+      subtitle: '琵琶湖淡水魚フラッシュカード',
+      resultWrongTitle: '間違えた項目',
+      catalogTitle: '魚一覧'
     };
   }
 
@@ -1638,6 +1648,9 @@ function setupEvents() {
       if (currentMode === 'nakigoe') {
         if (creditsTitle) creditsTitle.textContent = '音源クレジット';
         if (creditsIntro) creditsIntro.textContent = '鳥の鳴き声はすべてxeno-cantoのCC BY-NC 4.0ライセンス音源を使用しています。';
+      } else if (currentMode === 'fish') {
+        if (creditsTitle) creditsTitle.textContent = '写真クレジット';
+        if (creditsIntro) creditsIntro.textContent = '魚の写真はすべてWikimedia Commonsのフリーライセンス画像を使用しています。';
       } else {
         if (creditsTitle) creditsTitle.textContent = '写真クレジット';
         if (creditsIntro) creditsIntro.textContent = '鳥の写真はすべてWikimedia Commonsのフリーライセンス画像を使用しています。';
@@ -1683,6 +1696,33 @@ function renderCredits() {
         infoEl.textContent = credit.recorder + ' / CC BY-NC 4.0';
       } else {
         infoEl.textContent = 'xeno-canto';
+      }
+
+      div.appendChild(nameEl);
+      div.appendChild(infoEl);
+      list.appendChild(div);
+    });
+    return;
+  }
+
+  if (currentMode === 'fish') {
+    var fishData = typeof FISH_DATA !== 'undefined' ? FISH_DATA : [];
+    var fishCredits = typeof FISH_CREDITS !== 'undefined' ? FISH_CREDITS : {};
+    fishData.forEach(function (fish) {
+      var credit = fishCredits[fish.id] || null;
+      var div = document.createElement('div');
+      div.className = 'credit-item';
+
+      var nameEl = document.createElement('span');
+      nameEl.className = 'credit-name';
+      nameEl.textContent = fish.name;
+
+      var infoEl = document.createElement('span');
+      infoEl.className = 'credit-info';
+      if (credit) {
+        infoEl.textContent = credit.artist + ' / ' + credit.license;
+      } else {
+        infoEl.textContent = 'Wikimedia Commons';
       }
 
       div.appendChild(nameEl);
