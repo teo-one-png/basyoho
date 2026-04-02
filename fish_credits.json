@@ -1,0 +1,434 @@
+{
+  "hasu": {
+    "name_jp": "ハス",
+    "artist": "Benelli at Japanese Wikipedia",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Hasu.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Hasu.jpg"
+  },
+  "tsuchifuki": {
+    "name_jp": "ツチフキ",
+    "artist": "Unknown",
+    "license": "CC BY-SA 2.5",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+    "source": "https://commons.wikimedia.org/wiki/File:Abbottina_rivularis_by_OpenCage.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Abbottina_rivularis_by_OpenCage.jpg"
+  },
+  "mugitsuku": {
+    "name_jp": "ムギツク",
+    "artist": "KENPEI",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Pungtungia_herzi2.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Pungtungia_herzi2.jpg"
+  },
+  "kanehira": {
+    "name_jp": "カネヒラ",
+    "artist": "Temminck and Schlegel",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Acheilognathus_rhombeus.jpeg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Acheilognathus_rhombeus.jpeg"
+  },
+  "shirotanago": {
+    "name_jp": "シロヒレタビラ",
+    "artist": "Daiju Azuma",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Acheilognathus_tabira_tabira_(1)_by_DaijuAzuma.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Acheilognathus_tabira_tabira_%281%29_by_DaijuAzuma.jpg"
+  },
+  "yoshinobori_ruisenbo": {
+    "name_jp": "ルリヨシノボリ",
+    "artist": "Totti",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Rhinogobius_mizunoi_Yamanashi_aquarium.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Rhinogobius_mizunoi_Yamanashi_aquarium.jpg"
+  },
+  "bora": {
+    "name_jp": "ボラ",
+    "artist": "Diego Delso",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Mújol_(Mugil_cephalus),_Parque_natural_de_la_Arrábida,_Portugal,_2021-09-09,_DD_25.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/M%C3%BAjol_%28Mugil_cephalus%29%2C_Parque_natural_de_la_Arr%C3%A1bida%2C_Portugal%2C_2021-09-09%2C_DD_25.jpg"
+  },
+  "ookuchibasu": {
+    "name_jp": "オオクチバス",
+    "artist": "USFWS Mountain Prairie",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Largemouth_Bass_(Micropterus_salmoides)_June_2023_(cropped).jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Largemouth_Bass_%28Micropterus_salmoides%29_June_2023_%28cropped%29.jpg"
+  },
+  "kokuchibasu": {
+    "name_jp": "コクチバス",
+    "artist": "USFWS Mountain Prairie",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Smallmouth_Bass_(49561724026).jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Smallmouth_Bass_%2849561724026%29.jpg"
+  },
+  "buruugiru": {
+    "name_jp": "ブルーギル",
+    "artist": "Paleo1954",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bluegill_(cropped).jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Bluegill_%28cropped%29.jpg"
+  },
+  "channerukyattofisshu": {
+    "name_jp": "チャネルキャットフィッシュ",
+    "artist": "USFWS Mountain Prairie",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Channel_Catfish_(Ictalurus_punctatus)_white_background.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Channel_Catfish_%28Ictalurus_punctatus%29_white_background.jpg"
+  },
+  "kamuruchii": {
+    "name_jp": "カムルチー",
+    "artist": "Unknown",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Channa_argus_distribution.png",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Channa_argus_distribution.png"
+  },
+  "nijimasu": {
+    "name_jp": "ニジマス",
+    "artist": "Engbretson Eric, U.S. Fish and Wildlife Service",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Close_up_of_rainbow_trout_fish_underwater_oncorhynchus_mykiss.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Close_up_of_rainbow_trout_fish_underwater_oncorhynchus_mykiss.jpg"
+  },
+  "ootanago": {
+    "name_jp": "オオタナゴ",
+    "artist": "motugon",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:オオタナゴ新利根川.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/2/27/%E3%82%AA%E3%82%AA%E3%82%BF%E3%83%8A%E3%82%B4%E6%96%B0%E5%88%A9%E6%A0%B9%E5%B7%9D.jpg"
+  },
+  "sougyou": {
+    "name_jp": "ソウギョ",
+    "artist": "Dezidor",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2x_amur_bílý.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/9/97/2x_amur_b%C3%ADl%C3%BD.jpg"
+  },
+  "rengyou": {
+    "name_jp": "レンギョ",
+    "artist": "USFWS Mountain-Prairie",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Silver_Carp_Adult_(Hypophthalmichthys_molitrix).jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Silver_Carp_Adult_%28Hypophthalmichthys_molitrix%29.jpg"
+  },
+  "hakuren": {
+    "name_jp": "ハクレン",
+    "artist": "USFWS Mountain-Prairie",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Silver_Carp_Adult_(Hypophthalmichthys_molitrix).jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Silver_Carp_Adult_%28Hypophthalmichthys_molitrix%29.jpg"
+  },
+  "kokuren": {
+    "name_jp": "コクレン",
+    "artist": "Invasive Carp Regional Coordinating Committee",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bighead_carp_(March_2012).jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Bighead_carp_%28March_2012%29.jpg"
+  },
+  "taiwandojou": {
+    "name_jp": "タイワンドジョウ",
+    "artist": "Meng-Chi Hung",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Channa_maculata_170712814.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Channa_maculata_170712814.jpg"
+  },
+  "numagarei": {
+    "name_jp": "ヌマガレイ",
+    "artist": "Myself",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Starry_Flounder.JPG",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Starry_Flounder.JPG"
+  },
+  "peherey": {
+    "name_jp": "ペヘレイ",
+    "artist": "CHUCAO",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Odontesthes_bonariensis.JPG",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Odontesthes_bonariensis.JPG"
+  },
+  "gengoroubuna": {
+    "name_jp": "ゲンゴロウブナ",
+    "artist": "Unknown",
+    "license": "CC BY-SA 2.5",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+    "source": "https://commons.wikimedia.org/wiki/File:Carassius_cuvieri_by_OpenCage.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Carassius_cuvieri_by_OpenCage.jpg"
+  },
+  "wataka": {
+    "name_jp": "ワタカ",
+    "artist": "Ffish.asia",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Wataka-Q08936-DSC7571.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Wataka-Q08936-DSC7571.jpg"
+  },
+  "sugomoroko": {
+    "name_jp": "スゴモロコ",
+    "artist": "KENPEI",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Squalidus_chankaensis_biwae1.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Squalidus_chankaensis_biwae1.jpg"
+  },
+  "isaza": {
+    "name_jp": "イサザ",
+    "artist": "Daiju Azuma",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Gymnogobius_isaza_by_DaijuAzuma.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Gymnogobius_isaza_by_DaijuAzuma.jpg"
+  },
+  "biwayoshinobori": {
+    "name_jp": "ビワヨシノボリ",
+    "artist": "Unknown",
+    "license": "CC BY-SA 2.5",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+    "source": "https://commons.wikimedia.org/wiki/File:Rhinogobius_sp._BW_by_OpenCage.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Rhinogobius_sp._BW_by_OpenCage.jpg"
+  },
+  "biwakooonamazu": {
+    "name_jp": "ビワコオオナマズ",
+    "artist": "KENPEI",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Silurus_biwaensis1.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Silurus_biwaensis1.jpg"
+  },
+  "oogarasugomoroko": {
+    "name_jp": "オオガタスゴモロコ",
+    "artist": "Totti",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Squalidus_chankaensis_Himeji.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Squalidus_chankaensis_Himeji.jpg"
+  },
+  "ginbuna": {
+    "name_jp": "ギンブナ",
+    "artist": "Unknown",
+    "license": "CC BY-SA 2.5",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+    "source": "https://commons.wikimedia.org/wiki/File:Carassius_auratus_langsdorfii_by_OpenCage.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Carassius_auratus_langsdorfii_by_OpenCage.jpg"
+  },
+  "oikawa": {
+    "name_jp": "オイカワ",
+    "artist": "Unknown",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Oikawa1.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Oikawa1.jpg"
+  },
+  "kawamutsu": {
+    "name_jp": "カワムツ",
+    "artist": "Unknown",
+    "license": "CC BY-SA 2.5",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+    "source": "https://commons.wikimedia.org/wiki/File:Nipponocypris_temminckii.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Nipponocypris_temminckii.jpg"
+  },
+  "numamutsu": {
+    "name_jp": "ヌマムツ",
+    "artist": "Ffish.asia",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:ヌマムツのメス_DSC7690.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/%E3%83%8C%E3%83%9E%E3%83%A0%E3%83%84%E3%81%AE%E3%83%A1%E3%82%B9_DSC7690.jpg"
+  },
+  "ugui": {
+    "name_jp": "ウグイ",
+    "artist": "OpenCage",
+    "license": "CC BY-SA 2.5",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+    "source": "https://commons.wikimedia.org/wiki/File:Tribolodon_hakonensis,_-Higashiyama_Zoo,_-Nov._2011_a.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Tribolodon_hakonensis%2C_-Higashiyama_Zoo%2C_-Nov._2011_a.jpg"
+  },
+  "nagabuna": {
+    "name_jp": "ナガブナ",
+    "artist": "Ffish.asia",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Nagabuna-080309-n061.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Nagabuna-080309-n061.jpg"
+  },
+  "ichimonjitanago": {
+    "name_jp": "イチモンジタナゴ",
+    "artist": "Ffish.asia",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:イチモンジタナゴの雌雄.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/%E3%82%A4%E3%83%81%E3%83%A2%E3%83%B3%E3%82%B8%E3%82%BF%E3%83%8A%E3%82%B4%E3%81%AE%E9%9B%8C%E9%9B%84.jpg"
+  },
+  "ayu": {
+    "name_jp": "アユ",
+    "artist": "OAS at Japanese Wikipedia",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Sweetfish,_Plecoglossus_altivelis.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Sweetfish%2C_Plecoglossus_altivelis.jpg"
+  },
+  "gigi": {
+    "name_jp": "ギギ",
+    "artist": "Totti",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Pelteobagrus_nudiceps_2.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Pelteobagrus_nudiceps_2.jpg"
+  },
+  "akaza": {
+    "name_jp": "アカザ",
+    "artist": "Totti",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Liobagrus_reini_Sagamihara1.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Liobagrus_reini_Sagamihara1.jpg"
+  },
+  "ajimedojou": {
+    "name_jp": "アジメドジョウ",
+    "artist": "Seotaro",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Niwaella_delicata_(Shiga,Japan).jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Niwaella_delicata_%28Shiga%2CJapan%29.jpg"
+  },
+  "hotokodojou": {
+    "name_jp": "ホトケドジョウ",
+    "artist": "Seotaro",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Lefua_echigonia_(Shizuoka,Japan).jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Lefua_echigonia_%28Shizuoka%2CJapan%29.jpg"
+  },
+  "touyoshinobori": {
+    "name_jp": "トウヨシノボリ",
+    "artist": "book74",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Rhinogobius_sp._OR-m.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Rhinogobius_sp._OR-m.jpg"
+  },
+  "ukigori": {
+    "name_jp": "ウキゴリ",
+    "artist": "Seotaro",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Gymnogobius_petschiliensis(Hamamatsu,Shizuoka,Japan,2007)-2.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Gymnogobius_petschiliensis%28Hamamatsu%2CShizuoka%2CJapan%2C2007%29-2.jpg"
+  },
+  "sumiukigori": {
+    "name_jp": "スミウキゴリ",
+    "artist": "Seotaro",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Gymnogobius_petschiliensis(Hamamatsu,Shizuoka,Japan,2007)-1.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Gymnogobius_petschiliensis%28Hamamatsu%2CShizuoka%2CJapan%2C2007%29-1.jpg"
+  },
+  "donko": {
+    "name_jp": "ドンコ",
+    "artist": "Totti",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Odontobutis_obscura_Isahaya.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Odontobutis_obscura_Isahaya.jpg"
+  },
+  "kajika": {
+    "name_jp": "カジカ",
+    "artist": "Seotaro",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Cottus_reinii(Hamamatsu,Shizuoka,Japan).jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Cottus_reinii%28Hamamatsu%2CShizuoka%2CJapan%29.jpg"
+  },
+  "amago": {
+    "name_jp": "アマゴ",
+    "artist": "Alpsdake",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Oncorhynchus_masou_macrostomus.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Oncorhynchus_masou_macrostomus.jpg"
+  },
+  "iwana": {
+    "name_jp": "イワナ",
+    "artist": "Apple2000",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Salvelinus_leucomaenis_japonicus-3.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Salvelinus_leucomaenis_japonicus-3.jpg"
+  },
+  "ooyamato_shimadojou": {
+    "name_jp": "オオヤマトシマドジョウ",
+    "artist": "Totti",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Cobitis_magnostriata_Biwako_museum.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Cobitis_magnostriata_Biwako_museum.jpg"
+  },
+  "tomiyo": {
+    "name_jp": "トミヨ",
+    "artist": "Piet Spaans",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Pungitius_pungitius.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Pungitius_pungitius.jpg"
+  },
+  "hariyo": {
+    "name_jp": "ハリヨ",
+    "artist": "Alpsdake",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Gasterosteus_microcephalus.JPG",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Gasterosteus_microcephalus.JPG"
+  },
+  "sayori": {
+    "name_jp": "サヨリ",
+    "artist": "SEFSC Pascagoula Laboratory; Collection of Brandi Noble, NOAA/NMFS/SEFSC NOAA Photo Library",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Hyporhamphus_meeki.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Hyporhamphus_meeki.jpg"
+  },
+  "hiuo": {
+    "name_jp": "ヒウオ",
+    "artist": "OAS at Japanese Wikipedia",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Sweetfish,_Plecoglossus_altivelis.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Sweetfish%2C_Plecoglossus_altivelis.jpg"
+  },
+  "shirauo": {
+    "name_jp": "シラウオ",
+    "artist": "Dmitrismirnov",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Salangichthys_microdon.gif",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Salangichthys_microdon.gif"
+  },
+  "tairikubaratanago": {
+    "name_jp": "タイリクバラタナゴ",
+    "artist": "book74",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Rhodeus_ocellatus_ocellatus-m.JPG",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Rhodeus_ocellatus_ocellatus-m.JPG"
+  }
+}

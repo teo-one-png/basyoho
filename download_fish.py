@@ -6,6 +6,10 @@ Wikipedia + Wikimedia Commonsから魚の画像をダウンロードするスク
 - クレジット情報をJSONに保存
 """
 
+import sys
+import io
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
+
 import requests
 import json
 import os
@@ -293,7 +297,7 @@ def main():
             print(f"  [FAIL] Download failed")
             failed.append((romaji, jp_name, en_title))
 
-        time.sleep(1)  # rate limit
+        time.sleep(2)  # rate limit
 
     # Save credits
     with open(CREDITS_FILE, "w", encoding="utf-8") as f:

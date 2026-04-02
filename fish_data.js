@@ -14,7 +14,6 @@ const FISH_DATA = [
   { id: "biwakooonamazu", name: "ビワコオオナマズ", category: "魚類", image: "images/fish/biwakooonamazu.jpg", tags: ["ナマズ科", "固有種"] },
   { id: "utsusemikajika", name: "ウツセミカジカ", category: "魚類", image: "images/fish/utsusemikajika.jpg", tags: ["カジカ科", "固有種"] },
   { id: "iwatoko_namazu", name: "イワトコナマズ", category: "魚類", image: "images/fish/iwatoko_namazu.jpg", tags: ["ナマズ科", "固有種"] },
-  { id: "biwakoogatasu_jishimadojou", name: "ビワコガタスジシマドジョウ", category: "魚類", image: "images/fish/biwakoogatasu_jishimadojou.jpg", tags: ["ドジョウ科", "固有種"] },
   { id: "oogarasugomoroko", name: "オオガタスゴモロコ", category: "魚類", image: "images/fish/oogarasugomoroko.jpg", tags: ["コイ科", "固有種"] },
 
   // ========== 在来種 — コイ科 ==========
@@ -55,7 +54,6 @@ const FISH_DATA = [
   { id: "shimadojou", name: "シマドジョウ", category: "魚類", image: "images/fish/shimadojou.jpg", tags: ["ドジョウ科"] },
   { id: "ajimedojou", name: "アジメドジョウ", category: "魚類", image: "images/fish/ajimedojou.jpg", tags: ["ドジョウ科"] },
   { id: "hotokodojou", name: "ホトケドジョウ", category: "魚類", image: "images/fish/hotokodojou.jpg", tags: ["ドジョウ科"] },
-  { id: "nagashimadojou", name: "ナガシマドジョウ", category: "魚類", image: "images/fish/nagashimadojou.jpg", tags: ["ドジョウ科"] },
 
   // ========== 在来種 — ハゼ科 ==========
   { id: "yoshinobori", name: "ヨシノボリ", category: "魚類", image: "images/fish/yoshinobori.jpg", tags: ["ハゼ科"] },
